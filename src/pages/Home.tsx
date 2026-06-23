@@ -4,6 +4,7 @@ import Features from "../components/Features";
 import Showcase from "../components/Showcase";
 import HowItWorks from "../components/HowItWorks";
 import FeaturedInvitations from "../components/FeaturedInvitations";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -44,3 +45,5 @@ function Home() {
 }
 
 export default Home;
+
+<Footer />

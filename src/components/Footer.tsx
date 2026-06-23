@@ -1,0 +1,37 @@
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-logo">
+        <img src="/adelina-logo.png" alt="Adelina" />
+      </div>
+
+      <p className="footer-tagline">
+        Luxury Digital Invitations
+      </p>
+
+      <p className="footer-services">
+        Weddings • Quinceañeras • Birthdays •
+        Corporate Events • Baby Showers
+      </p>
+
+      <div className="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+        <a href="#">Pinterest</a>
+      </div>
+
+      <div className="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <p className="footer-copy">
+        © 2026 Adelina. All rights reserved.
+      </p>
+    </footer>
+  );
+}
+
+export default Footer;
