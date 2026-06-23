@@ -2,7 +2,6 @@ import emeraldWedding from "../assets/collections/emerald-wedding.png";
 import goldenRomance from "../assets/collections/golden-romance.png";
 import blackTieLuxury from "../assets/collections/black-tie-luxury.png";
 import royalQuinceanera from "../assets/collections/royal-quinceanera.png";
-import pinkPrincess from "../assets/collections/pink-princess.png";
 
 function FeaturedInvitations() {
   const items = [
@@ -26,11 +25,7 @@ function FeaturedInvitations() {
       price: "$49",
       image: royalQuinceanera,
     },
-    {
-      title: "Pink Princess",
-      price: "$49",
-      image: pinkPrincess,
-    },
+  
   ];
 
   return (
