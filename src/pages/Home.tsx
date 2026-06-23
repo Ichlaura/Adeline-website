@@ -40,10 +40,11 @@ function Home() {
       <CategoryRow title="Cumpleaños" />
       <CategoryRow title="Baby Shower" />
       <CategoryRow title="Eventos Corporativos" />
+    
+    
+<Footer />
     </main>
   );
 }
 
 export default Home;
-
-<Footer />
