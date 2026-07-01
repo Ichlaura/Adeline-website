@@ -17,8 +17,8 @@ function Home() {
           <h1>
             Digital invitations
             <br />
-            with luxury feeling.
-          </h1>
+           for your special events
+           </h1>
 
           <p>
             Bodas, quince años, cumpleaños, baby showers y eventos especiales.
@@ -31,10 +31,11 @@ function Home() {
         </div>
       </section>
 
-<Features />
+{/* <Features /> */}
 <Showcase />
-<HowItWorks />
-<FeaturedInvitations />
+{/* <HowItWorks /> */}
+
+ <FeaturedInvitations /> 
       <CategoryRow title="Bodas" />
       <CategoryRow title="Quince Años" />
       <CategoryRow title="Cumpleaños" />

@@ -4,8 +4,8 @@ import blackTieLuxury from "../assets/collections/black-tie-luxury.png";
 import royalQuinceanera from "../assets/collections/royal-quinceanera.png";
 
 function FeaturedInvitations() {
-  const items = [
-    {
+   const items = [
+    /*{
       title: "Emerald Luxury Wedding",
       price: "$49",
       image: emeraldWedding,
@@ -19,13 +19,13 @@ function FeaturedInvitations() {
       title: "Black Tie Luxury",
       price: "$59",
       image: blackTieLuxury,
-    },
+    },*/
     {
       title: "Royal Quinceañera",
       price: "$49",
       image: royalQuinceanera,
     },
-  
+ 
   ];
 
   return (
