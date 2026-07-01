@@ -1,6 +1,4 @@
-import emeraldWedding from "../assets/collections/emerald-wedding.png";
-import goldenRomance from "../assets/collections/golden-romance.png";
-import blackTieLuxury from "../assets/collections/black-tie-luxury.png";
+
 import royalQuinceanera from "../assets/collections/royal-quinceanera.png";
 
 function FeaturedInvitations() {
