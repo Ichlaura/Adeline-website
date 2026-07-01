@@ -1,8 +1,6 @@
 import CategoryRow from "../components/CategoryRow";
 import Navbar from "../components/Navbar";
-import Features from "../components/Features";
 import Showcase from "../components/Showcase";
-import HowItWorks from "../components/HowItWorks";
 import FeaturedInvitations from "../components/FeaturedInvitations";
 import Footer from "../components/Footer";
 
