@@ -43,8 +43,29 @@ function Home() {
     
     
 <Footer />
+
+
+
+
+<a
+  href="https://wa.me/573124182741?text=Hola%20quiero%20información%20sobre%20las%20invitaciones."
+  className="whatsapp-button"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/whatsapp.png" alt="WhatsApp" />
+</a>
+
+
+
     </main>
   );
 }
 
+
+
+
+     
+      
+  
 export default Home;
