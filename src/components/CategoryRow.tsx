@@ -1,12 +1,15 @@
-const sampleCards = [
-  "Emerald Wedding",
-  "Golden Romance",
-  "Black Tie",
-  "Blush Garden",
-  "Royal Night",
-];
+import { useState } from "react";
+import { invitations } from "../data/invitations";
 
 function CategoryRow({ title }: { title: string }) {
+  const [openedCard, setOpenedCard] = useState<string | null>(null);
+
+  const categoryCards = invitations.filter(
+    (item) => item.category === title
+  );
+
+  if (categoryCards.length === 0) return null;
+
   return (
     <section className="category-row">
       <div className="category-header">
@@ -15,17 +18,29 @@ function CategoryRow({ title }: { title: string }) {
       </div>
 
       <div className="cards-row">
-        {sampleCards.map((card) => (
-          <article className="invite-card" key={card}>
-            <div className="card-glow"></div>
+        {categoryCards.map((card) => {
+          const isOpen = openedCard === card.title;
 
-            <div className="card-content">
-              <span>Adelina</span>
-              <h3>{card}</h3>
-              <p>Ver diseño</p>
-            </div>
-          </article>
-        ))}
+          return (
+            <article
+              className="invite-card"
+              key={card.title}
+              onClick={() => setOpenedCard(isOpen ? null : card.title)}
+            >
+              <img
+                src={isOpen ? card.openImage : card.closedImage}
+                alt={card.title}
+                className="invite-card-image"
+              />
+
+              <div className="card-content">
+                <span>Adelina</span>
+                <h3>{card.title}</h3>
+                <p>{isOpen ? "Cerrar sobre" : "Ver diseño"}</p>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );

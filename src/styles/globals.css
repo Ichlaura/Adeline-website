@@ -588,3 +588,50 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.invite-card {
+  min-width: 360px;
+  height: auto;
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+  background: #11150f;
+  cursor: pointer;
+}
+
+.invite-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: #f4efe8;
+  display: block;
+}
+
+.card-content {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  z-index: 2;
+  padding: 16px;
+  border-radius: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,.15),
+    rgba(0,0,0,.65)
+  );
+}
+
+@media (max-width: 600px) {
+  .invite-card {
+    min-width: 86vw;
+  }
+
+  .invite-card-image {
+    aspect-ratio: 16 / 10;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+  }
+}
