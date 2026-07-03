@@ -1,2 +1,58 @@
 adeline website notas
 
+
+
+notas para ruby:
+
+Guía rápida de Git para trabajar con ramas
+
+1. Antes de empezar
+
+Siempre actualizar la rama principal:
+
+    git checkout main
+    git pull
+
+2. Crear una rama nueva para cada tarea
+
+Ejemplos:
+
+    git checkout -b feature/rsvp-form
+    git checkout -b feature/gallery
+    git checkout -b fix/mobile-css
+
+Nunca trabajar directamente en main.
+
+3. Trabajar normalmente
+
+Editar archivos, probar el proyecto y verificar que todo funcione.
+
+4. Guardar cambios
+
+    git add .
+    git commit -m "Describe aquí el cambio realizado"
+
+5. Subir la rama
+
+La primera vez:
+
+    git push -u origin NOMBRE_DE_LA_RAMA
+
+Después:
+
+    git push
+
+6. Crear un Pull Request
+
+Desde GitHub crear un Pull Request hacia main.
+
+Esperar revisión antes de hacer Merge.
+
+Reglas importantes
+
+-   Nunca hacer cambios directamente en main.
+-   Una rama por cada funcionalidad o corrección.
+-   Siempre hacer git pull en main antes de crear una rama nueva.
+-   Si hay dudas, preguntar antes de hacer Merge.
+
+¡Así el proyecto principal siempre estará seguro!

@@ -18,13 +18,13 @@ function Footer() {
         <a href="#">Instagram</a>
         <a href="#">Facebook</a>
         <a href="#">TikTok</a>
-        <a href="#">Pinterest</a>
+       
       </div>
 
       <div className="footer-links">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms</a>
-        <a href="#">Contact</a>
+        
       </div>
 
       <p className="footer-copy">
