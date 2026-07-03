@@ -29,6 +29,9 @@ function Home() {
         </div>
       </section>
 
+
+
+
 {/* <Features /> */}
 <Showcase />
 {/* <HowItWorks /> */}

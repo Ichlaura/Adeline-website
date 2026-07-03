@@ -27,11 +27,13 @@ function CategoryRow({ title }: { title: string }) {
               key={card.title}
               onClick={() => setOpenedCard(isOpen ? null : card.title)}
             >
-              <img
-                src={isOpen ? card.openImage : card.closedImage}
-                alt={card.title}
-                className="invite-card-image"
-              />
+             <img
+  src={isOpen ? card.openImage : card.closedImage}
+  alt={card.title}
+  className="invite-card-image"
+  loading="lazy"
+  decoding="async"
+/>
 
               <div className="card-content">
                 <span>Adelina</span>
