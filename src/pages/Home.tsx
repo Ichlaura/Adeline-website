@@ -36,9 +36,9 @@ function Home() {
  <FeaturedInvitations /> 
       <CategoryRow title="Bodas" />
       <CategoryRow title="Quince Años" />
-      <CategoryRow title="Cumpleaños" />
+      <CategoryRow title="Fiestas Infantiles" />
       <CategoryRow title="Baby Shower" />
-      <CategoryRow title="Eventos Corporativos" />
+      <CategoryRow title="Celebraciones y fiestas" />
     
     
 <Footer />
