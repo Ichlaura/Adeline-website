@@ -314,7 +314,10 @@ color:#b08a4d !important;
 }
 
 
-.navbar button {
+
+
+
+.nav-cta {
   border: none;
   background: #b88a45;
   color: white;
@@ -322,9 +325,6 @@ color:#b08a4d !important;
   padding: 11px 24px;
   cursor: pointer;
 }
-
-
-
 
 
 
@@ -877,9 +877,9 @@ color:#b08a4d !important;
     font-size:15px;
 }
 
-  .navbar button {
+ .nav-cta {
     display: none;
-  }
+}
 
   .hero {
     padding: 140px 24px 70px;
