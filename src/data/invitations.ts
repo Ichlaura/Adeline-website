@@ -19,6 +19,7 @@ export const invitations: Invitation[] = [
     openImage: "/quinceanosverde_open.jpeg",
   },
 
+  
   {
     title: "Royal Blue Quinceañera",
     category: "Quince Años",
@@ -134,6 +135,8 @@ export const invitations: Invitation[] = [
     closedImage: "/cumplebaloncesto_close.jpeg",
     openImage: "/cumplebaloncesto_open.jpeg",
   },
+
+
 
   {
     title: "Mermaid Party",
