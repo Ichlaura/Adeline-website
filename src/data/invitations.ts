@@ -304,10 +304,18 @@ export const invitations: Invitation[] = [
   openImage: "/corporativo_open.jpeg",
 },
 
-];
+
 
 // ==========================
 // GRADUACIÓN
 // ==========================
 
 // Agrega aquí las invitaciones cuando las diseñemos.
+{
+  title: "Graduación Clásica",
+  category: "Graduación",
+  price: "$39",
+  closedImage: "/robotparty_close.jpeg",
+  openImage: "/robotparty_open.jpeg",
+},
+];
