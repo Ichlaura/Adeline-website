@@ -24,7 +24,7 @@ function Home() {
 
           <div className="hero-buttons">
             <button>Ver diseños</button>
-            <button className="secondary">Crear personalizado</button>
+           
           </div>
         </div>
       </section>
