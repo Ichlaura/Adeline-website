@@ -1374,3 +1374,132 @@ body,
   left: 6px;
 }
 }
+
+.country-page{
+  min-height:100vh;
+  background:#f6efe4;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+.country-card{
+  width:min(900px,100%);
+  background:#fffaf3;
+  border:1px solid #e5d6bf;
+  border-radius:36px;
+  padding:60px 40px;
+  text-align:center;
+  box-shadow:0 25px 80px rgba(80,55,30,.12);
+}
+
+.country-logo{
+  width:280px;
+  max-width:80%;
+  margin-bottom:30px;
+}
+
+.country-card h1{
+  font-size:clamp(36px,5vw,60px);
+  color:#1f1a14;
+}
+
+.country-card p{
+  margin:18px auto 40px;
+  max-width:560px;
+  font-size:20px;
+  color:#6d6257;
+  line-height:1.6;
+}
+
+.country-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.country-button{
+  border:none;
+  border-radius:999px;
+  background:white;
+  border:1px solid #e5d6bf;
+  padding:18px 24px;
+  font-size:22px;
+  font-weight:600;
+  color:#40372f;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
+
+.country-button:hover{
+  background:#b88a45;
+  color:white;
+}
+
+@media(max-width:700px){
+  .country-grid{
+    grid-template-columns:1fr;
+  }
+
+  .country-card{
+    padding:46px 24px;
+  }
+
+  .country-button{
+    font-size:20px;
+  }
+}
+
+.country-switcher {
+  position: relative;
+}
+
+.country-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 58px;
+
+  min-width: 210px;
+  padding: 10px;
+
+  background: rgba(250, 245, 236, 0.98);
+  border: 1px solid rgba(184, 138, 69, 0.22);
+  border-radius: 22px;
+  box-shadow: 0 18px 45px rgba(0,0,0,.14);
+
+  z-index: 2000;
+}
+
+
+.country-menu button {
+  border: none;
+  background: transparent;
+  color: #40372f;
+  padding: 12px 16px;
+  border-radius: 14px;
+  text-align: left;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.country-menu button:hover {
+  background: #b88a45;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .country-switcher {
+    display: none;
+  }
+}
+
+.country-menu.show {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

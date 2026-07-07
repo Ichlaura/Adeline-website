@@ -4,27 +4,37 @@ import Showcase from "../components/Showcase";
 import FeaturedInvitations from "../components/FeaturedInvitations";
 import Footer from "../components/Footer";
 
-function Home() {
+type HomeProps = {
+  settings: {
+    heroTag: string;
+    heroTitle: string;
+    heroText: string;
+    viewDesigns: string;
+    categories: string[];
+  };
+};
+
+function Home({ settings }: HomeProps) {
   return (
     <main className="home">
         <Navbar />
       <section className="hero">
         <div className="hero-content">
-          <span className="hero-tag">Adelina Invitations</span>
-
+          <span className="hero-tag">{settings.heroTag}</span>
+          
           <h1>
-            Digital invitations
-            <br />
-           for your special events
-           </h1>
+  {settings.heroTitle.split("\n").map((line) => (
+    <span key={line}>
+      {line}
+      <br />
+    </span>
+  ))}
+</h1>
 
-          <p>
-            Bodas, quince años, cumpleaños, baby showers y eventos especiales.
-          </p>
+        <p>{settings.heroText}</p>
 
           <div className="hero-buttons">
-            <button>Ver diseños</button>
-           
+          <button>{settings.viewDesigns}</button>           
           </div>
         </div>
       </section>
@@ -39,15 +49,9 @@ function Home() {
  <FeaturedInvitations /> 
       
 
-<CategoryRow title="Matrimonio" />
-<CategoryRow title="Quince Años" />
-<CategoryRow title="Cumpleaños y fiestas infantiles" />
-<CategoryRow title="Baby Shower" />
-<CategoryRow title="Graduación" />
-<CategoryRow title="Primera comunión y bautismo" />
-<CategoryRow title="Corporativo" />
-<CategoryRow title="Celebraciones y fiestas" />
-    
+{settings.categories.map((category) => (
+  <CategoryRow key={category} title={category} />
+))}
 <Footer />
 
 
