@@ -1492,14 +1492,50 @@ body,
   color: white;
 }
 
-@media (max-width: 768px) {
-  .country-switcher {
-    display: none;
-  }
-}
+
 
 .country-menu.show {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+@media (max-width: 768px) {
+  .country-switcher {
+    display: block !important;
+    position: absolute;
+    right: 78px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .country-switcher .nav-cta {
+    padding: 10px 14px;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+
+  .country-switcher .nav-cta::first-letter {
+    font-size: 20px;
+  }
+
+  .country-menu {
+    right: 0;
+    top: 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    top: 96px;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+  }
+
+  .country-menu {
+    z-index: 4000;
+  }
 }

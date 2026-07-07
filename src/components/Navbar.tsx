@@ -3,7 +3,7 @@ import { countries, type CountryCode } from "../data/countries";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
-
+const [countryOpen, setCountryOpen] = useState(false);
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
   
@@ -31,15 +31,14 @@ function Navbar() {
 
 <div
   className="country-switcher"
-  onClick={() => setOpen(!open)}
+  onClick={() => setCountryOpen(!countryOpen)}
 >
   <button className="nav-cta">
     {countries.find((c) => c.code === currentCountry)?.flag}{" "}
     {countries.find((c) => c.code === currentCountry)?.name} ▼
   </button>
 
- <div className={open ? "country-menu show" : "country-menu"}>
-    {countries.map((country) => (
+<div className={countryOpen ? "country-menu show" : "country-menu"}>    {countries.map((country) => (
 
       <button
         key={country.code}
