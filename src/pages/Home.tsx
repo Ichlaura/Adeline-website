@@ -43,6 +43,7 @@ function Home() {
 <CategoryRow title="Quince Años" />
 <CategoryRow title="Cumpleaños y fiestas infantiles" />
 <CategoryRow title="Baby Shower" />
+<CategoryRow title="Graduación" />
 <CategoryRow title="Primera comunión y bautismo" />
 <CategoryRow title="Corporativo" />
 <CategoryRow title="Celebraciones y fiestas" />

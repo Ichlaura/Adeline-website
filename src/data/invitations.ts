@@ -305,3 +305,9 @@ export const invitations: Invitation[] = [
 },
 
 ];
+
+// ==========================
+// GRADUACIÓN
+// ==========================
+
+// Agrega aquí las invitaciones cuando las diseñemos.
