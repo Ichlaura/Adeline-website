@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { invitations } from "../data/invitations";
 
 function CategoryRow({ title }: { title: string }) {
   const [openedCard, setOpenedCard] = useState<string | null>(null);
-
+const rowRef = useRef<HTMLDivElement>(null);
   const categoryCards = invitations.filter(
     (item) => item.category === title
   );
@@ -21,7 +21,7 @@ function CategoryRow({ title }: { title: string }) {
 
 <div className="cards-container">
 
-  <div className="cards-row">
+  <div className="cards-row" ref={rowRef}>
     {categoryCards.map((card) => {
       const isOpen = openedCard === card.title;
 
@@ -29,7 +29,9 @@ function CategoryRow({ title }: { title: string }) {
         <article
           className="invite-card"
           key={card.title}
-          onClick={() => setOpenedCard(isOpen ? null : card.title)}
+          onMouseEnter={() => setOpenedCard(card.title)}
+onMouseLeave={() => setOpenedCard(null)}
+onClick={() => setOpenedCard(isOpen ? null : card.title)}
         >
           <img
             src={isOpen ? card.openImage : card.closedImage}
@@ -56,33 +58,27 @@ function CategoryRow({ title }: { title: string }) {
 
 <button
   className="scroll-arrow-left"
-  onClick={(e) => {
-    const row = e.currentTarget.nextElementSibling
-      ?.previousElementSibling as HTMLDivElement;
-
-    row.scrollBy({
+  onClick={() =>
+    rowRef.current?.scrollBy({
       left: -350,
       behavior: "smooth",
-    });
-  }}
+    })
+  }
 >
   ❮
 </button>
 
 <button
   className="scroll-arrow"
-  onClick={(e) => {
-    const row = e.currentTarget.previousElementSibling as HTMLDivElement;
-
-    row.scrollBy({
+  onClick={() =>
+    rowRef.current?.scrollBy({
       left: 350,
       behavior: "smooth",
-    });
-  }}
+    })
+  }
 >
   ❯
 </button>
-
 
 
       </div>

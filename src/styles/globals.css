@@ -238,10 +238,18 @@ color:#b08a4d !important;
 }
 
 .nav-logo {
-  color: #1f1a14;
-  font-size: 28px;
-  letter-spacing: 2px;
-  font-weight: 500;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #222;
+  text-decoration: none;
+  line-height: 1;
+  transition: .3s;
+}
+
+.nav-logo:hover{
+  color:#c7a35b;
 }
 
 .nav-links {

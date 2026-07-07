@@ -37,12 +37,15 @@ function Home() {
 {/* <HowItWorks /> */}
 
  <FeaturedInvitations /> 
-      <CategoryRow title="Bodas" />
-      <CategoryRow title="Quince Años" />
-      <CategoryRow title="Fiestas Infantiles" />
-      <CategoryRow title="Baby Shower" />
-      <CategoryRow title="Celebraciones y fiestas" />
-    
+      
+
+<CategoryRow title="Matrimonio" />
+<CategoryRow title="Quince Años" />
+<CategoryRow title="Cumpleaños y fiestas infantiles" />
+<CategoryRow title="Baby Shower" />
+<CategoryRow title="Primera comunión y bautismo" />
+<CategoryRow title="Corporativo" />
+<CategoryRow title="Celebraciones y fiestas" />
     
 <Footer />
 

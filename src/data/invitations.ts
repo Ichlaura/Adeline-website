@@ -65,7 +65,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Robot Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
@@ -73,7 +73,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Dinosaur Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumpledinosaurios_close.jpeg",
     openImage: "/cumpledinosaurios_open.jpeg",
@@ -81,7 +81,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Princess Sofia",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumpleprincesasofia_close.jpeg",
     openImage: "/cumpleprincesasofia_open.jpeg",
@@ -89,7 +89,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Fairy Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumplehadas_close.jpeg",
     openImage: "/cumplehadas_open.jpeg",
@@ -97,7 +97,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Unicorn Party",
-    category: "Fiestas Infantiles",
+   category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumpleunicornios_close.jpeg",
     openImage: "/cumpleunicornios_open.jpeg",
@@ -105,7 +105,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Soccer Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumplefutbol_close.jpeg",
     openImage: "/cumplefutbol_open.jpeg",
@@ -113,7 +113,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Cars Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumplecars_close.jpeg",
     openImage: "/cumplecars_open.jpeg",
@@ -121,7 +121,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Animals Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumpleanimals_close.jpeg",
     openImage: "/cumpleanimals_open.jpeg",
@@ -129,7 +129,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Basketball Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/cumplebaloncesto_close.jpeg",
     openImage: "/cumplebaloncesto_open.jpeg",
@@ -137,7 +137,7 @@ export const invitations: Invitation[] = [
 
   {
     title: "Mermaid Party",
-    category: "Fiestas Infantiles",
+    category: "Cumpleaños y fiestas infantiles",
     price: "$39",
     closedImage: "/sirena_close.jpeg",
     openImage: "/sirena_open.jpeg",
@@ -262,4 +262,43 @@ export const invitations: Invitation[] = [
     closedImage: "/superfiesta_close.jpeg",
     openImage: "/superfiesta_open.jpeg",
   },
+
+
+
+// ==========================
+// MATRIMONIO
+// ==========================
+
+{
+  title: "Emerald Wedding",
+  category: "Matrimonio",
+  price: "$49",
+  closedImage: "/emeraldwedding_close.jpeg",
+  openImage: "/emeraldwedding_open.jpeg",
+},
+
+// ==========================
+// PRIMERA COMUNIÓN Y BAUTISMO
+// ==========================
+
+{
+  title: "Classic Baptism",
+  category: "Primera comunión y bautismo",
+  price: "$39",
+  closedImage: "/bautismo_close.jpeg",
+  openImage: "/bautismo_open.jpeg",
+},
+
+// ==========================
+// CORPORATIVO
+// ==========================
+
+{
+  title: "Corporate Event",
+  category: "Corporativo",
+  price: "$49",
+  closedImage: "/corporativo_close.jpeg",
+  openImage: "/corporativo_open.jpeg",
+},
+
 ];
