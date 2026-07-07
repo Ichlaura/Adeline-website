@@ -17,23 +17,30 @@ function CategoryRow({ title }: { title: string }) {
         <button>Ver todo</button>
       </div>
 
-      <div className="cards-row">
-        {categoryCards.map((card) => {
-          const isOpen = openedCard === card.title;
 
-          return (
-            <article
-              className="invite-card"
-              key={card.title}
-              onClick={() => setOpenedCard(isOpen ? null : card.title)}
-            >
-             <img
-  src={isOpen ? card.openImage : card.closedImage}
-  alt={card.title}
-  className="invite-card-image"
-  loading="lazy"
-  decoding="async"
-/>
+
+<div className="cards-container">
+
+  <div className="cards-row">
+    {categoryCards.map((card) => {
+      const isOpen = openedCard === card.title;
+
+      return (
+        <article
+          className="invite-card"
+          key={card.title}
+          onClick={() => setOpenedCard(isOpen ? null : card.title)}
+        >
+          <img
+            src={isOpen ? card.openImage : card.closedImage}
+            alt={card.title}
+            className="invite-card-image"
+            loading="lazy"
+            decoding="async"
+          />
+
+
+
 
               <div className="card-content">
                 <span>Adelina</span>
@@ -43,6 +50,41 @@ function CategoryRow({ title }: { title: string }) {
             </article>
           );
         })}
+
+</div>
+
+
+<button
+  className="scroll-arrow-left"
+  onClick={(e) => {
+    const row = e.currentTarget.nextElementSibling
+      ?.previousElementSibling as HTMLDivElement;
+
+    row.scrollBy({
+      left: -350,
+      behavior: "smooth",
+    });
+  }}
+>
+  ❮
+</button>
+
+<button
+  className="scroll-arrow"
+  onClick={(e) => {
+    const row = e.currentTarget.previousElementSibling as HTMLDivElement;
+
+    row.scrollBy({
+      left: 350,
+      behavior: "smooth",
+    });
+  }}
+>
+  ❯
+</button>
+
+
+
       </div>
     </section>
   );
