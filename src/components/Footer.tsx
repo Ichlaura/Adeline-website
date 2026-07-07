@@ -6,7 +6,8 @@ function Footer() {
       </div>
 
       <p className="footer-tagline">
-        Luxury Digital Invitations
+        Digital invitations
+          for your special events
       </p>
 
       <p className="footer-services">
