@@ -1,7 +1,9 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-logo">Adelina</div>
+      <div className="nav-logo">
+  <img src="/adelina-logo-header.png" alt="Adelina" />
+</div>
 
       <div className="nav-links">
         <a>Diseños</a>
