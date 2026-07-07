@@ -1359,7 +1359,18 @@ body,
   }
 
   .scroll-arrow,
-  .scroll-arrow-left {
-    display: none;
-  }
+.scroll-arrow-left {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  font-size: 26px;
+}
+
+.scroll-arrow {
+  right: 6px;
+}
+
+.scroll-arrow-left {
+  left: 6px;
+}
 }
