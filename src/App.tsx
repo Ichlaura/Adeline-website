@@ -5,9 +5,7 @@ import CountrySelector from "./components/CountrySelector";
 import { countrySettings, type CountryCode } from "./data/countries";
 
 function App() {
-  const [country, setCountry] = useState<CountryCode | null>(
-    (localStorage.getItem("adelina-country") as CountryCode) || null
-  );
+ const [country, setCountry] = useState<CountryCode | null>(null);
 
   function chooseCountry(selectedCountry: CountryCode) {
     localStorage.setItem("adelina-country", selectedCountry);
