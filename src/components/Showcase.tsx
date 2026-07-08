@@ -5,34 +5,34 @@ function Showcase() {
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 const text = {
   co: {
-    tag: "Experiencia completa",
-    title: "Una invitación que también organiza tu evento.",
+    tag: "Experiencia interactiva",
+    title: "Mucho más que una invitación digital.",
     description:
-      "Tus invitados abren un sobre interactivo, escuchan tu música, confirman asistencia, agregan el evento a Google Calendar, abren la ubicación en Google Maps, suben fotos y participan en el concurso de foto ganadora. Además, desde el panel administrativo puedes crear links personalizados, manejar invitados, mesas, respuestas, fotos y música.",
+      "Sorprende a tus invitados con una experiencia elegante e interactiva desde el primer clic. Nosotros nos encargamos de la tecnología para que tú solo disfrutes de tu evento.",
     card: "RSVP",
   },
 
   pe: {
-    tag: "Experiencia completa",
-    title: "Una invitación que también organiza tu evento.",
+    tag: "Experiencia interactiva",
+    title: "Mucho más que una invitación digital.",
     description:
-      "Tus invitados abren un sobre interactivo, escuchan tu música, confirman asistencia, agregan el evento a Google Calendar, abren la ubicación en Google Maps, suben fotos y participan en el concurso de foto ganadora. Además, desde el panel administrativo puedes crear links personalizados, manejar invitados, mesas, respuestas, fotos y música.",
+      "Sorprende a tus invitados con una experiencia elegante e interactiva desde el primer clic. Nosotros nos encargamos de la tecnología para que tú solo disfrutes de tu evento.",
     card: "RSVP",
   },
 
   us: {
-    tag: "Complete Experience",
-    title: "An invitation that also helps organize your event.",
+    tag: "Interactive Experience",
+    title: "Much more than a digital invitation.",
     description:
-      "Your guests open an interactive envelope, listen to your music, RSVP, add the event to Google Calendar, open the location in Google Maps, upload photos, and join the winning-photo contest. From the admin panel, you can create personalized links, manage guests, tables, responses, photos, and music.",
+      "Delight your guests with an elegant interactive experience from the very first click. We handle the technology so you can simply enjoy your special day.",
     card: "RSVP",
   },
 
   jp: {
-    tag: "完全な体験",
-    title: "イベント管理もできるデジタル招待状。",
+    tag: "インタラクティブ体験",
+    title: "デジタル招待状を超えた体験。",
     description:
-      "ゲストはインタラクティブな封筒を開き、音楽を聴き、出欠を回答し、Googleカレンダーに追加し、Googleマップで場所を確認し、写真をアップロードできます。管理パネルでは、個別リンク、ゲスト、席、回答、写真、音楽を管理できます。",
+      "ゲストに特別な体験を届けましょう。技術的なことはすべて私たちが担当するので、安心してイベントを楽しめます。",
     card: "出欠確認",
   },
 };
