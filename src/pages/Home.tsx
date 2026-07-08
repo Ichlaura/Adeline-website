@@ -55,14 +55,17 @@ function Home({ settings }: HomeProps) {
 {/* <Features /> */}
 <Showcase />
 
-      
+
+
+  <Pricing />
+
 <section id="designs">
   {settings.categories.map((category) => (
     <CategoryRow key={category} title={category} />
   ))}
 </section>
 
-<Pricing />
+
 
 <Contact />
 
