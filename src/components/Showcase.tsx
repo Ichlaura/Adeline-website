@@ -5,34 +5,34 @@ function Showcase() {
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 const text = {
   co: {
-    tag: "Experiencia interactiva",
-    title: "Mucho más que una invitación digital.",
+    tag: "Experiencia premium",
+    title: "La primera impresión de tu gran día.",
     description:
-      "Sorprende a tus invitados con una experiencia elegante e interactiva desde el primer clic. Nosotros nos encargamos de la tecnología para que tú solo disfrutes de tu evento.",
+      "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
   },
 
   pe: {
-    tag: "Experiencia interactiva",
-    title: "Mucho más que una invitación digital.",
+    tag: "Experiencia premium",
+    title: "La primera impresión de tu gran día.",
     description:
-      "Sorprende a tus invitados con una experiencia elegante e interactiva desde el primer clic. Nosotros nos encargamos de la tecnología para que tú solo disfrutes de tu evento.",
+      "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
   },
 
   us: {
-    tag: "Interactive Experience",
-    title: "Much more than a digital invitation.",
+    tag: "Premium Experience",
+    title: "The first impression of your special day.",
     description:
-      "Delight your guests with an elegant interactive experience from the very first click. We handle the technology so you can simply enjoy your special day.",
+      "Before your event even begins, your guests will already be enjoying an unforgettable experience.",
     card: "RSVP",
   },
 
   jp: {
-    tag: "インタラクティブ体験",
-    title: "デジタル招待状を超えた体験。",
+    tag: "プレミアム体験",
+    title: "大切な一日の、最初の感動。",
     description:
-      "ゲストに特別な体験を届けましょう。技術的なことはすべて私たちが担当するので、安心してイベントを楽しめます。",
+      "イベントが始まる前から、ゲストに忘れられない特別な体験を届けます。",
     card: "出欠確認",
   },
 };
