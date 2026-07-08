@@ -1,20 +1,32 @@
 import { useRef, useState } from "react";
 import { invitations } from "../data/invitations";
+import type { CountryCode } from "../data/countries";
 
 function CategoryRow({ title }: { title: string }) {
   const [openedCard, setOpenedCard] = useState<string | null>(null);
 const rowRef = useRef<HTMLDivElement>(null);
-  const categoryCards = invitations.filter(
-    (item) => item.category === title
-  );
+  
+const currentCountry =
+  (localStorage.getItem("adelina-country") as CountryCode) || "co";
 
+const categoryCards = invitations.filter(
+  (item) =>
+    item.category === title &&
+    item.country === currentCountry
+);
   if (categoryCards.length === 0) return null;
 
   return (
     <section className="category-row">
       <div className="category-header">
         <h2>{title}</h2>
-        <button>Ver todo</button>
+        <button
+  onClick={() => {
+    window.location.href = `/category/${encodeURIComponent(title)}`;
+  }}
+>
+  Ver todo
+</button>
       </div>
 
 
