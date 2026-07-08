@@ -31,7 +31,7 @@ function Contact() {
     <section className="contact-section" id="contact">
       <div className="contact-card">
         <h2>Contact us</h2>
-        <p>Have a question or need a custom invitation?</p>
+        <p>Have a question ?</p>
 
         {sent && <div className="contact-success">Message sent successfully.</div>}
 

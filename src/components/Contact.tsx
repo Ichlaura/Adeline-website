@@ -5,8 +5,7 @@ import type { CountryCode } from "../data/countries";
 const contactText = {
   co: {
     title: "Contáctanos",
-    subtitle: "¿Tienes una pregunta o necesitas una invitación personalizada?",
-    success: "Mensaje enviado correctamente.",
+ subtitle: "¿Tienes una pregunta sobre nuestras invitaciones digitales?",    success: "Mensaje enviado correctamente.",
     name: "Nombre",
     email: "Correo",
     message: "Mensaje",
@@ -16,8 +15,7 @@ const contactText = {
   },
   pe: {
     title: "Contáctanos",
-    subtitle: "¿Tienes una pregunta o necesitas una invitación personalizada?",
-    success: "Mensaje enviado correctamente.",
+ subtitle: "¿Tienes una pregunta sobre nuestras invitaciones digitales?",    success: "Mensaje enviado correctamente.",
     name: "Nombre",
     email: "Correo",
     message: "Mensaje",
@@ -27,8 +25,7 @@ const contactText = {
   },
   us: {
     title: "Contact us",
-    subtitle: "Have a question or need a custom invitation?",
-    success: "Message sent successfully.",
+  subtitle: "Have a question about our digital invitations?",    success: "Message sent successfully.",
     name: "Name",
     email: "Email",
     message: "Message",
@@ -38,8 +35,7 @@ const contactText = {
   },
   jp: {
     title: "お問い合わせ",
-    subtitle: "ご質問やカスタム招待状のご相談はこちらから。",
-    success: "メッセージを送信しました。",
+  subtitle: "デジタル招待状についてのご質問はこちら",    success: "メッセージを送信しました。",
     name: "お名前",
     email: "メールアドレス",
     message: "メッセージ",
