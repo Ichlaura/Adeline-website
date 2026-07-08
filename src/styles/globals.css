@@ -2092,8 +2092,20 @@ body,
   display: none;
 }
 
-.footer-links.social-links img {
-  width: 26px;
-  height: 26px;
-  object-fit: contain;
+
+.footer-links.social-links a {
+  width: 72px !important;
+  height: 72px !important;
+  border-radius: 50%;
+  background: #fffaf3;
+  border: 1px solid #e9d7b5;
+  box-shadow: 0 12px 30px rgba(184,150,86,.18);
 }
+
+.footer-links.social-links img {
+  width: 46px !important;
+  height: 46px !important;
+  object-fit: cover !important;
+  border-radius: 50%;
+}
+
