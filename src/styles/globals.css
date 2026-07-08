@@ -1258,14 +1258,18 @@ body,
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start !important;
     flex-wrap: nowrap;
   }
 
-  .nav-logo {
-    flex: 1;
-  }
+ .nav-logo {
+  flex: 1;
+}
 
+.menu-button {
+  margin-left: auto !important;
+  margin-right: 12px !important;
+}
   .nav-logo img {
     height: 58px;
   }
