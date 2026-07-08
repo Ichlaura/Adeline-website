@@ -1599,3 +1599,35 @@ body,
     z-index: 8000;
   }
 }
+
+@media (max-width: 768px) {
+  .country-switcher {
+    position: static !important;
+    transform: none !important;
+    display: block !important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .country-switcher .nav-cta {
+    display: flex !important;
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 999px;
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .country-menu {
+    position: static !important;
+    display: none !important;
+    margin-top: 12px;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .country-menu.show {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
