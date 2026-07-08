@@ -25,10 +25,19 @@ function Navbar() {
       </button>
 
       <div className={open ? "nav-links nav-open" : "nav-links"}>
-        <a>Diseños</a>
-        <a>Precios</a>
-        <a>Personalizado</a>
-        <a>Contacto</a>
+        <a onClick={() => document.getElementById("designs")?.scrollIntoView({ behavior: "smooth" })}>
+  Diseños
+</a>
+
+<a onClick={() => document.getElementById("prices")?.scrollIntoView({ behavior: "smooth" })}>
+  Precios
+</a>
+
+
+
+<a onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
+  Contacto
+</a>
 
         <div className="country-switcher">
           <button
