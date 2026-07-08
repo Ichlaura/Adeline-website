@@ -1,7 +1,6 @@
 import CategoryRow from "../components/CategoryRow";
 import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
-import FeaturedInvitations from "../components/FeaturedInvitations";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import Pricing from "../components/Pricing";
