@@ -29,9 +29,7 @@ function Navbar() {
   Diseños
 </a>
 
-<a onClick={() => document.getElementById("prices")?.scrollIntoView({ behavior: "smooth" })}>
-  Precios
-</a>
+
 
 
 

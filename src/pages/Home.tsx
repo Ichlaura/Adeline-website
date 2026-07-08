@@ -4,6 +4,7 @@ import Showcase from "../components/Showcase";
 import FeaturedInvitations from "../components/FeaturedInvitations";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
+import Pricing from "../components/Pricing";
 
 type HomeProps = {
   settings: {
@@ -35,7 +36,16 @@ function Home({ settings }: HomeProps) {
         <p>{settings.heroText}</p>
 
           <div className="hero-buttons">
-          <button>{settings.viewDesigns}</button>           
+
+
+<button
+  onClick={() =>
+    document.getElementById("designs")?.scrollIntoView({ behavior: "smooth" })
+  }
+>
+  {settings.viewDesigns}
+</button>
+
           </div>
         </div>
       </section>
@@ -49,12 +59,13 @@ function Home({ settings }: HomeProps) {
 
  <FeaturedInvitations /> 
       
+<section id="designs">
+  {settings.categories.map((category) => (
+    <CategoryRow key={category} title={category} />
+  ))}
+</section>
 
-{settings.categories.map((category) => (
-  <CategoryRow key={category} title={category} />
-))}
-
-
+<Pricing />
 
 <Contact />
 
