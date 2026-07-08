@@ -41,6 +41,14 @@ export const usaInvitations: Invitation[] = [
     openImage: "/babyshower_yellow_open.jpeg",
   },
   {
+  title: "Gender Reveal",
+  category: "Gender Reveal",
+  country: "us",
+  price: "$39",
+  closedImage: "/babyshower_yellow_close.jpeg",
+  openImage: "/babyshower_yellow_open.jpeg",
+},
+  {
     title: "Graduation Classic",
     category: "Graduation",
     country: "us",

@@ -33,6 +33,14 @@ export const japanInvitations: Invitation[] = [
     openImage: "/robotparty_open.jpeg",
   },
   {
+  title: "性別発表",
+  category: "性別発表",
+  country: "jp",
+  price: "¥6000",
+  closedImage: "/genderreveal_close.jpeg",
+  openImage: "/genderreveal_open.jpeg",
+},
+  {
     title: "ベビーシャワー",
     category: "ベビーシャワー",
     country: "jp",

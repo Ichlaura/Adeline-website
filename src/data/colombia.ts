@@ -275,6 +275,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/bautismo_open.jpeg",
   },
   {
+  title: "Revelación de género",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/babyshower_yellow_close.jpeg",
+  openImage: "/babyshower_yellow_open.jpeg",
+},
+  {
     title: "Corporate Event",
     category: "Corporativo",
     country: "co",

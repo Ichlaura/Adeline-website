@@ -18,6 +18,7 @@ export const countrySettings = {
       "Quince Años",
       "Cumpleaños y fiestas infantiles",
       "Baby Shower",
+      "Revelación de género",
       "Graduación",
       "Primera comunión y bautismo",
       "Corporativo",
@@ -33,6 +34,7 @@ export const countrySettings = {
     categories: [
       "Matrimonio",
       "Quince Años",
+      "Revelación de género",
       "Cumpleaños y fiestas infantiles",
       "Baby Shower",
       "Graduación",
@@ -44,7 +46,13 @@ export const countrySettings = {
     heroTitle: "Digital invitations\nfor your special events",
     heroText: "Weddings, birthdays, baby showers, graduations and special events.",
     viewDesigns: "View designs",
-    categories: ["Weddings", "Birthdays", "Baby Shower", "Graduation", "Corporate"],
+   
+    categories: ["Weddings",
+         "Birthdays",
+          "Baby Shower",
+          "Gender Reveal", 
+        "Graduation", 
+        "Corporate"],
   },
 
   jp: {
@@ -52,6 +60,11 @@ export const countrySettings = {
     heroTitle: "特別な日のための\nデジタル招待状",
     heroText: "結婚式、誕生日、ベビーシャワー、卒業式、特別イベント。",
     viewDesigns: "デザインを見る",
-    categories: ["結婚式", "誕生日", "ベビーシャワー", "卒業", "法人イベント"],
+    categories: ["結婚式",
+         "誕生日", 
+         "ベビーシャワー",
+          "卒業",
+          "性別発表",
+           "法人イベント"],
   },
 };

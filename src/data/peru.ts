@@ -48,6 +48,14 @@ export const peruInvitations: Invitation[] = [
     openImage: "/babyshower_yellow_open.jpeg",
   },
   {
+  title: "Revelación de género",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/babyshower_yellow_close.jpeg",
+  openImage: "/babyshower_yellow_open.jpeg",
+},
+  {
     title: "Graduación",
     category: "Graduación",
     country: "pe",
