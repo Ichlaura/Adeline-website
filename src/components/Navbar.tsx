@@ -8,6 +8,8 @@ function Navbar() {
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 
+  const selectedCountry = countries.find((c) => c.code === currentCountry);
+
   return (
     <nav className="navbar">
       <div className="nav-logo">
@@ -29,27 +31,42 @@ function Navbar() {
         <a>Contacto</a>
 
         <div className="country-switcher">
-         <button
-  className="nav-cta"
+          <button
+            className="nav-cta"
+            onClick={() => setCountryOpen(!countryOpen)}
+          >
+            <img
+              src={selectedCountry?.flag}
+              alt={selectedCountry?.name}
+              className="country-flag-small"
+            />
+            {selectedCountry?.name} ▼
+          </button>
+
+          <div className={countryOpen ? "country-menu show" : "country-menu"}>
+            <button
+  className="change-country"
   onClick={() => {
     localStorage.removeItem("adelina-country");
     window.location.href = "/";
   }}
 >
-            {countries.find((c) => c.code === currentCountry)?.flag}{" "}
-            {countries.find((c) => c.code === currentCountry)?.name} ▼
-          </button>
-
-          <div className={countryOpen ? "country-menu show" : "country-menu"}>
+  🌎 Select another country
+</button>
             {countries.map((country) => (
               <button
                 key={country.code}
                 onClick={() => {
                   localStorage.setItem("adelina-country", country.code);
-                  window.location.reload();
+                  window.location.href = "/";
                 }}
               >
-                {country.flag} {country.name}
+                <img
+                  src={country.flag}
+                  alt={country.name}
+                  className="country-flag-small"
+                />
+                {country.name}
               </button>
             ))}
           </div>

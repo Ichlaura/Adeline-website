@@ -27,7 +27,12 @@ function CountrySelector({ onSelect }: Props) {
               onClick={() => onSelect(country.code)}
               className="country-button"
             >
-             <span>{country.flag}</span>
+             <img
+  src={country.flag}
+  alt={country.name}
+  className="country-flag"
+/>
+
 <span>{country.name}</span>
             </button>
           ))}
