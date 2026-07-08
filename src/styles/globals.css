@@ -1635,3 +1635,13 @@ body,
     flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar .menu-button {
+    position: relative !important;
+    right: 28px !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    transform: none !important;
+  }
+}
