@@ -2026,3 +2026,19 @@ body,
   border-radius: 999px;
   margin-top: 12px;
 }
+
+
+
+.showcase-text p {
+  color: #5f554b !important;
+  opacity: 1 !important;
+}
+
+.showcase-text span {
+  color: #b88a45 !important;
+  opacity: 1 !important;
+}
+
+.showcase-text h2 {
+  color: #1f1a14 !important;
+}

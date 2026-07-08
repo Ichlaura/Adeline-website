@@ -55,9 +55,7 @@ function Home({ settings }: HomeProps) {
 
 {/* <Features /> */}
 <Showcase />
-{/* <HowItWorks /> */}
 
- <FeaturedInvitations /> 
       
 <section id="designs">
   {settings.categories.map((category) => (
