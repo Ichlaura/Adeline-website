@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
 import FeaturedInvitations from "../components/FeaturedInvitations";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 type HomeProps = {
   settings: {
@@ -52,6 +53,13 @@ function Home({ settings }: HomeProps) {
 {settings.categories.map((category) => (
   <CategoryRow key={category} title={category} />
 ))}
+
+
+
+<Contact />
+
+
+
 <Footer />
 
 
