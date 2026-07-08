@@ -29,10 +29,13 @@ function Navbar() {
         <a>Contacto</a>
 
         <div className="country-switcher">
-          <button
-            className="nav-cta"
-            onClick={() => setCountryOpen(!countryOpen)}
-          >
+         <button
+  className="nav-cta"
+  onClick={() => {
+    localStorage.removeItem("adelina-country");
+    window.location.href = "/";
+  }}
+>
             {countries.find((c) => c.code === currentCountry)?.flag}{" "}
             {countries.find((c) => c.code === currentCountry)?.name} ▼
           </button>

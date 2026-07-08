@@ -14,11 +14,11 @@ function CountrySelector({ onSelect }: Props) {
           className="country-logo"
         />
 
-        <h1>Elige tu país para continuar</h1>
-
-        <p>
-          Selecciona tu país para ver precios, idioma y categorías disponibles.
-        </p>
+       <h1>
+  Choose your country
+  <br />
+  Elige tu país
+</h1>
 
         <div className="country-grid">
           {countries.map((country) => (
@@ -27,8 +27,8 @@ function CountrySelector({ onSelect }: Props) {
               onClick={() => onSelect(country.code)}
               className="country-button"
             >
-              <span>{country.flag}</span>
-              {country.name}
+             <span>{country.flag}</span>
+<span>{country.name}</span>
             </button>
           ))}
         </div>

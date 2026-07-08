@@ -1705,3 +1705,87 @@ body,
 }
 
 }
+
+.country-page{
+  min-height:100vh;
+  background:
+    linear-gradient(rgba(247,241,232,.86), rgba(247,241,232,.92)),
+    url("https://images.unsplash.com/photo-1519741497674-611481863552");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+.country-card{
+  width:min(900px,100%);
+  background:rgba(255,250,243,.88);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(184,138,69,.18);
+  border-radius:36px;
+  padding:60px 44px;
+  text-align:center;
+  box-shadow:0 30px 90px rgba(80,55,30,.16);
+}
+
+.country-logo{
+  width:280px;
+  max-width:80%;
+  margin-bottom:28px;
+}
+
+.country-card h1{
+  font-size:clamp(34px,5vw,58px);
+  line-height:1.05;
+  color:#1f1a14;
+  margin-bottom:36px;
+}
+
+.country-card p{
+  display:none;
+}
+
+.country-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.country-button{
+  border:none;
+  border-radius:999px;
+  background:#fffaf3;
+  border:1px solid #e5d6bf;
+  padding:18px 24px;
+  font-size:22px;
+  font-weight:600;
+  color:#40372f;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  box-shadow:0 10px 25px rgba(80,55,30,.08);
+}
+
+.country-button:hover{
+  background:#b88a45;
+  color:white;
+}
+
+@media(max-width:700px){
+  .country-grid{
+    grid-template-columns:1fr;
+  }
+
+  .country-card{
+    padding:46px 24px;
+    border-radius:30px;
+  }
+
+  .country-button{
+    font-size:20px;
+  }
+}
