@@ -56,7 +56,7 @@ function Footer() {
 
       
 
-<div className="footer-links">
+<div className="footer-links social-links">
 
   <a
     href="https://www.instagram.com/adelina_invitations/"

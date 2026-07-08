@@ -2072,3 +2072,28 @@ body,
   height: 28px;
   object-fit: contain;
 }
+
+.footer-links.social-links {
+  gap: 18px;
+}
+
+.footer-links.social-links a {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.footer-links.social-links a span {
+  display: none;
+}
+
+.footer-links.social-links img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
