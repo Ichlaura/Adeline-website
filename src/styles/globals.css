@@ -2042,3 +2042,33 @@ body,
 .showcase-text h2 {
   color: #1f1a14 !important;
 }
+
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #5a4a34;
+  font-weight: 600;
+  transition: .25s;
+}
+
+.footer-links a:hover {
+  transform: translateY(-2px);
+  color: #b88a45;
+}
+
+.footer-links img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
