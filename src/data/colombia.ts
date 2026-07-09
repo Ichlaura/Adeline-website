@@ -259,13 +259,41 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Classic Baptism",
+    title: "Pink Blessing",
     category: "Primera comunión y bautismo",
-    country: "co",
+    country: "pe",
     price: "$39",
-    closedImage: "/bautismo_close.jpeg",
-    openImage: "/bautismo_open.jpeg",
+    closedImage: "/Pink Blessing.close.jpeg",
+    openImage: "/Pink Blessing.open.jpeg",
   },
+
+  {
+    title: "Golden Blessing",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Golden Blessing.close.jpeg",
+    openImage: "/Golden Blessing.open.jpeg",
+  },
+
+  {
+    title: "Blue Blessing",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Blue Blessing.close.jpeg",
+    openImage: "/Blue Blessing.open.jpeg",
+  },
+
+  {
+    title: "Beige Communion",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Beige Communion.close.jpeg",
+    openImage: "/Beige Communion.open.jpeg",
+  },
+
   {
   title: "Revelación de género",
   category: "Revelación de género",
