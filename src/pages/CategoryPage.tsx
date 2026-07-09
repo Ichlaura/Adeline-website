@@ -1,12 +1,49 @@
 import "../styles/CategoryPage.css";
+import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 import { invitations } from "../data/invitations";
 import type { CountryCode } from "../data/countries";
 
+const categoryText = {
+  co: {
+    back: "← Home",
+    kicker: "Colección Adelina",
+    subtitle: "Elige el diseño que mejor combina con tu celebración.",
+    from: "Desde",
+    button: "Ver diseño",
+  },
+  pe: {
+    back: "← Home",
+    kicker: "Colección Adelina",
+    subtitle: "Elige el diseño que mejor combina con tu celebración.",
+    from: "Desde",
+    button: "Ver diseño",
+  },
+  us: {
+    back: "← Home",
+    kicker: "Adelina Collection",
+    subtitle: "Choose the design that best matches your celebration.",
+    from: "From",
+    button: "View design",
+  },
+  jp: {
+    back: "← ホーム",
+    kicker: "Adelina コレクション",
+    subtitle: "お祝いにぴったりのデザインをお選びください。",
+    from: "価格",
+    button: "デザインを見る",
+  },
+};
+
 function CategoryPage() {
+  const [showContact, setShowContact] = useState(false);
+
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
+
+  const text = categoryText[currentCountry];
 
   const categoryName = decodeURIComponent(
     window.location.pathname.replace("/category/", "")
@@ -18,7 +55,7 @@ function CategoryPage() {
 
   return (
     <main className="category-page">
-      <Navbar onContactClick={() => {}} />
+      <Navbar onContactClick={() => setShowContact(true)} />
 
       <section className="category-hero">
         <button
@@ -28,15 +65,15 @@ function CategoryPage() {
             window.location.href = "/";
           }}
         >
-          ← Volver
+          {text.back}
         </button>
 
-        <span className="category-kicker">Adelina Collection</span>
+        <span className="category-kicker">{text.kicker}</span>
         <h1>{categoryName}</h1>
-        <p>Elige el diseño que mejor combina con tu celebración.</p>
+        <p>{text.subtitle}</p>
       </section>
 
-      <section className="category-page-grid">
+      <section id="designs" className="category-page-grid">
         {categoryCards.map((card) => (
           <article className="category-invite-card" key={card.title}>
             <div className="category-image-wrap">
@@ -50,12 +87,16 @@ function CategoryPage() {
             <div className="category-card-content">
               <span>Adelina</span>
               <h3>{card.title}</h3>
-              <p>Desde {card.price}</p>
-              <button>Ver diseño</button>
+              <p>
+                {text.from} {card.price}
+              </p>
+              <button>{text.button}</button>
             </div>
           </article>
         ))}
       </section>
+
+      {showContact && <Contact />}
 
       <Footer />
     </main>
