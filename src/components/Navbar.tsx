@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { countries, type CountryCode } from "../data/countries";
 
-function Navbar() {
+type NavbarProps = {
+  onContactClick: () => void;
+};
+
+function Navbar({ onContactClick }: NavbarProps) {
   const [open, setOpen] = useState(false);
   const [countryOpen, setCountryOpen] = useState(false);
 
@@ -33,7 +37,15 @@ function Navbar() {
 
 
 
-<a onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
+<a
+  onClick={() => {
+    onContactClick();
+    setOpen(false);
+    setTimeout(() => {
+      document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  }}
+>
   Contacto
 </a>
 
