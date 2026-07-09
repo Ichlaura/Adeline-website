@@ -15,17 +15,20 @@ Siempre actualizar la rama principal:
 
 2. Crear una rama nueva para cada tarea
 
-Ejemplos:
+:
 
-    git checkout -b feature/rsvp-form
-    git checkout -b feature/gallery
-    git checkout -b fix/mobile-css
+    git checkout -b ruby
+  
 
-Nunca trabajar directamente en main.
+ 3. mirar si estoy en mi rama de ruby 
 
-3. Trabajar normalmente
+ git branch 
 
-Editar archivos, probar el proyecto y verificar que todo funcione.
+ debes ver el asterisco en ruby y no en main 
+
+3.correrlo y mirarlo en pantalla 
+
+npm run dev 
 
 4. Guardar cambios
 
@@ -36,7 +39,7 @@ Editar archivos, probar el proyecto y verificar que todo funcione.
 
 La primera vez:
 
-    git push -u origin NOMBRE_DE_LA_RAMA
+    git push -u origin ruby
 
 Después:
 

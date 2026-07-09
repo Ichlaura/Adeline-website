@@ -259,14 +259,6 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Emerald Wedding",
-    category: "Matrimonio",
-    country: "co",
-    price: "$49",
-    closedImage: "/emeraldwedding_close.jpeg",
-    openImage: "/emeraldwedding_open.jpeg",
-  },
-  {
     title: "Classic Baptism",
     category: "Primera comunión y bautismo",
     country: "co",
@@ -298,7 +290,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
   },
+  {
+    title: "Gold Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Gold Wedding.close.png",
+    openImage: "/Gold Wedding.open.png",
+  },
 
-
+   {
+    title: "Blue Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blue.Wedding.close.png",
+    openImage: "/Blue.Wedding.open.png",
+  },
 
 ];
