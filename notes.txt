@@ -33,7 +33,7 @@ npm run dev
 4. Guardar cambios
 
     git add .
-    git commit -m "Describe aquí el cambio realizado"
+    git commit -m "add pictures"
 
 5. Subir la rama
 
