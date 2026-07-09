@@ -31,24 +31,27 @@ function CategoryPage() {
           ← Volver
         </button>
 
-        <span className="category-kicker">Adelina Invitations</span>
+        <span className="category-kicker">Adelina Collection</span>
         <h1>{categoryName}</h1>
-        <p>Explora todos los diseños disponibles para esta categoría.</p>
+        <p>Elige el diseño que mejor combina con tu celebración.</p>
       </section>
 
       <section className="category-page-grid">
         {categoryCards.map((card) => (
-          <article className="invite-card" key={card.title}>
-            <img
-              src={card.openImage}
-              alt={card.title}
-              className="invite-card-image"
-            />
+          <article className="category-invite-card" key={card.title}>
+            <div className="category-image-wrap">
+              <img
+                src={card.openImage}
+                alt={card.title}
+                className="category-invite-image"
+              />
+            </div>
 
-            <div className="card-content">
+            <div className="category-card-content">
               <span>Adelina</span>
               <h3>{card.title}</h3>
-              <p>{card.price}</p>
+              <p>Desde {card.price}</p>
+              <button>Ver diseño</button>
             </div>
           </article>
         ))}

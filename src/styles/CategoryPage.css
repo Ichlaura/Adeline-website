@@ -1,33 +1,14 @@
 .category-page {
   min-height: 100vh;
-  background: #f7f1e8;
+  background:
+    radial-gradient(circle at top left, rgba(184, 138, 69, 0.18), transparent 32%),
+    linear-gradient(180deg, #f7f1e8 0%, #fffaf3 100%);
   color: #1f1a14;
 }
 
 .category-hero {
-  padding: 150px 6vw 50px;
+  padding: 165px 6vw 65px;
   text-align: center;
-}
-
-.category-kicker {
-  color: #b88a45;
-  font-size: 13px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.category-hero h1 {
-  margin-top: 16px;
-  font-size: clamp(42px, 7vw, 82px);
-  line-height: 1;
-}
-
-.category-hero p {
-  margin: 18px auto 0;
-  max-width: 560px;
-  color: #6d6257;
-  font-size: 18px;
 }
 
 .back-button {
@@ -35,82 +16,144 @@
   background: #1f1a14;
   color: white;
   border-radius: 999px;
-  padding: 13px 26px;
-  margin-bottom: 34px;
+  padding: 13px 28px;
+  margin-bottom: 36px;
   cursor: pointer;
   font-size: 15px;
+  font-weight: 600;
+}
+
+.category-kicker {
+  display: block;
+  color: #b88a45;
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.category-hero h1 {
+  font-size: clamp(48px, 7vw, 92px);
+  line-height: 0.95;
+  margin: 0;
+}
+
+.category-hero p {
+  margin: 22px auto 0;
+  max-width: 620px;
+  color: #665b50;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .category-page-grid {
-  width: min(1250px, 90vw);
-  margin: 0 auto 100px;
+  width: min(1280px, 90vw);
+  margin: 0 auto 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 34px;
 }
 
-.category-page .invite-card {
-  min-width: 0;
-  width: 100%;
-  border-radius: 28px;
-  background: #fffaf3;
+.category-invite-card {
+  background: rgba(255, 250, 243, 0.92);
   border: 1px solid #e5d6bf;
-  box-shadow: 0 20px 50px rgba(83, 58, 31, 0.12);
+  border-radius: 34px;
+  overflow: hidden;
+  box-shadow: 0 22px 55px rgba(83, 58, 31, 0.12);
+  transition: 0.28s ease;
+}
+
+.category-invite-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 32px 80px rgba(83, 58, 31, 0.18);
+}
+
+.category-image-wrap {
+  background: #fffaf3;
+  padding: 18px;
   overflow: hidden;
 }
 
-.category-page .invite-card:hover {
-  transform: translateY(-6px);
-}
-
-.category-page .invite-card-image {
+.category-invite-image {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: contain;
-  background: #fffaf3;
+  display: block;
+  border-radius: 24px;
+  transition: 0.35s ease;
 }
 
-.category-page .card-content {
-  position: static;
-  padding: 20px 22px 24px;
-  background: #fffaf3;
-  border: none;
-  box-shadow: none;
+.category-invite-card:hover .category-invite-image {
+  transform: scale(1.035);
 }
 
-.category-page .card-content span {
+.category-card-content {
+  padding: 24px 26px 28px;
+}
+
+.category-card-content span {
   color: #b88a45;
   font-size: 11px;
-  letter-spacing: 3px;
-  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
-.category-page .card-content h3 {
-  margin-top: 8px;
+.category-card-content h3 {
+  margin-top: 10px;
   color: #1f1a14;
-  font-size: 24px;
+  font-size: 26px;
+  line-height: 1.15;
 }
 
-.category-page .card-content p {
-  margin-top: 6px;
+.category-card-content p {
+  margin-top: 8px;
   color: #6d6257;
   font-size: 17px;
   font-weight: 600;
 }
 
-@media (max-width: 1000px) {
+.category-card-content button {
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 20px;
+  background: #b88a45;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.category-card-content button:hover {
+  background: #1f1a14;
+}
+
+@media (max-width: 1050px) {
   .category-page-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .category-hero {
-    padding: 130px 24px 40px;
+    padding: 135px 24px 45px;
+  }
+
+  .category-hero h1 {
+    font-size: 46px;
+  }
+
+  .category-hero p {
+    font-size: 18px;
   }
 
   .category-page-grid {
-    grid-template-columns: 1fr;
     width: 88vw;
+    grid-template-columns: 1fr;
+    gap: 26px;
   }
 }
