@@ -263,8 +263,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "co",
     price: "$39",
-    closedImage: "/Pink Blessing.close.jpeg",
-    openImage: "/Pink Blessing.open.jpeg",
+    closedImage: "/Pink Blessing.close.png",
+    openImage: "/Pink Blessing.open.png",
   },
 
   {
@@ -272,8 +272,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "co",
     price: "$39",
-    closedImage: "/Golden Blessing.close.jpeg",
-    openImage: "/Golden Blessing.open.jpeg",
+    closedImage: "/Golden Blessing.close.png",
+    openImage: "/Golden Blessing.open.png",
   },
 
   {
@@ -281,8 +281,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "co",
     price: "$39",
-    closedImage: "/Blue Blessing.close.jpeg",
-    openImage: "/Blue Blessing.open.jpeg",
+    closedImage: "/Blue Blessing.close.png",
+    openImage: "/Blue Blessing.open.png",
   },
 
   {
@@ -290,8 +290,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "co",
     price: "$39",
-    closedImage: "/Beige Communion.close.jpeg",
-    openImage: "/Beige Communion.open.jpeg",
+    closedImage: "/Beige Communion.close.png",
+    openImage: "/Beige Communion.open.png",
   },
 
   {
