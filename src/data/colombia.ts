@@ -342,4 +342,13 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Silver.Wedding.open.png",
   },
 
+  {
+    title: "Green Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Green Wedding.close.png",
+    openImage: "/Green Wedding.open.png",
+  },
+
 ];
