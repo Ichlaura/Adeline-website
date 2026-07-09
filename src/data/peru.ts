@@ -62,8 +62,8 @@ export const peruInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Pink Blessing.close.png",
-    openImage: "/Pink Blessing.open.png",
+    closedImage: "/PinkBlessing.close.png",
+    openImage: "/PinkBlessing.open.png",
   },
 
   {
@@ -71,8 +71,8 @@ export const peruInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Golden Blessing.close.png",
-    openImage: "/Golden Blessing.open.png",
+    closedImage: "/GoldenBlessing.close.png",
+    openImage: "/GoldenBlessing.open.png",
   },
 
   {
@@ -80,8 +80,8 @@ export const peruInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Blue Blessing.close.png",
-    openImage: "/Blue Blessing.open.png",
+    closedImage: "/BlueBlessing.close.png",
+    openImage: "/BlueBlessing.open.png",
   },
 
   {
@@ -89,8 +89,8 @@ export const peruInvitations: Invitation[] = [
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Beige Communion.close.png",
-    openImage: "/Beige Communion.open.png",
+    closedImage: "/BeigeCommunion.close.png",
+    openImage: "/BeigeCommunion.open.png",
   },
 
   {
@@ -98,8 +98,8 @@ export const peruInvitations: Invitation[] = [
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Gold Wedding.close.png",
-    openImage: "/Gold Wedding.open.png",
+    closedImage: "/GoldWedding.close.png",
+    openImage: "/GoldWedding.open.png",
    },
 
   {
@@ -107,24 +107,16 @@ export const peruInvitations: Invitation[] = [
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Blue.Wedding.close.png",
-    openImage: "/Blue.Wedding.open.png",
-  },
-  {
-    title: "Royal Emerald",
-    category: "Matrimonio",
-    country: "pe",
-    price: "$39",
-    closedImage: "/Royal Emerald.close.png",
-    openImage: "/Royal Emerald.open.png",
+    closedImage: "/BlueWedding.close.png",
+    openImage: "/BlueWedding.open.png",
   },
   {
     title: "Champagne Wedding",
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Champagne.Wedding.close.png",
-    openImage: "/Champagne.Wedding.open.png",
+    closedImage: "/ChampagneWedding.close.png",
+    openImage: "/ChampagneWedding.open.png",
   },
 
   {
@@ -132,8 +124,8 @@ export const peruInvitations: Invitation[] = [
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Pearl Wedding.close.png",
-    openImage: "/Pearl Wedding.open.png",
+    closedImage: "/PearlWedding.close.png",
+    openImage: "/PearlWedding.open.png",
   },
 
   {
@@ -141,8 +133,8 @@ export const peruInvitations: Invitation[] = [
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Silver.Wedding.close.png",
-    openImage: "/Silver.Wedding.open.png",
+    closedImage: "/SilverWedding.close.png",
+    openImage: "/SilverWedding.open.png",
   },
 
   {
@@ -150,8 +142,8 @@ export const peruInvitations: Invitation[] = [
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Green Wedding.close.png",
-    openImage: "/Green Wedding.open.png",
+    closedImage: "/GreenWedding.close.png",
+    openImage: "/GreenWedding.open.png",
   },
 
 ];
