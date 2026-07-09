@@ -261,7 +261,7 @@ export const colombiaInvitations: Invitation[] = [
   {
     title: "Pink Blessing",
     category: "Primera comunión y bautismo",
-    country: "pe",
+    country: "co",
     price: "$39",
     closedImage: "/Pink Blessing.close.jpeg",
     openImage: "/Pink Blessing.open.jpeg",
@@ -270,7 +270,7 @@ export const colombiaInvitations: Invitation[] = [
   {
     title: "Golden Blessing",
     category: "Primera comunión y bautismo",
-    country: "pe",
+    country: "co",
     price: "$39",
     closedImage: "/Golden Blessing.close.jpeg",
     openImage: "/Golden Blessing.open.jpeg",
@@ -279,7 +279,7 @@ export const colombiaInvitations: Invitation[] = [
   {
     title: "Blue Blessing",
     category: "Primera comunión y bautismo",
-    country: "pe",
+    country: "co",
     price: "$39",
     closedImage: "/Blue Blessing.close.jpeg",
     openImage: "/Blue Blessing.open.jpeg",
@@ -288,7 +288,7 @@ export const colombiaInvitations: Invitation[] = [
   {
     title: "Beige Communion",
     category: "Primera comunión y bautismo",
-    country: "pe",
+    country: "co",
     price: "$39",
     closedImage: "/Beige Communion.close.jpeg",
     openImage: "/Beige Communion.open.jpeg",

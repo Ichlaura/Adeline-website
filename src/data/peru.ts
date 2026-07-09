@@ -57,12 +57,39 @@ export const peruInvitations: Invitation[] = [
     openImage: "/robotparty_open.jpeg",
   },
   {
-    title: "Primera Comunión",
+    title: "Pink Blessing",
     category: "Primera comunión y bautismo",
     country: "pe",
-    price: "S/ 100",
-    closedImage: "/bautismo_close.jpeg",
-    openImage: "/bautismo_open.jpeg",
+    price: "$39",
+    closedImage: "/Pink Blessing.close.jpeg",
+    openImage: "/Pink Blessing.open.jpeg",
+  },
+
+  {
+    title: "Golden Blessing",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Golden Blessing.close.jpeg",
+    openImage: "/Golden Blessing.open.jpeg",
+  },
+
+  {
+    title: "Blue Blessing",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Blue Blessing.close.jpeg",
+    openImage: "/Blue Blessing.open.jpeg",
+  },
+
+  {
+    title: "Beige Communion",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Beige Communion.close.jpeg",
+    openImage: "/Beige Communion.open.jpeg",
   },
 
   {
