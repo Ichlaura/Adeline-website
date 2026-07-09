@@ -1,3 +1,6 @@
+import "../styles/CategoryPage.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { invitations } from "../data/invitations";
 import type { CountryCode } from "../data/countries";
 
@@ -10,36 +13,30 @@ function CategoryPage() {
   );
 
   const categoryCards = invitations.filter(
-    (item) =>
-      item.category === categoryName &&
-      item.country === currentCountry
+    (item) => item.category === categoryName && item.country === currentCountry
   );
 
   return (
     <main className="category-page">
-        <header className="category-header">
+      <Navbar onContactClick={() => {}} />
 
-  <img
-    src="/adelina-logo-header.png"
-    alt="Adelina"
-    className="category-logo"
-  />
+      <section className="category-hero">
+        <button
+          className="back-button"
+          onClick={() => {
+            sessionStorage.setItem("fromCategory", "true");
+            window.location.href = "/";
+          }}
+        >
+          ← Volver
+        </button>
 
- 
+        <span className="category-kicker">Adelina Invitations</span>
+        <h1>{categoryName}</h1>
+        <p>Explora todos los diseños disponibles para esta categoría.</p>
+      </section>
 
-</header>
-<button
-  onClick={() => {
-    sessionStorage.setItem("fromCategory", "true");
-    window.location.href = "/";
-  }}
->
-  ← Volver
-</button>
-
-      <h1>{categoryName}</h1>
-
-      <div className="category-page-grid">
+      <section className="category-page-grid">
         {categoryCards.map((card) => (
           <article className="invite-card" key={card.title}>
             <img
@@ -55,7 +52,9 @@ function CategoryPage() {
             </div>
           </article>
         ))}
-      </div>
+      </section>
+
+      <Footer />
     </main>
   );
 }
