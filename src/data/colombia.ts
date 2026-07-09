@@ -316,7 +316,7 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Royal Emerald.open.png",
   },
   {
-    title: "Champagne.Wedding",
+    title: "Champagne Wedding",
     category: "Matrimonio",
     country: "co",
     price: "$39",
