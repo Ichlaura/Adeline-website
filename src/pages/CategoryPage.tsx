@@ -28,12 +28,14 @@ function CategoryPage() {
  
 
 </header>
-      <button
-        className="back-button"
-        onClick={() => (window.location.href = "/")}
-      >
-        ← Volver
-      </button>
+<button
+  onClick={() => {
+    sessionStorage.setItem("fromCategory", "true");
+    window.location.href = "/";
+  }}
+>
+  ← Volver
+</button>
 
       <h1>{categoryName}</h1>
 
