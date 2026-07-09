@@ -56,6 +56,7 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
   },
+  
   {
     title: "Pink Blessing",
     category: "Primera comunión y bautismo",
