@@ -23,14 +23,7 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/quinceanosverde_close.jpeg",
     openImage: "/quinceanosverde_open.jpeg",
   },
-  {
-    title: "Boda Elegante",
-    category: "Matrimonio",
-    country: "pe",
-    price: "S/ 150",
-    closedImage: "/emeraldwedding_close.jpeg",
-    openImage: "/emeraldwedding_open.jpeg",
-  },
+  
   {
     title: "Cumpleaños Infantil",
     category: "Cumpleaños y fiestas infantiles",
@@ -70,6 +63,67 @@ export const peruInvitations: Invitation[] = [
     price: "S/ 100",
     closedImage: "/bautismo_close.jpeg",
     openImage: "/bautismo_open.jpeg",
+  },
+
+  {
+    title: "Gold Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Gold Wedding.close.png",
+    openImage: "/Gold Wedding.open.png",
+   },
+
+  {
+    title: "Blue Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Blue.Wedding.close.png",
+    openImage: "/Blue.Wedding.open.png",
+  },
+  {
+    title: "Royal Emerald",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Royal Emerald.close.png",
+    openImage: "/Royal Emerald.open.png",
+  },
+  {
+    title: "Champagne Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Champagne.Wedding.close.png",
+    openImage: "/Champagne.Wedding.open.png",
+  },
+
+  {
+    title: "Pearl Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Pearl Wedding.close.png",
+    openImage: "/Pearl Wedding.open.png",
+  },
+
+  {
+    title: "Silver Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Silver.Wedding.close.png",
+    openImage: "/Silver.Wedding.open.png",
+  },
+
+  {
+    title: "Green Wedding",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Green Wedding.close.png",
+    openImage: "/Green Wedding.open.png",
   },
 
 ];
