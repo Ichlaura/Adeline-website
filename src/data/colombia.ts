@@ -315,5 +315,31 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Royal Emerald.close.png",
     openImage: "/Royal Emerald.open.png",
   },
+  {
+    title: "Champagne.Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Champagne.Wedding.close.png",
+    openImage: "/Champagne.Wedding.open.png",
+  },
+
+  {
+    title: "Pearl Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pearl Wedding.close.png",
+    openImage: "/Pearl Wedding.open.png",
+  },
+
+  {
+    title: "Silver Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Silver.Wedding.close.png",
+    openImage: "/Silver.Wedding.open.png",
+  },
 
 ];
