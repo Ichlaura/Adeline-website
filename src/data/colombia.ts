@@ -64,6 +64,22 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
+    title: "Unicorn Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/cumpleunicornios_close.jpeg",
+    openImage: "/cumpleunicornios_open.jpeg",
+  },
+  {
+    title: "Soccer Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/cumplefutbol_close.jpeg",
+    openImage: "/cumplefutbol_open.jpeg",
+  },
+  {
     title: "Dinosaur Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",

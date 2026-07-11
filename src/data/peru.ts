@@ -62,7 +62,22 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/quinceanosfloresneutral_close.jpeg",
     openImage: "/quinceanosfloresneutral_open.jpeg",
   },
-
+ {
+    title: "Unicorn Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/cumpleunicornios_close.jpeg",
+    openImage: "/cumpleunicornios_open.jpeg",
+  },
+  {
+    title: "Soccer Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/cumplefutbol_close.jpeg",
+    openImage: "/cumplefutbol_open.jpeg",
+  },
   {
     title: "Robot Party",
     category: "Cumpleaños y fiestas infantiles",
