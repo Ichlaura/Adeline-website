@@ -62,6 +62,7 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/quinceanosfloresneutral_close.jpeg",
     openImage: "/quinceanosfloresneutral_open.jpeg",
   },
+  
  {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
