@@ -64,14 +64,6 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Robot Party",
-    category: "Cumpleaños y fiestas infantiles",
-    country: "co",
-    price: "$39",
-    closedImage: "/robotparty_close.jpeg",
-    openImage: "/robotparty_open.jpeg",
-  },
-  {
     title: "Dinosaur Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
@@ -142,6 +134,15 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/sirena_close.jpeg",
     openImage: "/sirena_open.jpeg",
+  },
+
+  {
+    title: "Robot Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/robotparty_close.jpeg",
+    openImage: "/robotparty_open.jpeg",
   },
 
   {
@@ -295,13 +296,14 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-  title: "Revelación de género",
+  title: "Kitty Reveal",
   category: "Revelación de género",
   country: "co",
   price: "$39",
-  closedImage: "/babyshower_yellow_close.jpeg",
-  openImage: "/babyshower_yellow_open.jpeg",
-},
+  closedImage: "/Kitty Reveal.close.png",
+  openImage: "/Kitty Reveal.open.png",
+  },
+
   {
     title: "Corporate Event",
     category: "Corporativo",
