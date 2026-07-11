@@ -171,7 +171,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Magic Party",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/fiestamagia_close.jpeg",
@@ -179,7 +179,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Coybow Kids Party",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Coybow Kids Party close.jpeg",
@@ -187,7 +187,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Motorcycle",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Motorcycle close.jpeg",
@@ -195,7 +195,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Purple Paw",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Purple Paw close.jpeg",
@@ -203,7 +203,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Blue Doggy",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Blue Doggy close.jpeg",
@@ -211,7 +211,7 @@ export const colombiaInvitations: Invitation[] = [
   },
   {
     title: "Outer Space",
-    category: "Cumpleaños y fiestas infantiless",
+    category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Outer Space close.jpeg",
