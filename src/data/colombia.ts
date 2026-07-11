@@ -209,6 +209,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Blue Doggy close.jpeg",
     openImage: "/Blue Doggy open.jpeg",
   },
+  {
+    title: "Outer Space",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/Outer Space close.jpeg",
+    openImage: "/Outer Space open.jpeg",
+  },
 
   {
     title: "Blue Teddy",
