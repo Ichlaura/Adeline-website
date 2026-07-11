@@ -303,6 +303,38 @@ export const colombiaInvitations: Invitation[] = [
   closedImage: "/Kitty Reveal.close.png",
   openImage: "/Kitty Reveal.open.png",
   },
+  {
+  title: "Blue & Blush",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/Blue & Blush.close.png",
+  openImage: "/Blue & Blush.open.png",
+  },
+  {
+  title: "Cloud Wishes",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/Cloud Wishes.close.png",
+  openImage: "/Cloud Wishes.open.png",
+  },
+  {
+  title: "Sky & Blush",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/Sky & Blush.close.png",
+  openImage: "/Sky & Blush.open.png",
+  },
+  {
+  title: "Golden Paws",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/Golden Paws.close.png",
+  openImage: "/Golden Paws.open.png",
+  },
 
   {
     title: "Corporate Event",
