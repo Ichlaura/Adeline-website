@@ -136,6 +136,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/sirena_close.jpeg",
     openImage: "/sirena_open.jpeg",
   },
+ {
+    title: "Super Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/superfiesta_close.jpeg",
+    openImage: "/superfiesta_open.jpeg",
+  },
 
   {
     title: "Robot Party",
@@ -152,6 +160,38 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/spaparty_close.jpeg",
     openImage: "/spaparty_open.jpeg",
+  },
+  {
+    title: "Hawaii Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/hawaifiesta_close.jpeg",
+    openImage: "/hawaifiesta_open.jpeg",
+  },
+  {
+    title: "Magic Party",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/fiestamagia_close.jpeg",
+    openImage: "/fiestamagia_open.jpeg",
+  },
+  {
+    title: "Coybow Kids Party",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/Coybow Kids Party close.jpeg",
+    openImage: "/Coybow Kids Party Open.jpeg",
+  },
+  {
+    title: "Motorcycle",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/Motorcycle close.jpeg",
+    openImage: "/Motorcycle open.jpeg",
   },
 
   {
@@ -221,22 +261,6 @@ export const colombiaInvitations: Invitation[] = [
   },
   
   {
-    title: "Magic Party",
-    category: "Celebraciones y fiestas",
-    country: "co",
-    price: "$39",
-    closedImage: "/fiestamagia_close.jpeg",
-    openImage: "/fiestamagia_open.jpeg",
-  },
-  {
-    title: "Hawaii Party",
-    category: "Celebraciones y fiestas",
-    country: "co",
-    price: "$39",
-    closedImage: "/hawaifiesta_close.jpeg",
-    openImage: "/hawaifiesta_open.jpeg",
-  },
-  {
     title: "Halloween Black",
     category: "Celebraciones y fiestas",
     country: "co",
@@ -253,12 +277,28 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/halloweenparty_open.jpeg",
   },
   {
-    title: "Super Party",
+    title: "Noel Elegance",
     category: "Celebraciones y fiestas",
     country: "co",
     price: "$39",
-    closedImage: "/superfiesta_close.jpeg",
-    openImage: "/superfiesta_open.jpeg",
+    closedImage: "/Noel Elegance.close.png",
+    openImage: "/Noel Elegance.open.png",
+  },
+  {
+    title: "Christmas Wishes",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Christmas Wishes.close.png",
+    openImage: "/Christmas Wishes.open.png",
+  },
+  {
+    title: "Cowboy Party",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Cowboy close.png",
+    openImage: "/Cowboy open.png",
   },
 
   {
