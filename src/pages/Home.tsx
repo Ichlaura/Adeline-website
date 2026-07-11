@@ -1,3 +1,4 @@
+import { useState } from "react";
 import CategoryRow from "../components/CategoryRow";
 import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
@@ -16,9 +17,10 @@ type HomeProps = {
 };
 
 function Home({ settings }: HomeProps) {
+  const [showContact, setShowContact] = useState(false);
   return (
     <main className="home">
-        <Navbar />
+        <Navbar onContactClick={() => setShowContact(true)} />
       <section className="hero">
         <div className="hero-content">
           <span className="hero-tag">{settings.heroTag}</span>
@@ -67,7 +69,7 @@ function Home({ settings }: HomeProps) {
 
 
 
-<Contact />
+{showContact && <Contact />}
 
 
 

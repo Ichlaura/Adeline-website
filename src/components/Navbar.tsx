@@ -1,7 +1,38 @@
 import { useState } from "react";
 import { countries, type CountryCode } from "../data/countries";
 
-function Navbar() {
+type NavbarProps = {
+  onContactClick: () => void;
+};
+
+const navText = {
+  co: {
+    designs: "Diseños",
+    contact: "Contacto",
+    changeCountry: "🌎 Cambiar país",
+    menu: "Abrir menú",
+  },
+  pe: {
+    designs: "Diseños",
+    contact: "Contacto",
+    changeCountry: "🌎 Cambiar país",
+    menu: "Abrir menú",
+  },
+  us: {
+    designs: "Designs",
+    contact: "Contact",
+    changeCountry: "🌎 Change country",
+    menu: "Open menu",
+  },
+  jp: {
+    designs: "デザイン",
+    contact: "お問い合わせ",
+    changeCountry: "🌎 国を変更",
+    menu: "メニューを開く",
+  },
+};
+
+function Navbar({ onContactClick }: NavbarProps) {
   const [open, setOpen] = useState(false);
   const [countryOpen, setCountryOpen] = useState(false);
 
@@ -9,33 +40,53 @@ function Navbar() {
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 
   const selectedCountry = countries.find((c) => c.code === currentCountry);
+  const text = navText[currentCountry];
 
   return (
     <nav className="navbar">
-      <div className="nav-logo">
+      <div
+        className="nav-logo"
+        onClick={() => {
+          sessionStorage.setItem("fromCategory", "true");
+          window.location.href = "/";
+        }}
+      >
         <img src="/adelina-logo-header.png" alt="Adelina" />
       </div>
 
       <button
         className="menu-button"
         onClick={() => setOpen(!open)}
-        aria-label="Abrir menú"
+        aria-label={text.menu}
       >
         ☰
       </button>
 
       <div className={open ? "nav-links nav-open" : "nav-links"}>
-        <a onClick={() => document.getElementById("designs")?.scrollIntoView({ behavior: "smooth" })}>
-  Diseños
-</a>
+        <a
+          onClick={() => {
+            setOpen(false);
+            document
+              .getElementById("designs")
+              ?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          {text.designs}
+        </a>
 
-
-
-
-
-<a onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
-  Contacto
-</a>
+        <a
+          onClick={() => {
+            onContactClick();
+            setOpen(false);
+            setTimeout(() => {
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }, 100);
+          }}
+        >
+          {text.contact}
+        </a>
 
         <div className="country-switcher">
           <button
@@ -52,14 +103,15 @@ function Navbar() {
 
           <div className={countryOpen ? "country-menu show" : "country-menu"}>
             <button
-  className="change-country"
-  onClick={() => {
-    localStorage.removeItem("adelina-country");
-    window.location.href = "/";
-  }}
->
-  🌎 Select another country
-</button>
+              className="change-country"
+              onClick={() => {
+                localStorage.removeItem("adelina-country");
+                window.location.href = "/";
+              }}
+            >
+              {text.changeCountry}
+            </button>
+
             {countries.map((country) => (
               <button
                 key={country.code}
