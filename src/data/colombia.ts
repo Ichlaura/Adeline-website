@@ -193,6 +193,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Motorcycle close.jpeg",
     openImage: "/Motorcycle open.jpeg",
   },
+  {
+    title: "Purple Paw",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/Purple Paw close.jpeg",
+    openImage: "/Purple Paw open.jpeg",
+  },
+  {
+    title: "Blue Doggy",
+    category: "Cumpleaños y fiestas infantiless",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blue Doggy close.jpeg",
+    openImage: "/Blue Doggy open.jpeg",
+  },
 
   {
     title: "Blue Teddy",
