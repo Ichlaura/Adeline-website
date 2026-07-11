@@ -403,12 +403,28 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Corporate Event",
+    title: "Blue Elegance",
     category: "Corporativo",
     country: "co",
     price: "$49",
-    closedImage: "/corporativo_close.jpeg",
-    openImage: "/corporativo_open.jpeg",
+    closedImage: "/Blue Elegance close.jpeg",
+    openImage: "/Blue Elegance open.jpeg",
+  },
+  {
+    title: "Golden Celebration",
+    category: "Corporativo",
+    country: "co",
+    price: "$49",
+    closedImage: "/Golden Celebration close.jpeg",
+    openImage: "/Golden Celebration open.jpeg",
+  },
+  {
+    title: "Grand Opening",
+    category: "Corporativo",
+    country: "co",
+    price: "$49",
+    closedImage: "/Grand Opening close.jpeg",
+    openImage: "/Grand Opening open.jpeg",
   },
   {
     title: "Graduación Clásica",
