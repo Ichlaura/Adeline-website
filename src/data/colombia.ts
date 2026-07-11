@@ -103,22 +103,7 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/cumplehadas_close.jpeg",
     openImage: "/cumplehadas_open.jpeg",
   },
-  {
-    title: "Unicorn Party",
-    category: "Cumpleaños y fiestas infantiles",
-    country: "co",
-    price: "$39",
-    closedImage: "/cumpleunicornios_close.jpeg",
-    openImage: "/cumpleunicornios_open.jpeg",
-  },
-  {
-    title: "Soccer Party",
-    category: "Cumpleaños y fiestas infantiles",
-    country: "co",
-    price: "$39",
-    closedImage: "/cumplefutbol_close.jpeg",
-    openImage: "/cumplefutbol_open.jpeg",
-  },
+  
   {
     title: "Cars Party",
     category: "Cumpleaños y fiestas infantiles",
@@ -159,6 +144,14 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
+  },
+  {
+    title: "Spa Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/spaparty_close.jpeg",
+    openImage: "/spaparty_open.jpeg",
   },
 
   {
@@ -219,21 +212,14 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Disco Party",
+    title: "Golden Christmas",
     category: "Celebraciones y fiestas",
     country: "co",
     price: "$39",
-    closedImage: "/discoparty_close.jpeg",
-    openImage: "/discoparty_open.jpeg",
+    closedImage: "/Golden Christmas.close.png",
+    openImage: "/Golden Christmas.open.png",
   },
-  {
-    title: "Spa Party",
-    category: "Celebraciones y fiestas",
-    country: "co",
-    price: "$39",
-    closedImage: "/spaparty_close.jpeg",
-    openImage: "/spaparty_open.jpeg",
-  },
+  
   {
     title: "Magic Party",
     category: "Celebraciones y fiestas",
