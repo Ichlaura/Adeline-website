@@ -332,6 +332,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Cowboy close.png",
     openImage: "/Cowboy open.png",
   },
+  {
+    title: "Bridal Bliss",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Bridal Bliss close.png",
+    openImage: "/Bridal Bliss open.png",
+  },
+  {
+    title: "Bridal Chic",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Bridal Chic close.png",
+    openImage: "/Bridal Chic open.png",
+  },
 
   {
     title: "Pink Blessing",
