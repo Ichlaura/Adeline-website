@@ -31,12 +31,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/quinceanosazul_open.jpeg",
   },
   {
-    title: "Pink Princess",
+    title: "Morganite",
     category: "Quince Años",
     country: "co",
     price: "$49",
-    closedImage: "/quinceanospink_close.jpeg",
-    openImage: "/quinceanospink_open.jpeg",
+    closedImage: "/Morganite close.jpeg",
+    openImage: "/Morganite open.jpeg",
   },
   {
     title: "Champagne Tiara",
@@ -45,6 +45,14 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Champagne Tiara close.png",
     openImage: "/Champagne Tiara open.png",
+  },
+  {
+    title: "Pink Princess",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/quinceanospink_close.jpeg",
+    openImage: "/quinceanospink_open.jpeg",
   },
   {
     title: "Purple Luxury",
