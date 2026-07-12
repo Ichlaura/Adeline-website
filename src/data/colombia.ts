@@ -35,8 +35,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Quince Años",
     country: "co",
     price: "$49",
-    closedImage: "/Morganite close.jpeg",
-    openImage: "/Morganite open.jpeg",
+    closedImage: "/Morganite close.png",
+    openImage: "/Morganite open.png",
   },
   {
     title: "Champagne Tiara",
