@@ -225,6 +225,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Purple Dino close.png",
     openImage: "/Purple Dino open.png",
   },
+  {
+    title: "Science Lab",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Science Lab close.png",
+    openImage: "/Science Lab open.png",
+  },
 
   {
     title: "Blue Teddy",
