@@ -233,21 +233,28 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Science Lab close.png",
     openImage: "/Science Lab open.png",
   },
-
+  {
+    title: "Baby Luxe",
+    category: "Baby Shower",
+    country: "co",
+    price: "$39",
+    closedImage: "/Baby Luxe close.jpeg",
+    openImage: "/Baby Luxe open.jpeg",
+  },
   {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "co",
     price: "$39",
-    closedImage: "/babyshowerblueoso_open.jpeg",
-    openImage: "/babyshowerblueoso_open.jpeg",
+    closedImage: "/Blue Teddy close.jpeg",
+    openImage: "/Blue Teddy open.jpeg",
   },
   {
     title: "Green Teddy",
     category: "Baby Shower",
     country: "co",
     price: "$39",
-    closedImage: "/babyshowergreenoso_open.jpeg",
+    closedImage: "/Green Baby close.jpeg",
     openImage: "/babyshowergreenoso_open.jpeg",
   },
   {
