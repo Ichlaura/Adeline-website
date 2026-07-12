@@ -39,6 +39,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/quinceanospink_open.jpeg",
   },
   {
+    title: "Champagne Tiara",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Champagne Tiara close.png",
+    openImage: "/Champagne Tiara open.png",
+  },
+  {
     title: "Purple Luxury",
     category: "Quince Años",
     country: "co",
