@@ -556,13 +556,14 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Blue.Wedding.open.png",
   },
   {
-    title: "Royal Emerald",
+    title: "White Camellia",
     category: "Matrimonio",
     country: "pe",
     price: "$39",
-    closedImage: "/Royal Emerald.close.png",
-    openImage: "/Royal Emerald.open.png",
+    closedImage: "/White Camellia close.png",
+    openImage: "/White Camellia open.png",
   },
+  
   {
     title: "Champagne Wedding",
     category: "Matrimonio",
@@ -597,6 +598,14 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding.close.png",
     openImage: "/Green Wedding.open.png",
+  },
+  {
+    title: "Royal Emerald",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Royal Emerald.close.png",
+    openImage: "/Royal Emerald.open.png",
   },
 
 ];
