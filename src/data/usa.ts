@@ -64,7 +64,7 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Silver.Wedding.close ENG.png",
+    closedImage: "/Silver.Wedding.closeENG.png",
     openImage: "/Silver.Wedding.open ENG.png",
   },
 
