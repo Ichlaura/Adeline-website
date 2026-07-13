@@ -110,6 +110,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Noble Garden close.png",
     openImage: "/Noble Garden open.png",
   },
+  {
+    title: "Black Diamond",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Black Diamond close.png",
+    openImage: "/Black Diamond open.png",
+  },
 
   {
     title: "Unicorn Party",
