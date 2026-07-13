@@ -18,7 +18,7 @@ export const usaInvitations: Invitation[] = [
 
   {
     title: "Gold Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Gold Wedding.close ENG.png",
@@ -27,7 +27,7 @@ export const usaInvitations: Invitation[] = [
 
    {
     title: "Blue Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Blue.Wedding.close ENG.png",
@@ -35,7 +35,7 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "White Camellia",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/White Camellia close ENG.png",
@@ -43,7 +43,7 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "Champagne Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Champagne.Wedding.close ENG.png",
@@ -52,7 +52,7 @@ export const usaInvitations: Invitation[] = [
 
   {
     title: "Pearl Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Pearl Wedding.close ENG.png",
@@ -61,7 +61,7 @@ export const usaInvitations: Invitation[] = [
 
   {
     title: "Silver Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Silver.Wedding.close ENG.png",
@@ -70,7 +70,7 @@ export const usaInvitations: Invitation[] = [
 
   {
     title: "Green Wedding",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Green Wedding.close ENG.png",
@@ -78,7 +78,7 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "Royal Emerald",
-    category: "Matrimonio",
+    category: "Wedding",
     country: "us",
     price: "$39",
     closedImage: "/Royal Emerald.close ENG.png",
