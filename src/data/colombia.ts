@@ -78,6 +78,38 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/quinceanosfloresneutral_close.jpeg",
     openImage: "/quinceanosfloresneutral_open.jpeg",
   },
+  {
+    title: "Blue Serenity",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Blue Serenity close.png",
+    openImage: "/Blue Serenity open.png",
+  },
+  {
+    title: "Royal Garden",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Royal Garden close.png",
+    openImage: "/Royal Garden open.png",
+  },
+  {
+    title: "Noble Rose",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Noble Rose close.png",
+    openImage: "/Noble Rose open.png",
+  },
+  {
+    title: "Noble Garden",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Noble Garden close.png",
+    openImage: "/Noble Garden open.png",
+  },
 
   {
     title: "Unicorn Party",
