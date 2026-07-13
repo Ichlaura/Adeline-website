@@ -21,8 +21,8 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Gold Wedding.close ENG.png",
-    openImage: "/Gold Wedding.open ENG.png",
+    closedImage: "/Gold Wedding close ENG.png",
+    openImage: "/Gold Wedding open ENG.png",
   },
 
    {
@@ -30,8 +30,8 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Blue.Wedding.close ENG.png",
-    openImage: "/Blue.Wedding.open ENG.png",
+    closedImage: "/Blue.Wedding close ENG.png",
+    openImage: "/Blue.Wedding open ENG.png",
   },
   {
     title: "White Camellia",
@@ -46,8 +46,8 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Champagne.Wedding.close ENG.png",
-    openImage: "/Champagne.Wedding.open ENG.png",
+    closedImage: "/Champagne Wedding close ENG.png",
+    openImage: "/Champagne Wedding open ENG.png",
   },
 
   {
@@ -55,8 +55,8 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Pearl Wedding.close ENG.png",
-    openImage: "/Pearl Wedding.open ENG.png",
+    closedImage: "/Pearl Wedding close ENG.png",
+    openImage: "/Pearl Wedding open ENG.png",
   },
 
   {
@@ -64,8 +64,8 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Silver.Wedding.closeENG.png",
-    openImage: "/Silver.Wedding.open ENG.png",
+    closedImage: "/Silver.Wedding closeENG.png",
+    openImage: "/Silver.Wedding open ENG.png",
   },
 
   {
@@ -73,16 +73,16 @@ export const usaInvitations: Invitation[] = [
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Green Wedding.close ENG.png",
-    openImage: "/Green Wedding.open ENG.png",
+    closedImage: "/Green Wedding close ENG.png",
+    openImage: "/Green Wedding open ENG.png",
   },
   {
     title: "Royal Emerald",
     category: "Weddings",
     country: "us",
     price: "$39",
-    closedImage: "/Royal Emerald.close ENG.png",
-    openImage: "/Royal Emerald.open ENG.png",
+    closedImage: "/Royal Emerald close ENG.png",
+    openImage: "/Royal Emerald open ENG.png",
   },
   {
     title: "Birthday Party",
