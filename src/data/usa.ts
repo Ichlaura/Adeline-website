@@ -17,12 +17,72 @@ export const usaInvitations: Invitation[] = [
   // ==========================
 
   {
-    title: "Emerald Wedding",
+    title: "Gold Wedding",
     category: "Weddings",
     country: "us",
-    price: "$49",
-    closedImage: "/emeraldwedding_close.jpeg",
-    openImage: "/emeraldwedding_open.jpeg",
+    price: "$39",
+    closedImage: "/Gold Wedding close ENG.png",
+    openImage: "/Gold Wedding open ENG.png",
+  },
+
+   {
+    title: "Blue Wedding",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Blue Wedding close ENG.png",
+    openImage: "/Blue Wedding open ENG.png",
+  },
+  {
+    title: "White Camellia",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/White Camellia close ENG.png",
+    openImage: "/White Camellia open ENG.png",
+  },
+  {
+    title: "Champagne Wedding",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Champagne Wedding close ENG.png",
+    openImage: "/Champagne Wedding open ENG.png",
+  },
+
+  {
+    title: "Pearl Wedding",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Pearl Wedding close ENG.png",
+    openImage: "/Pearl Wedding open ENG.png",
+  },
+
+  {
+    title: "Silver Wedding",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Silver Wedding closeENG.png",
+    openImage: "/Silver Wedding open ENG.png",
+  },
+
+  {
+    title: "Green Wedding",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Green Wedding close ENG.png",
+    openImage: "/Green Wedding open ENG.png",
+  },
+  {
+    title: "Royal Emerald",
+    category: "Weddings",
+    country: "us",
+    price: "$39",
+    closedImage: "/Royal Emerald close ENG.png",
+    openImage: "/Royal Emerald open ENG.png",
   },
   {
     title: "Birthday Party",
