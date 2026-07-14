@@ -50,7 +50,7 @@ us: {
   heroText: "Weddings, birthdays, baby showers, graduations and special events.",
   viewDesigns: "View designs",
   categories: [
-    "Weddings",
+    "Wedding",
     "Quinceañera",
     "Kids Birthdays",
     "Baby Shower",
