@@ -31,6 +31,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Green Butterfly open.png",
   },
   {
+    title: "Morganite",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Morganite close.png",
+    openImage: "/Morganite open.png",
+  },
+  {
     title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "co",
@@ -46,14 +54,7 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/quinceanosazul_close.jpeg",
     openImage: "/quinceanosazul_open.jpeg",
   },
-  {
-    title: "Morganite",
-    category: "Quince Años",
-    country: "co",
-    price: "$49",
-    closedImage: "/Morganite close.png",
-    openImage: "/Morganite open.png",
-  },
+
   {
     title: "Champagne Tiara",
     category: "Quince Años",
