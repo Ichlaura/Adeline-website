@@ -15,6 +15,14 @@ export const colombiaInvitations: Invitation[] = [
   // ==========================
 
   {
+    title: "Pink Butterfly",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Pink Butterfly close.png",
+    openImage: "/Pink Butterfly open.png",
+  },
+  {
     title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "co",
