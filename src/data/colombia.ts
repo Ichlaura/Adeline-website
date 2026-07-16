@@ -52,6 +52,14 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$49",
     closedImage: "/quinceanosazul_close.jpeg",
+    openImage: "/quinceanosazul_open.foto.jpeg",
+  },
+  {
+    title: "Royal Blue Quinceañera",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/quinceanosazul_close.jpeg",
     openImage: "/quinceanosazul_open.jpeg",
   },
 
