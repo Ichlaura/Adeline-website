@@ -811,7 +811,7 @@ color:#b08a4d !important;
 
 .invite-card-image {
   width: 100%;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 16 / 10;
   object-fit: contain;
   background: #fffaf3;
   display: block;
@@ -2078,15 +2078,5 @@ body,
   border-radius: 50%;
 }
 
-@media (max-width: 700px) {
-  .invite-card {
-    min-width: 78vw;
-    width: 78vw;
-    max-width: 78vw;
-  }
 
-  .invite-card-image {
-    aspect-ratio: 1 / 20;
-  }
-}
 
