@@ -248,7 +248,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/hawaifiesta_close.png",
-    openImage: "/hawaifiesta_open.jpeg",
+    openImage: "/hawaifiesta_open.png",
   },
   {
     title: "Magic Party",
