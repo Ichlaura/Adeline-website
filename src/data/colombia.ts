@@ -540,7 +540,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Noel Elegance.close.png",
-    openImage: "/Noel Elegance.open.png",
+    openImage: "/Noel Elegance open.png",
   },
   {
     title: "Christmas Wishes",
