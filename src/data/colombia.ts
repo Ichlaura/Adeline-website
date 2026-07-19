@@ -412,7 +412,7 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Science Lab open.png",
   },
   {
-    title: "Pirate Legacy close",
+    title: "Pirate Legacy",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
@@ -426,6 +426,14 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Little Chef open.png.png",
     openImage: "/Little Chef open.png.png",
+  },
+  {
+    title: "Little Chef Pink",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Little Chef close pink.png",
+    openImage: "/Little Chef open pink.png",
   },
   {
     title: "Baby Luxe",
