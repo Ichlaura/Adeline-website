@@ -798,7 +798,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Royal Emerald.close.png",
-    openImage: "/Royal Emerald.open.png",
+    openImage: "/Royal Emerald.close.open.png",
   },
   {
     title: "Royal Emerald",
@@ -806,7 +806,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Royal Emerald.close.png",
-    openImage: "/Royal Emerald.open foto.png",
+    openImage: "/Royal Emerald.close.open foto.png",
   },
 
 ];
