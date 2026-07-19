@@ -412,6 +412,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Science Lab open.png",
   },
   {
+    title: "Pirate Legacy close",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pirate Legacy close.png.png",
+    openImage: "/Pirate Legacy open.png.png",
+  },
+  {
     title: "Baby Luxe",
     category: "Baby Shower",
     country: "co",
