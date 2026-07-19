@@ -78,14 +78,7 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/quinceanosverde_close.png",
     openImage: "/quinceanosverde_open foto.png",
   },
-  {
-    title: "Royal Blue Quinceañera",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosazul_close.png",
-    openImage: "/quinceanosazul_open.foto.png",
-  },
+
   
   {
     title: "Royal Blue Quinceañera",
@@ -95,7 +88,14 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/quinceanosazul_close.png",
     openImage: "/quinceanosazul_open.png",
   },
-
+  {
+    title: "Royal Blue Quinceañera",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/quinceanosazul_close.png",
+    openImage: "/quinceanosazul_open.foto.png",
+  },
   {
     title: "Champagne Tiara",
     category: "Quince Años",
