@@ -23,12 +23,28 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Pink Butterfly open.png",
   },
   {
+    title: "Pink Butterfly",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Pink Butterfly close.png",
+    openImage: "/Pink Butterfly open foto.png",
+  },
+  {
     title: "Green Butterfly",
     category: "Quince Años",
     country: "co",
     price: "$49",
     closedImage: "/Green Butterfly close.png",
     openImage: "/Green Butterfly open.png",
+  },
+  {
+    title: "Green Butterfly",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Green Butterfly close.png",
+    openImage: "/Green Butterfly open foto.png",
   },
   {
     title: "Morganite",
