@@ -420,6 +420,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Pirate Legacy open.png.png",
   },
   {
+    title: "Little Chef",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Little Chef open.png.png",
+    openImage: "/Little Chef open.png.png",
+  },
+  {
     title: "Baby Luxe",
     category: "Baby Shower",
     country: "co",
