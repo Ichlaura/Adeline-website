@@ -460,6 +460,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Green Baby close.png",
     openImage: "/babyshower_green_open.png",
   },
+  {
+    title: "Green Bear",
+    category: "Baby Shower",
+    country: "co",
+    price: "$39",
+    closedImage: "/Green Baby close.png",
+    openImage: "/Green Bear open.png",
+  },
 
   {
     title: "Golden Christmas",
