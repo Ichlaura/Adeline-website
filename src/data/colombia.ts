@@ -150,7 +150,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$49",
     closedImage: "/quinceanosfloresneutral_close.png",
-    openImage: "/quinceanosfloresneutral_open.png",
+    openImage: "/quinceanosfloresneutral_close_open.png",
   },
   {
     title: "Neutral Floral",
@@ -158,7 +158,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$49",
     closedImage: "/quinceanosfloresneutral_close.png",
-    openImage: "/quinceanosfloresneutral_open foto.png",
+    openImage: "/quinceanosfloresneutral_close_open foto.png",
   },
   {
     title: "Blue Serenity",
