@@ -684,6 +684,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Gold Wedding.close.png",
     openImage: "/Gold Wedding.open.png",
   },
+  {
+    title: "Gold Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Gold Wedding.close.png",
+    openImage: "/Gold Wedding.open foto.png",
+  },
 
    {
     title: "Blue Wedding",
@@ -694,12 +702,28 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blue.Wedding.open.png",
   },
   {
+    title: "Blue Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blue.Wedding.close.png",
+    openImage: "/Blue.Wedding.open foto.png",
+  },
+  {
     title: "White Camellia",
     category: "Matrimonio",
     country: "co",
     price: "$39",
     closedImage: "/White Camellia close.png",
     openImage: "/White Camellia open.png",
+  },
+  {
+    title: "White Camellia",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/White Camellia close.png",
+    openImage: "/White Camellia open foto.png",
   },
   {
     title: "Champagne Wedding",
@@ -709,6 +733,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Champagne.Wedding.close.png",
     openImage: "/Champagne.Wedding.open.png",
   },
+  {
+    title: "Champagne Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Champagne.Wedding.close.png",
+    openImage: "/Champagne.Wedding.open foto.png",
+  },
 
   {
     title: "Pearl Wedding",
@@ -717,6 +749,14 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Wedding.close.png",
     openImage: "/Pearl Wedding.open.png",
+  },
+  {
+    title: "Pearl Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pearl Wedding.close.png",
+    openImage: "/Pearl Wedding.open foto.png",
   },
 
   {
@@ -729,6 +769,14 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
+    title: "Silver Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Silver.Wedding.close.png",
+    openImage: "/Silver.Wedding.open foto.png",
+  },
+  {
     title: "Green Wedding",
     category: "Matrimonio",
     country: "co",
@@ -737,12 +785,28 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Green Wedding.open.png",
   },
   {
+    title: "Green Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Green Wedding.close.png",
+    openImage: "/Green Wedding.open foto.png",
+  },
+  {
     title: "Royal Emerald",
     category: "Matrimonio",
     country: "co",
     price: "$39",
     closedImage: "/Royal Emerald.close.png",
     openImage: "/Royal Emerald.open.png",
+  },
+  {
+    title: "Royal Emerald",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Royal Emerald.close.png",
+    openImage: "/Royal Emerald.open foto.png",
   },
 
 ];
