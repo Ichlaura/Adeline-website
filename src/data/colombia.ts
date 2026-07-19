@@ -424,8 +424,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/Little Chef open.png.png",
-    openImage: "/Little Chef open.png.png",
+    closedImage: "/Little Chef.close.png",
+    openImage: "/Little Chef open.png",
   },
   {
     title: "Little Chef Pink",
