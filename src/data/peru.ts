@@ -44,6 +44,14 @@ export const peruInvitations: Invitation[] = [
     country: "pe",
     price: "$49",
     closedImage: "/Green Butterfly close.png",
+    openImage: "/Green Butterfly open.png",
+  },
+  {
+    title: "Green Butterfly",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Green Butterfly close.png",
     openImage: "/Green Butterfly open foto.png",
   },
   {
