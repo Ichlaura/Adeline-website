@@ -39,7 +39,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
-  openImage: "/Gold Wedding.open JP.png",
+  openImage: "/Gold Wedding open JP.png",
 },
 {
   title: "金麗",
@@ -47,7 +47,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
-  openImage: "/Gold Wedding.open foto JP.png",
+  openImage: "/Gold Wedding open foto JP.png",
 },
 
 {
