@@ -733,6 +733,14 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Ivory Elegance open.png",
   },
   {
+    title: "Ivory Elegance",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Ivory Elegance close.png",
+    openImage: "/Ivory Elegance open foto.png",
+  },
+  {
     title: "Gold Wedding",
     category: "Matrimonio",
     country: "pe",
@@ -849,14 +857,6 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Green Wedding.open foto.png",
   },
   
-  {
-    title: "Ivory Elegance",
-    category: "Matrimonio",
-    country: "pe",
-    price: "$39",
-    closedImage: "/Ivory Elegance close.png",
-    openImage: "/Ivory Elegance open foto.png",
-  },
   {
     title: "Royal Emerald",
     category: "Matrimonio",
