@@ -22,7 +22,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Ivory Elegance close.png",
-  openImage: "/Ivory Elegance open.png",
+  openImage: "/Ivory Elegance open JP.png",
 },
 {
   title: "白雅",
@@ -30,7 +30,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Ivory Elegance close.png",
-  openImage: "/Ivory Elegance open foto.png",
+  openImage: "/Ivory Elegance open foto JP.png",
 },
 
 {
@@ -39,7 +39,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
-  openImage: "/Gold Wedding.open.png",
+  openImage: "/Gold Wedding.open JP.png",
 },
 {
   title: "金麗",
@@ -47,7 +47,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
-  openImage: "/Gold Wedding.open foto.png",
+  openImage: "/Gold Wedding.open foto JP.png",
 },
 
 {
@@ -56,7 +56,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/White Camellia close.png",
-  openImage: "/White Camellia open.png",
+  openImage: "/White Camellia open JP.png",
 },
 {
   title: "白椿",
@@ -64,7 +64,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/White Camellia close.png",
-  openImage: "/White Camellia open foto.png",
+  openImage: "/White Camellia open foto JP.png",
 },
 
 {
@@ -73,7 +73,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Champagne.Wedding.close.png",
-  openImage: "/Champagne.Wedding.open.png",
+  openImage: "/Champagne.Wedding.open JP.png",
 },
 {
   title: "淡金",
@@ -81,7 +81,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Champagne.Wedding.close.png",
-  openImage: "/Champagne.Wedding.open foto.png",
+  openImage: "/Champagne.Wedding.open foto JP.png",
 },
 
 {
@@ -90,7 +90,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Wedding.close.png",
-  openImage: "/Pearl Wedding.open.png",
+  openImage: "/Pearl Wedding.open JP.png",
 },
 {
   title: "真珠",
@@ -98,7 +98,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Wedding.close.png",
-  openImage: "/Pearl Wedding.open foto.png",
+  openImage: "/Pearl Wedding.open foto JP.png",
 },
 
 {
@@ -107,7 +107,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Silver.Wedding.close.png",
-  openImage: "/Silver.Wedding.open.png",
+  openImage: "/Silver.Wedding.open JP.png",
 },
 
 {
@@ -116,6 +116,6 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Silver.Wedding.close.png",
-  openImage: "/Silver.Wedding.open foto.png",
+  openImage: "/Silver.Wedding.open foto JP.png",
 },
 ];
