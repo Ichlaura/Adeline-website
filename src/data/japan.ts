@@ -17,6 +17,14 @@ export const japanInvitations: Invitation[] = [
   // ==========================
 
   {
+  title: "桜花", // Elegancia Blanca
+  category: "結婚式",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Cerezo de Marfil close.png",
+  openImage: "/Cerezo de Marfil open foto JP.png",
+},
+  {
   title: "白雅", // Elegancia Blanca
   category: "結婚式",
   country: "jp",
