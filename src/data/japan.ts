@@ -133,4 +133,20 @@ export const japanInvitations: Invitation[] = [
   closedImage: "/Silver.Wedding.close.png",
   openImage: "/Silver.Wedding.open foto JP.png",
 },
+{
+  title: "鶴の誓い",
+  category: "結婚式",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Grullas close JP.png",
+  openImage: "/Grullas open JP.png",
+},
+{
+  title: "鶴の誓い",
+  category: "結婚式",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Grullas close JP.png",
+  openImage: "/Grullas open foto JP.png",
+},
 ];
