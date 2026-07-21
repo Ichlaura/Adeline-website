@@ -16,52 +16,106 @@ export const japanInvitations: Invitation[] = [
   // JAPÓN
   // ==========================
 
-  {
-    title: "結婚式デザイン",
-    category: "結婚式",
-    country: "jp",
-    price: "¥7000",
-    closedImage: "/emeraldwedding_close.jpeg",
-    openImage: "/emeraldwedding_open.jpeg",
-  },
-  {
-    title: "誕生日デザイン",
-    category: "誕生日",
-    country: "jp",
-    price: "¥6000",
-    closedImage: "/robotparty_close.jpeg",
-    openImage: "/robotparty_open.jpeg",
-  },
-  {
-  title: "性別発表",
-  category: "性別発表",
+ {
+  title: "白雅", // Elegancia Blanca
+  category: "Matrimonio",
   country: "jp",
-  price: "¥6000",
-  closedImage: "/genderreveal_close.jpeg",
-  openImage: "/genderreveal_open.jpeg",
+  price: "$39",
+  closedImage: "/Ivory Elegance close.png",
+  openImage: "/Ivory Elegance open.png",
 },
-  {
-    title: "ベビーシャワー",
-    category: "ベビーシャワー",
-    country: "jp",
-    price: "¥6000",
-    closedImage: "/babyshower_yellow_close.jpeg",
-    openImage: "/babyshower_yellow_open.jpeg",
-  },
-  {
-    title: "卒業デザイン",
-    category: "卒業",
-    country: "jp",
-    price: "¥6000",
-    closedImage: "/robotparty_close.jpeg",
-    openImage: "/robotparty_open.jpeg",
-  },
-  {
-    title: "法人イベント",
-    category: "法人イベント",
-    country: "jp",
-    price: "¥7000",
-    closedImage: "/corporativo_close.jpeg",
-    openImage: "/corporativo_open.jpeg",
-  },
+{
+  title: "白雅",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Ivory Elegance close.png",
+  openImage: "/Ivory Elegance open foto.png",
+},
+
+{
+  title: "金麗", // Belleza Dorada
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Gold Wedding.close.png",
+  openImage: "/Gold Wedding.open.png",
+},
+{
+  title: "金麗",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Gold Wedding.close.png",
+  openImage: "/Gold Wedding.open foto.png",
+},
+
+{
+  title: "白椿", // Camelia Blanca
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/White Camellia close.png",
+  openImage: "/White Camellia open.png",
+},
+{
+  title: "白椿",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/White Camellia close.png",
+  openImage: "/White Camellia open foto.png",
+},
+
+{
+  title: "淡金 ", // Oro Suave / Champagne
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Champagne.Wedding.close.png",
+  openImage: "/Champagne.Wedding.open.png",
+},
+{
+  title: "淡金",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Champagne.Wedding.close.png",
+  openImage: "/Champagne.Wedding.open foto.png",
+},
+
+{
+  title: "真珠", // Perla
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Pearl Wedding.close.png",
+  openImage: "/Pearl Wedding.open.png",
+},
+{
+  title: "真珠",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Pearl Wedding.close.png",
+  openImage: "/Pearl Wedding.open foto.png",
+},
+
+{
+  title: "銀雅", // Elegancia Plateada
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Silver.Wedding.close.png",
+  openImage: "/Silver.Wedding.open.png",
+},
+
+{
+  title: "銀雅",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Silver.Wedding.close.png",
+  openImage: "/Silver.Wedding.open foto.png",
+},
 ];
