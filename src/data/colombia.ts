@@ -717,6 +717,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Rose Diploma open.png",
   },
   {
+    title: "Ivory Elegance",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Ivory Elegance close.png",
+    openImage: "/Ivory Elegance open foto.png",
+  },
+  {
     title: "Gold Wedding",
     category: "Matrimonio",
     country: "co",
@@ -841,14 +849,7 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Ivory Elegance close.png",
     openImage: "/Ivory Elegance open.png",
   },
-  {
-    title: "Ivory Elegance",
-    category: "Matrimonio",
-    country: "co",
-    price: "$39",
-    closedImage: "/Ivory Elegance close.png",
-    openImage: "/Ivory Elegance open foto.png",
-  },
+  
   {
     title: "Royal Emerald",
     category: "Matrimonio",
