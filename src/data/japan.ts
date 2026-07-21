@@ -16,9 +16,9 @@ export const japanInvitations: Invitation[] = [
   // JAPÓN
   // ==========================
 
- {
+  {
   title: "白雅", // Elegancia Blanca
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Ivory Elegance close.png",
@@ -26,7 +26,7 @@ export const japanInvitations: Invitation[] = [
 },
 {
   title: "白雅",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Ivory Elegance close.png",
@@ -35,7 +35,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "金麗", // Belleza Dorada
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
@@ -43,7 +43,7 @@ export const japanInvitations: Invitation[] = [
 },
 {
   title: "金麗",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding.close.png",
@@ -52,7 +52,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "白椿", // Camelia Blanca
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/White Camellia close.png",
@@ -60,7 +60,7 @@ export const japanInvitations: Invitation[] = [
 },
 {
   title: "白椿",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/White Camellia close.png",
@@ -69,7 +69,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "淡金 ", // Oro Suave / Champagne
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Champagne.Wedding.close.png",
@@ -77,7 +77,7 @@ export const japanInvitations: Invitation[] = [
 },
 {
   title: "淡金",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Champagne.Wedding.close.png",
@@ -86,7 +86,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "真珠", // Perla
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Wedding.close.png",
@@ -94,7 +94,7 @@ export const japanInvitations: Invitation[] = [
 },
 {
   title: "真珠",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Wedding.close.png",
@@ -103,7 +103,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "銀雅", // Elegancia Plateada
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Silver.Wedding.close.png",
@@ -112,7 +112,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "銀雅",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Silver.Wedding.close.png",
