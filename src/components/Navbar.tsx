@@ -18,6 +18,12 @@ const navText = {
     changeCountry: "🌎 Cambiar país",
     menu: "Abrir menú",
   },
+    mx: {
+    designs: "Diseños",
+    contact: "Contacto",
+    changeCountry: "🌎 Cambiar país",
+    menu: "Abrir menú",
+  },
   us: {
     designs: "Designs",
     contact: "Contact",

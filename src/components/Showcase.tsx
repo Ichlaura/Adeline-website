@@ -19,7 +19,13 @@ const text = {
       "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
   },
-
+ mx: {
+    tag: "Experiencia premium",
+    title: "La primera impresión de tu gran día.",
+    description:
+      "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
+    card: "RSVP",
+  },
   us: {
     tag: "Premium Experience",
     title: "The first impression of your special day.",

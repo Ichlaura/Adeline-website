@@ -13,6 +13,11 @@ const rowText = {
     viewDesign: "Ver diseño",
     closeEnvelope: "Cerrar sobre",
   },
+  mx: {
+  seeAll: "Ver todo",
+  viewDesign: "Ver diseño",
+  closeEnvelope: "Cerrar sobre",
+},
   us: {
     seeAll: "View all",
     viewDesign: "View design",
@@ -28,7 +33,9 @@ const rowText = {
 function CategoryRow({ title }: { title: string }) {
   const [openedCard, setOpenedCard] = useState<string | null>(null);
   const rowRef = useRef<HTMLDivElement>(null);
-
+const canHover = window.matchMedia(
+  "(hover: hover) and (pointer: fine)"
+).matches;
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 
@@ -60,13 +67,43 @@ function CategoryRow({ title }: { title: string }) {
             const isOpen = openedCard === card.title;
 
             return (
-              <article
-                className="invite-card"
-                key={card.title}
-                onMouseEnter={() => setOpenedCard(card.title)}
-                onMouseLeave={() => setOpenedCard(null)}
-                onClick={() => setOpenedCard(isOpen ? null : card.title)}
-              >
+             
+<article
+  className={`invite-card ${isOpen ? "invite-card-open" : ""}`}
+  key={card.title}
+  role="button"
+  tabIndex={0}
+  aria-label={
+    isOpen
+      ? `${text.closeEnvelope}: ${card.title}`
+      : `${text.viewDesign}: ${card.title}`
+  }
+  onMouseEnter={() => {
+    if (canHover) {
+      setOpenedCard(card.title);
+    }
+  }}
+  onMouseLeave={() => {
+    if (canHover) {
+      setOpenedCard(null);
+    }
+  }}
+  onClick={() => {
+    setOpenedCard((current) =>
+      current === card.title ? null : card.title
+    );
+  }}
+  onKeyDown={(event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+
+      setOpenedCard((current) =>
+        current === card.title ? null : card.title
+      );
+    }
+  }}
+>
+
                 <img
                   src={isOpen ? card.openImage : card.closedImage}
                   alt={card.title}
@@ -78,8 +115,17 @@ function CategoryRow({ title }: { title: string }) {
                 <div className="card-content">
                   <span>Adelina</span>
                   <h3>{card.title}</h3>
-                  <p>{isOpen ? text.closeEnvelope : text.viewDesign}</p>
-                </div>
+<p>
+  {isOpen
+    ? text.closeEnvelope
+    : canHover
+      ? text.viewDesign
+      : currentCountry === "us"
+        ? "Tap to open"
+        : currentCountry === "jp"
+          ? "タップして開く"
+          : "Toca para abrir"}
+</p>                </div>
               </article>
             );
           })}

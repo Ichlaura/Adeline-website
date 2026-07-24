@@ -23,6 +23,16 @@ const contactText = {
     send: "Enviar mensaje",
     error: "Hubo un error. Intenta otra vez.",
   },
+    mx: {
+    title: "Contáctanos",
+ subtitle: "¿Tienes una pregunta sobre nuestras invitaciones digitales?",    success: "Mensaje enviado correctamente.",
+    name: "Nombre",
+    email: "Correo",
+    message: "Mensaje",
+    sending: "Enviando...",
+    send: "Enviar mensaje",
+    error: "Hubo un error. Intenta otra vez.",
+  },
   us: {
     title: "Contact us",
   subtitle: "Have a question about our digital invitations?",    success: "Message sent successfully.",

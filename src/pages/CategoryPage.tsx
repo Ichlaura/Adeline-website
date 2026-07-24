@@ -21,6 +21,13 @@ const categoryText = {
     from: "Desde",
     button: "Ver diseño",
   },
+    mx: {
+    back: "← Home",
+    kicker: "Colección Adelina",
+    subtitle: "Elige el diseño que mejor combina con tu celebración.",
+    from: "Desde",
+    button: "Ver diseño",
+  },
   us: {
     back: "← Home",
     kicker: "Adelina Collection",

@@ -47,6 +47,29 @@ const content = {
     ],
   },
 
+  mx: {
+    title: "Todo incluido",
+    subtitle: "Tu invitación digital incluye estas funciones:",
+    price: "MX$800",
+    items: [
+      ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
+      ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
+      ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
+      ["📅", "Google Calendar", "Agregan el evento a su calendario fácilmente."],
+      ["⏳", "Cuenta regresiva", "Conteo automático hasta la fecha del evento."],
+      ["🎵", "Música", "Puedes agregar una canción especial para tu evento."],
+      ["📸", "Álbum de fotos", "Los invitados pueden subir fotos del evento."],
+      ["❤️", "Foto ganadora", "Los invitados pueden dar me gusta y elegir la foto favorita."],
+      ["👥", "Enlaces para invitados", "Cada invitado puede recibir un enlace con su nombre."],
+      ["🖥️", "Panel administrativo", "Maneja invitados, respuestas, mesas, fotos y música."],
+      ["🪑", "Mesas", "Organiza invitados por mesa desde el panel."],
+      ["🍽️", "Menú", "Muestra las opciones de comida del evento."],
+      ["🎁", "Regalos", "Agrega lluvia de sobres, cuenta bancaria o lista de regalos."],
+      ["♾️", "Enlace ilimitado", "Comparte tu invitación todas las veces que quieras."],
+      ["🌐", "Página web del evento", "Tu evento tendrá su propio enlace digital."],
+    ],
+  },
+
   us: {
     title: "Everything included",
     subtitle: "Your digital invitation includes these features:",
@@ -73,7 +96,7 @@ const content = {
   jp: {
     title: "すべて込み",
     subtitle: "デジタル招待状に含まれる機能：",
-    price: "¥15,000",
+    price: "¥7,900",
     items: [
       ["✉️", "インタラクティブ封筒", "ゲストが特別な演出で招待状を開けます。"],
       ["✅", "出欠確認", "ゲストの出席・欠席を確認できます。"],
