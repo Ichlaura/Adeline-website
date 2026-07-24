@@ -22,7 +22,14 @@ function Footer() {
       terms: "Términos y condiciones",
       rights: "© 2026 Adelina. Todos los derechos reservados.",
     },
-
+    mx: {
+      tagline: "Invitaciones digitales para tus eventos especiales",
+      services:
+        "Matrimonios • Quince Años • Cumpleaños • Baby Shower • Eventos Corporativos",
+      privacy: "Política de privacidad",
+      terms: "Términos y condiciones",
+      rights: "© 2026 Adelina. Todos los derechos reservados.",
+    },
     us: {
       tagline: "Digital invitations for your special events",
       services:
