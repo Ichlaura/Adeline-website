@@ -1,4 +1,4 @@
-export type CountryCode = "co" | "pe" | "us" | "jp";
+export type CountryCode = "co" | "pe" | "us" | "jp" | "mx";
 
 export type Invitation = {
   title: string;

@@ -1,9 +1,9 @@
-export type CountryCode = "co" | "pe" | "us" | "jp";
-
+export type CountryCode = "co" | "pe" | "us" | "jp" | "mx";
 export const countries = [
   { code: "co" as CountryCode, name: "Colombia", flag: "/co.png" },
   { code: "pe" as CountryCode, name: "Perú", flag: "/pe.png" },
   { code: "us" as CountryCode, name: "United States", flag: "/us.png" },
+  { code: "mx" as CountryCode, name: "México", flag: "/mx.png" },
   { code: "jp" as CountryCode, name: "日本", flag: "/jp.png" },
 ];
 
@@ -30,6 +30,26 @@ export const countrySettings = {
   heroTag: "Adelina Invitaciones",
   heroTitle: "Invitaciones digitales\npara tus eventos especiales",
   heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
+  viewDesigns: "Ver diseños",
+  categories: [
+    "Matrimonio",
+    "Quince Años",
+    "Cumpleaños y fiestas infantiles",
+    "Baby Shower",
+    "Revelación de género",
+    "Graduación",
+    "Primera comunión y bautismo",
+    "Corporativo",
+    "Celebraciones y fiestas",
+  ],
+},
+
+
+mx: {
+  heroTag: "Adelina Invitaciones",
+  heroTitle: "Invitaciones digitales\npara tus eventos especiales",
+  heroText:
+    "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
   categories: [
     "Matrimonio",

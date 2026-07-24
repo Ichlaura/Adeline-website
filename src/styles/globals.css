@@ -2078,5 +2078,43 @@ body,
   border-radius: 50%;
 }
 
+/* Tarjetas: interacción correcta en computadora */
+
+@media (hover: hover) and (pointer: fine) {
+  .invite-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 26px 70px rgba(83, 58, 31, 0.18);
+  }
+}
+
+/* Tarjetas: interacción correcta en celular */
+
+@media (hover: none), (pointer: coarse) {
+  .invite-card:hover {
+    transform: none;
+  }
+
+  .invite-card {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  .invite-card:active {
+    transform: scale(0.985);
+  }
+
+  .invite-card-open {
+    box-shadow:
+      0 22px 55px rgba(83, 58, 31, 0.18),
+      0 0 0 2px rgba(184, 138, 69, 0.25);
+  }
+
+  .card-content p {
+    color: #a47738;
+    font-weight: 700;
+  }
+}
+
 
 
