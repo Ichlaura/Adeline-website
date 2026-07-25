@@ -1,8 +1,6 @@
 import "../styles/CategoryPage.css";
-import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
 import { invitations } from "../data/invitations";
 import type { CountryCode } from "../data/countries";
 
@@ -45,7 +43,7 @@ const categoryText = {
 };
 
 function CategoryPage() {
-  const [showContact, setShowContact] = useState(false);
+
 
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
@@ -62,8 +60,7 @@ function CategoryPage() {
 
   return (
     <main className="category-page">
-      <Navbar onContactClick={() => setShowContact(true)} />
-
+<Navbar />
       <section className="category-hero">
         <button
           className="back-button"
@@ -103,8 +100,7 @@ function CategoryPage() {
         ))}
       </section>
 
-      {showContact && <Contact />}
-
+    
       <Footer />
     </main>
   );

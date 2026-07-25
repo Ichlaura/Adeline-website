@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { countries, type CountryCode } from "../data/countries";
 
-type NavbarProps = {
-  onContactClick: () => void;
-};
+
 
 const navText = {
   co: {
@@ -38,7 +36,7 @@ const navText = {
   },
 };
 
-function Navbar({ onContactClick }: NavbarProps) {
+function Navbar() {  
   const [open, setOpen] = useState(false);
   const [countryOpen, setCountryOpen] = useState(false);
 
@@ -68,31 +66,41 @@ function Navbar({ onContactClick }: NavbarProps) {
         ☰
       </button>
 
-      <div className={open ? "nav-links nav-open" : "nav-links"}>
-        <a
-          onClick={() => {
-            setOpen(false);
-            document
-              .getElementById("designs")
-              ?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          {text.designs}
-        </a>
+      
+    
 
-        <a
-          onClick={() => {
-            onContactClick();
-            setOpen(false);
-            setTimeout(() => {
-              document
-                .getElementById("contact")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }, 100);
-          }}
-        >
-          {text.contact}
-        </a>
+
+
+<div className={open ? "nav-links nav-open" : "nav-links"}>
+  <a
+    onClick={() => {
+      setOpen(false);
+
+      if (window.location.pathname === "/") {
+        document
+          .getElementById("designs")
+          ?.scrollIntoView({ behavior: "smooth" });
+      } else {
+        sessionStorage.setItem("fromCategory", "true");
+        window.location.href = "/#designs";
+      }
+    }}
+  >
+    {text.designs}
+  </a>
+
+  <a
+    onClick={() => {
+      setOpen(false);
+      window.location.href = "/contact";
+    }}
+  >
+    {text.contact}
+  </a>
+
+
+
+
 
         <div className="country-switcher">
           <button

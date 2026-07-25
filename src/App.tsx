@@ -3,17 +3,20 @@ import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import CountrySelector from "./components/CountrySelector";
 import { countrySettings, type CountryCode } from "./data/countries";
+import Contact from "./pages/Contact";
+
 function App() {
   const isCategoryPage = window.location.pathname.startsWith("/category/");
+  const isContactPage = window.location.pathname === "/contact";
   const fromCategory = sessionStorage.getItem("fromCategory") === "true";
 
-  const [country, setCountry] = useState<CountryCode | null>(() => {
-    if (isCategoryPage || fromCategory) {
-      return (localStorage.getItem("adelina-country") as CountryCode) || null;
-    }
+const [country, setCountry] = useState<CountryCode | null>(() => {
+  if (isCategoryPage || isContactPage || fromCategory) {
+    return (localStorage.getItem("adelina-country") as CountryCode) || null;
+  }
 
-    return null;
-  });
+  return null;
+});
 
   if (!isCategoryPage && fromCategory) {
     sessionStorage.removeItem("fromCategory");
@@ -24,15 +27,22 @@ function App() {
     setCountry(selectedCountry);
   }
 
-  if (!country) {
-    return <CountrySelector onSelect={chooseCountry} />;
-  }
-
+ if (!country && !isContactPage) {
+  return <CountrySelector onSelect={chooseCountry} />;
+}
   if (isCategoryPage) {
     return <CategoryPage />;
   }
 
-  return <Home settings={countrySettings[country]} />;
+if (isContactPage) {
+  
+  return <Contact settings={countrySettings[country!]} />;
 }
+
+return country ? (
+  <Home settings={countrySettings[country]} />
+) : (
+  <CountrySelector onSelect={chooseCountry} />
+);}
 
 export default App;
