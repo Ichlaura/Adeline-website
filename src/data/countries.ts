@@ -13,6 +13,19 @@ export const countrySettings = {
     heroTitle: "Invitaciones digitales\npara tus eventos especiales",
     heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
     viewDesigns: "Ver diseños",
+
+contact: {
+  title: "Contáctanos",
+  description:
+    "Nos encantaría ayudarte. Si tienes preguntas sobre nuestras invitaciones o diseños personalizados, envíanos un mensaje.",
+  success: "Mensaje enviado correctamente.",
+  name: "Tu nombre",
+  email: "Correo electrónico",
+  message: "Cuéntanos cómo podemos ayudarte...",
+  send: "Enviar mensaje",
+  sending: "Enviando..."
+},
+
     categories: [
       "Matrimonio",
       "Quince Años",
@@ -31,6 +44,19 @@ export const countrySettings = {
   heroTitle: "Invitaciones digitales\npara tus eventos especiales",
   heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
+
+  contact: {
+  title: "Contáctanos",
+  description:
+    "Nos encantaría ayudarte. Si tienes preguntas sobre nuestras invitaciones o diseños personalizados, envíanos un mensaje.",
+  success: "Mensaje enviado correctamente.",
+  name: "Tu nombre",
+  email: "Correo electrónico",
+  message: "Cuéntanos cómo podemos ayudarte...",
+  send: "Enviar mensaje",
+  sending: "Enviando..."
+},
+
   categories: [
     "Matrimonio",
     "Quince Años",
@@ -51,6 +77,20 @@ mx: {
   heroText:
     "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
+
+contact: {
+  title: "Contáctanos",
+  description:
+    "Nos encantaría ayudarte. Si tienes preguntas sobre nuestras invitaciones o diseños personalizados, envíanos un mensaje.",
+  success: "Mensaje enviado correctamente.",
+  name: "Tu nombre",
+  email: "Correo electrónico",
+  message: "Cuéntanos cómo podemos ayudarte...",
+  send: "Enviar mensaje",
+  sending: "Enviando..."
+},
+
+
   categories: [
     "Matrimonio",
     "Quince Años",
@@ -69,6 +109,19 @@ us: {
   heroTitle: "Digital invitations\nfor your special events",
   heroText: "Weddings, birthdays, baby showers, graduations and special events.",
   viewDesigns: "View designs",
+
+contact: {
+  title: "Contact Us",
+  description:
+    "We'd love to hear from you. Have questions about our invitations or custom designs? Send us a message.",
+  success: "Message sent successfully.",
+  name: "Your name",
+  email: "Email address",
+  message: "Tell us how we can help...",
+  send: "Send Message",
+  sending: "Sending..."
+},
+
   categories: [
     "Wedding",
     "Quinceañera",
@@ -87,6 +140,20 @@ jp: {
   heroTitle: "特別な日のための\nデジタル招待状",
   heroText: "結婚式、誕生日、ベビーシャワー、卒業式、特別イベント。",
   viewDesigns: "デザインを見る",
+
+
+contact: {
+  title: "お問い合わせ",
+  description:
+    "招待状やオーダーメイドデザインについてご質問がございましたら、お気軽にお問い合わせください。",
+  success: "メッセージを送信しました。",
+  name: "お名前",
+  email: "メールアドレス",
+  message: "お問い合わせ内容をご入力ください...",
+  send: "送信",
+  sending: "送信中..."
+},
+
   categories: [
     "結婚式",
     "キンセアニェーラ",

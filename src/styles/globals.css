@@ -1819,11 +1819,7 @@ body,
    CONTACT
 =========================== */
 
-.contact-section {
-  padding: 100px 20px;
-  display: flex;
-  justify-content: center;
-}
+
 
 .contact-card {
   width: min(760px, 100%);
@@ -2118,3 +2114,98 @@ body,
 
 
 
+
+
+
+
+
+.contact-section {
+  width: min(900px, 92%);
+  margin: 0 auto 80px;
+  padding: 20px 20px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  background: #c89b5b;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 34px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+.contact-form button:hover {
+  background: #b88743;
+}
+
+.contact-success {
+  background: #edf8ef;
+  color: #2f7d32;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 28px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}
+
+/* SOLO PARA LA PÁGINA CONTACT */
+
+.contact-page .category-hero{
+    padding-top: 140px;
+    padding-bottom: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-page .category-hero h1{
+    margin-top: 10px;
+}
+
+.contact-page .category-hero p{
+    max-width: 700px;
+    margin: 20px auto 0;
+}
+
+.contact-page .back-button{
+    margin-bottom: 40px;
+}
