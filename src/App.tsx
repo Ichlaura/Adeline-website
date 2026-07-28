@@ -34,15 +34,15 @@ const [country, setCountry] = useState<CountryCode | null>(() => {
     setCountry(selectedCountry);
   }
 
- if (!country && !isContactPage) {
+if (!country && !isContactPage && !isPricingPage && !isCategoryPage) {
   return <CountrySelector onSelect={chooseCountry} />;
 }
   if (isCategoryPage) {
     return <CategoryPage />;
   }
 
-  if (isPricingPage) {
-  return <Pricing />;
+if (isPricingPage) {
+  return <Pricing settings={countrySettings[country!]} />;
 }
 
 if (isContactPage) {
