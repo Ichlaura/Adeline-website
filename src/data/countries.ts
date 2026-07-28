@@ -26,6 +26,48 @@ contact: {
   sending: "Enviando..."
 },
 
+
+pricing: {
+  basic: "$60.000 COP",
+  standard: "$90.000 COP",
+  premium: "$160.000 COP",
+
+
+title: "Precios",
+description:
+  "Elige el paquete de invitación perfecto para tu evento especial.",
+back: "Inicio",
+
+features: "Características",
+basicPlan: "Basic",
+standardPlan: "Standard",
+premiumPlan: "Premium",
+mostPopular: "Más popular",
+price: "Precio",
+
+interactiveEnvelope: "Sobre interactivo",
+eventWebsite: "Sitio web del evento",
+maps: "Google Maps",
+calendar: "Google Calendar",
+rsvp: "Confirmación de asistencia (RSVP)",
+adminPanel: "Panel administrativo",
+music: "Música",
+qrCode: "Código QR",
+giftSectionText: "Sección de regalos (texto)",
+unlimitedSharing: "Compartir ilimitadamente",
+countdown: "Cuenta regresiva",
+photoAlbum: "Álbum de fotos (los invitados pueden subir fotos)",
+photoVoting: "Votación de fotos (Me gusta)",
+customPhoto: "Foto personalizada del homenajeado o la pareja",
+personalizedInvitations:
+  "Invitaciones personalizadas con el nombre de cada invitado",
+tableAssignment: "Asignación de mesas",
+advancedGiftSection:
+  "Sección de regalos avanzada (cuenta bancaria y/o lista de regalos con enlaces)",
+
+
+},
+
     categories: [
       "Matrimonio",
       "Quince Años",
@@ -55,6 +97,48 @@ contact: {
   message: "Cuéntanos cómo podemos ayudarte...",
   send: "Enviar mensaje",
   sending: "Enviando..."
+},
+
+pricing: {
+  basic: "S/ 50",
+  standard: "S/ 80",
+  premium: "S/ 150",
+
+ 
+
+title: "Precios",
+description:
+  "Elige el paquete de invitación perfecto para tu evento especial.",
+back: "Inicio",
+
+features: "Características",
+basicPlan: "Basic",
+standardPlan: "Standard",
+premiumPlan: "Premium",
+mostPopular: "Más popular",
+price: "Precio",
+
+interactiveEnvelope: "Sobre interactivo",
+eventWebsite: "Sitio web del evento",
+maps: "Google Maps",
+calendar: "Google Calendar",
+rsvp: "Confirmación de asistencia (RSVP)",
+adminPanel: "Panel administrativo",
+music: "Música",
+qrCode: "Código QR",
+giftSectionText: "Sección de regalos (texto)",
+unlimitedSharing: "Compartir ilimitadamente",
+countdown: "Cuenta regresiva",
+photoAlbum: "Álbum de fotos (los invitados pueden subir fotos)",
+photoVoting: "Votación de fotos (Me gusta)",
+customPhoto: "Foto personalizada del homenajeado o la pareja",
+personalizedInvitations:
+  "Invitaciones personalizadas con el nombre de cada invitado",
+tableAssignment: "Asignación de mesas",
+advancedGiftSection:
+  "Sección de regalos avanzada (cuenta bancaria y/o lista de regalos con enlaces)",
+
+
 },
 
   categories: [
@@ -91,6 +175,48 @@ contact: {
 },
 
 
+pricing: {
+  basic: "MX$300",
+  standard: "MX$500",
+  premium: "MX$800",
+
+
+
+title: "Precios",
+description:
+  "Elige el paquete de invitación perfecto para tu evento especial.",
+back: "Inicio",
+
+features: "Características",
+basicPlan: "Basic",
+standardPlan: "Standard",
+premiumPlan: "Premium",
+mostPopular: "Más popular",
+price: "Precio",
+
+interactiveEnvelope: "Sobre interactivo",
+eventWebsite: "Sitio web del evento",
+maps: "Google Maps",
+calendar: "Google Calendar",
+rsvp: "Confirmación de asistencia (RSVP)",
+adminPanel: "Panel administrativo",
+music: "Música",
+qrCode: "Código QR",
+giftSectionText: "Sección de regalos (texto)",
+unlimitedSharing: "Compartir ilimitadamente",
+countdown: "Cuenta regresiva",
+photoAlbum: "Álbum de fotos (los invitados pueden subir fotos)",
+photoVoting: "Votación de fotos (Me gusta)",
+customPhoto: "Foto personalizada del homenajeado o la pareja",
+personalizedInvitations:
+  "Invitaciones personalizadas con el nombre de cada invitado",
+tableAssignment: "Asignación de mesas",
+advancedGiftSection:
+  "Sección de regalos avanzada (cuenta bancaria y/o lista de regalos con enlaces)",
+
+
+},
+
   categories: [
     "Matrimonio",
     "Quince Años",
@@ -120,6 +246,50 @@ contact: {
   message: "Tell us how we can help...",
   send: "Send Message",
   sending: "Sending..."
+},
+
+
+pricing: {
+  basic: "US$30",
+  standard: "US$50",
+  premium: "US$80",
+
+ 
+
+title: "Pricing",
+description:
+  "Choose the perfect invitation package for your special event.",
+back: "Home",
+
+features: "Features",
+basicPlan: "Basic",
+standardPlan: "Standard",
+premiumPlan: "Premium",
+mostPopular: "Most popular",
+price: "Price",
+
+interactiveEnvelope: "Interactive envelope",
+eventWebsite: "Event website",
+maps: "Google Maps",
+calendar: "Google Calendar",
+rsvp: "Attendance confirmation (RSVP)",
+adminPanel: "Admin panel",
+music: "Music",
+qrCode: "QR code",
+giftSectionText: "Gift section (text)",
+unlimitedSharing: "Unlimited sharing",
+countdown: "Countdown",
+photoAlbum: "Photo album (guests can upload photos)",
+photoVoting: "Photo voting (Like)",
+customPhoto: "Custom photo of the honoree or couple",
+personalizedInvitations:
+  "Personalized invitations with each guest’s name",
+tableAssignment: "Table assignment",
+advancedGiftSection:
+  "Advanced gift section (bank account and/or gift list with links)",
+
+
+
 },
 
   categories: [
@@ -152,6 +322,46 @@ contact: {
   message: "お問い合わせ内容をご入力ください...",
   send: "送信",
   sending: "送信中..."
+},
+
+
+
+pricing: {
+  basic: "US$30",
+  standard: "US$50",
+  premium: "US$80",
+
+ title: "料金",
+description:
+  "特別なイベントにぴったりの招待状プランをお選びください。",
+back: "ホーム",
+
+features: "機能",
+basicPlan: "ベーシック",
+standardPlan: "スタンダード",
+premiumPlan: "プレミアム",
+mostPopular: "一番人気",
+price: "料金",
+
+interactiveEnvelope: "インタラクティブ封筒",
+eventWebsite: "イベントウェブサイト",
+maps: "Google マップ",
+calendar: "Google カレンダー",
+rsvp: "出欠確認（RSVP）",
+adminPanel: "管理パネル",
+music: "音楽",
+qrCode: "QRコード",
+giftSectionText: "ギフト案内（テキスト）",
+unlimitedSharing: "無制限共有",
+countdown: "カウントダウン",
+photoAlbum: "フォトアルバム（ゲストが写真を投稿可能）",
+photoVoting: "写真投票（いいね）",
+customPhoto: "主役またはカップルのカスタム写真",
+personalizedInvitations:
+  "ゲスト名入りのパーソナライズ招待状",
+tableAssignment: "座席・テーブル割り当て",
+advancedGiftSection:
+  "高度なギフト案内（銀行口座またはリンク付きギフトリスト）",
 },
 
   categories: [

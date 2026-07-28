@@ -4,14 +4,21 @@ import CategoryPage from "./pages/CategoryPage";
 import CountrySelector from "./components/CountrySelector";
 import { countrySettings, type CountryCode } from "./data/countries";
 import Contact from "./pages/Contact";
+import Pricing from "./pages/Pricing";
 
 function App() {
   const isCategoryPage = window.location.pathname.startsWith("/category/");
   const isContactPage = window.location.pathname === "/contact";
+  const isPricingPage = window.location.pathname === "/pricing";
   const fromCategory = sessionStorage.getItem("fromCategory") === "true";
 
 const [country, setCountry] = useState<CountryCode | null>(() => {
-  if (isCategoryPage || isContactPage || fromCategory) {
+  if (
+  isCategoryPage ||
+  isContactPage ||
+  isPricingPage ||
+  fromCategory
+) {
     return (localStorage.getItem("adelina-country") as CountryCode) || null;
   }
 
@@ -27,12 +34,16 @@ const [country, setCountry] = useState<CountryCode | null>(() => {
     setCountry(selectedCountry);
   }
 
- if (!country && !isContactPage) {
+if (!country && !isContactPage && !isPricingPage && !isCategoryPage) {
   return <CountrySelector onSelect={chooseCountry} />;
 }
   if (isCategoryPage) {
     return <CategoryPage />;
   }
+
+if (isPricingPage) {
+  return <Pricing settings={countrySettings[country!]} />;
+}
 
 if (isContactPage) {
   
