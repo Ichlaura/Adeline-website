@@ -6,30 +6,35 @@ import { countries, type CountryCode } from "../data/countries";
 const navText = {
   co: {
     designs: "Diseños",
+    pricing: "Precios",
     contact: "Contacto",
     changeCountry: "🌎 Cambiar país",
     menu: "Abrir menú",
   },
   pe: {
     designs: "Diseños",
+    pricing: "Precios",
     contact: "Contacto",
     changeCountry: "🌎 Cambiar país",
     menu: "Abrir menú",
   },
     mx: {
     designs: "Diseños",
+    pricing: "Precios",
     contact: "Contacto",
     changeCountry: "🌎 Cambiar país",
     menu: "Abrir menú",
   },
   us: {
     designs: "Designs",
+    pricing: "Pricing",
     contact: "Contact",
     changeCountry: "🌎 Change country",
     menu: "Open menu",
   },
   jp: {
     designs: "デザイン",
+    pricing: "料金",
     contact: "お問い合わせ",
     changeCountry: "🌎 国を変更",
     menu: "メニューを開く",
@@ -99,6 +104,16 @@ function Navbar() {
   </a>
 
 
+
+
+<a
+  onClick={() => {
+    setOpen(false);
+    window.location.href = "/pricing";
+  }}
+>
+  {text.pricing}
+</a>
 
 
 
