@@ -50,10 +50,9 @@ function Pricing({ settings }: Props) {
     <tr>
       <th>{settings.pricing.features}</th>
       <th>{settings.pricing.basicPlan}</th>
-      <th>
-        {settings.pricing.standardPlan} ⭐{" "}
-        <span>{settings.pricing.mostPopular}</span>
-      </th>
+
+      <th>{settings.pricing.standardPlan}</th>
+
       <th>{settings.pricing.premiumPlan}</th>
     </tr>
   </thead>

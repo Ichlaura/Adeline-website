@@ -42,7 +42,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -115,7 +115,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -192,7 +192,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -266,7 +266,7 @@ features: "Features",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Most popular",
+
 price: "Price",
 
 interactiveEnvelope: "Interactive envelope",
@@ -341,7 +341,7 @@ features: "機能",
 basicPlan: "ベーシック",
 standardPlan: "スタンダード",
 premiumPlan: "プレミアム",
-mostPopular: "一番人気",
+
 price: "料金",
 
 interactiveEnvelope: "インタラクティブ封筒",
