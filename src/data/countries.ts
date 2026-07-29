@@ -13,7 +13,6 @@ export const countrySettings = {
     heroTitle: "Invitaciones digitales\npara tus eventos especiales",
     heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
     viewDesigns: "Ver diseños",
-eventProgram: "Programa del evento",
 contact: {
   title: "Contáctanos",
   description:
@@ -49,6 +48,7 @@ interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
 calendar: "Google Calendar",
+eventProgram: "Programa del evento",
 rsvp: "Confirmación de asistencia (RSVP)",
 adminPanel: "Panel administrativo",
 music: "Música",
@@ -86,7 +86,6 @@ advancedGiftSection:
   heroTitle: "Invitaciones digitales\npara tus eventos especiales",
   heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
-eventProgram: "Programa del evento",
   contact: {
   title: "Contáctanos",
   description:
@@ -122,6 +121,8 @@ interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
 calendar: "Google Calendar",
+eventProgram: "Programa del evento",
+
 rsvp: "Confirmación de asistencia (RSVP)",
 adminPanel: "Panel administrativo",
 music: "Música",
@@ -161,7 +162,6 @@ mx: {
   heroText:
     "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
-  eventProgram: "Programa del evento",
 
 contact: {
   title: "Contáctanos",
@@ -199,6 +199,7 @@ interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
 calendar: "Google Calendar",
+eventProgram: "Programa del evento",
 rsvp: "Confirmación de asistencia (RSVP)",
 adminPanel: "Panel administrativo",
 music: "Música",
@@ -236,7 +237,6 @@ us: {
   heroTitle: "Digital invitations\nfor your special events",
   heroText: "Weddings, birthdays, baby showers, graduations and special events.",
   viewDesigns: "View designs",
-eventProgram: "Event program",
 contact: {
   title: "Contact Us",
   description:
@@ -273,6 +273,7 @@ interactiveEnvelope: "Interactive envelope",
 eventWebsite: "Event website",
 maps: "Google Maps",
 calendar: "Google Calendar",
+eventProgram: "Event program",
 rsvp: "Attendance confirmation (RSVP)",
 adminPanel: "Admin panel",
 music: "Music",
@@ -311,7 +312,6 @@ jp: {
   heroTitle: "特別な日のための\nデジタル招待状",
   heroText: "結婚式、誕生日、ベビーシャワー、卒業式、特別イベント。",
   viewDesigns: "デザインを見る",
-eventProgram: "イベントプログラム",
 
 contact: {
   title: "お問い合わせ",
@@ -348,6 +348,7 @@ interactiveEnvelope: "インタラクティブ封筒",
 eventWebsite: "イベントウェブサイト",
 maps: "Google マップ",
 calendar: "Google カレンダー",
+eventProgram: "イベントプログラム",
 rsvp: "出欠確認（RSVP）",
 adminPanel: "管理パネル",
 music: "音楽",
