@@ -4,12 +4,13 @@ const content = {
   co: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "$150.000 COP",
+   
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
       ["📅", "Google Calendar", "Agregan el evento a su calendario fácilmente."],
+      ["📋", "Programa del evento", "Muestra el cronograma completo de la celebración."],
       ["⏳", "Cuenta regresiva", "Conteo automático hasta la fecha del evento."],
       ["🎵", "Música", "Puedes agregar una canción especial para tu evento."],
       ["📸", "Álbum de fotos", "Los invitados pueden subir fotos del evento."],
@@ -27,12 +28,13 @@ const content = {
   pe: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "S/ 110",
+   
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
       ["📅", "Google Calendar", "Agregan el evento a su calendario fácilmente."],
+      ["📋", "Programa del evento", "Muestra el cronograma completo de la celebración."],
       ["⏳", "Cuenta regresiva", "Conteo automático hasta la fecha del evento."],
       ["🎵", "Música", "Puedes agregar una canción especial para tu evento."],
       ["📸", "Álbum de fotos", "Los invitados pueden subir fotos del evento."],
@@ -50,12 +52,13 @@ const content = {
   mx: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "MX$800",
+    
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
       ["📅", "Google Calendar", "Agregan el evento a su calendario fácilmente."],
+      ["📋", "Programa del evento", "Muestra el cronograma completo de la celebración."],
       ["⏳", "Cuenta regresiva", "Conteo automático hasta la fecha del evento."],
       ["🎵", "Música", "Puedes agregar una canción especial para tu evento."],
       ["📸", "Álbum de fotos", "Los invitados pueden subir fotos del evento."],
@@ -73,12 +76,13 @@ const content = {
   us: {
     title: "Everything included",
     subtitle: "Your digital invitation includes these features:",
-    price: "$99 USD",
+    
     items: [
       ["✉️", "Interactive envelope", "Guests open the invitation as a special experience."],
       ["✅", "RSVP confirmation", "Guests confirm whether they will attend or not."],
       ["📍", "Google Maps", "Guests open the location with one click."],
       ["📅", "Google Calendar", "Guests can add the event to their calendar."],
+      ["📋", "Event program", "Display the complete schedule of the celebration."],
       ["⏳", "Countdown", "Automatic countdown to the event date."],
       ["🎵", "Music", "Add a special song for your event."],
       ["📸", "Photo album", "Guests can upload event photos."],
@@ -96,12 +100,13 @@ const content = {
   jp: {
     title: "すべて込み",
     subtitle: "デジタル招待状に含まれる機能：",
-    price: "¥7,900",
+  
     items: [
       ["✉️", "インタラクティブ封筒", "ゲストが特別な演出で招待状を開けます。"],
       ["✅", "出欠確認", "ゲストの出席・欠席を確認できます。"],
       ["📍", "Googleマップ", "ワンクリックで会場の場所を開けます。"],
       ["📅", "Googleカレンダー", "イベントをカレンダーに追加できます。"],
+      ["📋", "イベントプログラム", "イベントの完全なスケジュールを表示できます。"],
       ["⏳", "カウントダウン", "イベント日まで自動でカウントダウンします。"],
       ["🎵", "音楽", "イベント用の特別な曲を設定できます。"],
       ["📸", "写真アルバム", "ゲストが写真をアップロードできます。"],
@@ -128,7 +133,7 @@ function Pricing() {
       <div className="features-pricing-header">
         <h2>{text.title}</h2>
         <p>{text.subtitle}</p>
-        <strong>{text.price}</strong>
+       
       </div>
 
       <div className="features-list-grid">

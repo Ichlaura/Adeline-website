@@ -13,7 +13,7 @@ export const countrySettings = {
     heroTitle: "Invitaciones digitales\npara tus eventos especiales",
     heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
     viewDesigns: "Ver diseños",
-
+eventProgram: "Programa del evento",
 contact: {
   title: "Contáctanos",
   description:
@@ -42,7 +42,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -86,7 +86,7 @@ advancedGiftSection:
   heroTitle: "Invitaciones digitales\npara tus eventos especiales",
   heroText: "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
-
+eventProgram: "Programa del evento",
   contact: {
   title: "Contáctanos",
   description:
@@ -115,7 +115,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -161,6 +161,7 @@ mx: {
   heroText:
     "Bodas, quince años, cumpleaños, baby showers y eventos especiales.",
   viewDesigns: "Ver diseños",
+  eventProgram: "Programa del evento",
 
 contact: {
   title: "Contáctanos",
@@ -191,7 +192,7 @@ features: "Características",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Más popular",
+
 price: "Precio",
 
 interactiveEnvelope: "Sobre interactivo",
@@ -235,7 +236,7 @@ us: {
   heroTitle: "Digital invitations\nfor your special events",
   heroText: "Weddings, birthdays, baby showers, graduations and special events.",
   viewDesigns: "View designs",
-
+eventProgram: "Event program",
 contact: {
   title: "Contact Us",
   description:
@@ -265,7 +266,7 @@ features: "Features",
 basicPlan: "Basic",
 standardPlan: "Standard",
 premiumPlan: "Premium",
-mostPopular: "Most popular",
+
 price: "Price",
 
 interactiveEnvelope: "Interactive envelope",
@@ -310,7 +311,7 @@ jp: {
   heroTitle: "特別な日のための\nデジタル招待状",
   heroText: "結婚式、誕生日、ベビーシャワー、卒業式、特別イベント。",
   viewDesigns: "デザインを見る",
-
+eventProgram: "イベントプログラム",
 
 contact: {
   title: "お問い合わせ",
@@ -340,7 +341,7 @@ features: "機能",
 basicPlan: "ベーシック",
 standardPlan: "スタンダード",
 premiumPlan: "プレミアム",
-mostPopular: "一番人気",
+
 price: "料金",
 
 interactiveEnvelope: "インタラクティブ封筒",

@@ -141,22 +141,7 @@ function Navbar() {
               {text.changeCountry}
             </button>
 
-            {countries.map((country) => (
-              <button
-                key={country.code}
-                onClick={() => {
-                  localStorage.setItem("adelina-country", country.code);
-                  window.location.href = "/";
-                }}
-              >
-                <img
-                  src={country.flag}
-                  alt={country.name}
-                  className="country-flag-small"
-                />
-                {country.name}
-              </button>
-            ))}
+ 
           </div>
         </div>
       </div>
