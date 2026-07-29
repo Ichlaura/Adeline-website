@@ -30,6 +30,7 @@ Siempre actualizar la rama principal:
 
 npm run dev 
 
+para cambiar de rama con : git switch <nombree　de la rama>
 4. Guardar cambios
 
     git add .
