@@ -94,6 +94,14 @@ function Pricing({ settings }: Props) {
       <td>✅</td>
     </tr>
 
+
+<tr>
+  <td>{settings.pricing.eventProgram}</td>
+  <td>✅</td>
+  <td>✅</td>
+  <td>✅</td>
+</tr>
+
     <tr>
       <td>{settings.pricing.rsvp}</td>
       <td>✅</td>
