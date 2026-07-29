@@ -4,7 +4,7 @@ const content = {
   co: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "$150.000 COP",
+   
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
@@ -27,7 +27,7 @@ const content = {
   pe: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "S/ 110",
+   
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
@@ -50,7 +50,7 @@ const content = {
   mx: {
     title: "Todo incluido",
     subtitle: "Tu invitación digital incluye estas funciones:",
-    price: "MX$800",
+    
     items: [
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
@@ -73,7 +73,7 @@ const content = {
   us: {
     title: "Everything included",
     subtitle: "Your digital invitation includes these features:",
-    price: "$99 USD",
+    
     items: [
       ["✉️", "Interactive envelope", "Guests open the invitation as a special experience."],
       ["✅", "RSVP confirmation", "Guests confirm whether they will attend or not."],
@@ -96,7 +96,7 @@ const content = {
   jp: {
     title: "すべて込み",
     subtitle: "デジタル招待状に含まれる機能：",
-    price: "¥7,900",
+  
     items: [
       ["✉️", "インタラクティブ封筒", "ゲストが特別な演出で招待状を開けます。"],
       ["✅", "出欠確認", "ゲストの出席・欠席を確認できます。"],
@@ -128,7 +128,7 @@ function Pricing() {
       <div className="features-pricing-header">
         <h2>{text.title}</h2>
         <p>{text.subtitle}</p>
-        <strong>{text.price}</strong>
+       
       </div>
 
       <div className="features-list-grid">
