@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { invitations } from "../data/invitations";
 import type { CountryCode } from "../data/countries";
 
@@ -44,6 +44,17 @@ const canHover = window.matchMedia(
   const categoryCards = invitations.filter(
     (item) => item.category === title && item.country === currentCountry
   );
+
+
+useEffect(() => {
+  categoryCards.forEach((card) => {
+    const closed = new Image();
+    closed.src = card.closedImage;
+
+    const open = new Image();
+    open.src = card.openImage;
+  });
+}, [categoryCards]);
 
   if (categoryCards.length === 0) return null;
 
