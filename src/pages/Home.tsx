@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
 import Footer from "../components/Footer";
 import Pricing from "../components/Pricing";
+import type { CountryCode } from "../data/countries";
 
 type HomeProps = {
   settings: {
@@ -16,6 +17,9 @@ type HomeProps = {
 };
 
 function Home({ settings }: HomeProps) {
+
+  const currentCountry =
+  (localStorage.getItem("adelina-country") as CountryCode) || "co";
   return (
     <main className="home">
 <Navbar />      
@@ -74,16 +78,25 @@ function Home({ settings }: HomeProps) {
 <Footer />
 
 
-
-
-<a
-  href="https://wa.me/573124182741?text=Hola%20quiero%20información%20sobre%20las%20invitaciones."
-  className="whatsapp-button"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img src="/whatsapp.png" alt="WhatsApp" />
-</a>
+{currentCountry === "jp" ? (
+  <a
+    href="https://line.me/ti/p/TU_LINE_ID"
+    className="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/line.png" alt="LINE" />
+  </a>
+) : (
+  <a
+    href="https://wa.me/573124182741?text=Hola%20quiero%20información%20sobre%20las%20invitaciones."
+    className="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/whatsapp.png" alt="WhatsApp" />
+  </a>
+)}
 
 
 
