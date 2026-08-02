@@ -2071,7 +2071,11 @@ body,
   width: 46px !important;
   height: 46px !important;
   object-fit: cover !important;
+    object-position: center;
+
   border-radius: 50%;
+    display: block;
+
 }
 
 /* Tarjetas: interacción correcta en computadora */
