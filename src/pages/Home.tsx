@@ -85,7 +85,7 @@ function Home({ settings }: HomeProps) {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/line.png" alt="LINE" />
+    <img src="/line.webp" alt="LINE" />
   </a>
 ) : (
   <a
@@ -94,7 +94,7 @@ function Home({ settings }: HomeProps) {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/whatsapp.png" alt="WhatsApp" />
+    <img src="/whatsapp.webp" alt="WhatsApp" />
   </a>
 )}
 
