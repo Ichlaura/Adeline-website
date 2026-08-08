@@ -60,7 +60,7 @@ function Navbar() {
           window.location.href = "/";
         }}
       >
-        <img src="/adelina-logo-header.png" alt="Adelina" />
+        <img src="/adelina-logo-header.webp" alt="Adelina" />
       </div>
 
       <button
