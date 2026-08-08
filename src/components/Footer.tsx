@@ -54,7 +54,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src="/adelina-logo.png" alt="Adelina" />
+        <img src="/adelina-logo.webp" alt="Adelina" />
       </div>
 
       <p className="footer-tagline">{t.tagline}</p>
@@ -70,7 +70,7 @@ function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/instagram.png" alt="Instagram" />
+    <img src="/instagram.webp" alt="Instagram" />
     <span>Instagram</span>
   </a>
 
@@ -79,7 +79,7 @@ function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/facebook.png" alt="Facebook" />
+    <img src="/facebook.webp" alt="Facebook" />
     <span>Facebook</span>
   </a>
 
@@ -88,7 +88,7 @@ function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/tiktok.png" alt="TikTok" />
+    <img src="/tiktok.webp" alt="TikTok" />
     <span>TikTok</span>
   </a>
 
