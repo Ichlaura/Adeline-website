@@ -1,10 +1,10 @@
 export type CountryCode = "co" | "pe" | "us" | "jp" | "mx";
 export const countries = [
-  { code: "co" as CountryCode, name: "Colombia", flag: "/co.png" },
-  { code: "pe" as CountryCode, name: "Perú", flag: "/pe.png" },
-  { code: "us" as CountryCode, name: "United States", flag: "/us.png" },
-  { code: "mx" as CountryCode, name: "México", flag: "/mx.png" },
-  { code: "jp" as CountryCode, name: "日本", flag: "/jp.png" },
+  { code: "co" as CountryCode, name: "Colombia", flag: "/co.webp" },
+  { code: "pe" as CountryCode, name: "Perú", flag: "/pe.webp" },
+  { code: "us" as CountryCode, name: "United States", flag: "/us.webp" },
+  { code: "mx" as CountryCode, name: "México", flag: "/mx.webp" },
+  { code: "jp" as CountryCode, name: "日本", flag: "/jp.webp" },
 ];
 
 export const countrySettings = {

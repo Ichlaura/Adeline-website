@@ -9,7 +9,7 @@ function CountrySelector({ onSelect }: Props) {
     <main className="country-page">
       <div className="country-card">
         <img
-          src="/adelina-logo-header.png"
+          src="/adelina-logo-header.webp"
           alt="Adelina"
           className="country-logo"
         />
