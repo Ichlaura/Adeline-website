@@ -717,6 +717,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Rose Diploma open.png",
   },
   {
+    title: "Serenity",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Serenity close.webp",
+    openImage: "/Serenity open.webp",
+  },
+  {
     title: "Ivory Elegance",
     category: "Matrimonio",
     country: "co",
