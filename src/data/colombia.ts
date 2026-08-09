@@ -780,7 +780,15 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open.webp",
   },
-   {
+  {
+    title: "Autumn Whisper",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Autumn Whisper close.webp",
+    openImage: "/Autumn Whisper open foto.webp",
+  },
+  {
     title: "Autumn Whisper",
     category: "Matrimonio",
     country: "co",
