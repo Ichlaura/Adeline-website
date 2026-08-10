@@ -101,12 +101,20 @@ function DesignPage() {
               {design.category}
             </p>
 
-            <button
-              type="button"
-              className="design-select-button"
-            >
-              {text.choose}
-            </button>
+            
+
+<button
+  type="button"
+  className="design-select-button"
+  onClick={() => {
+    window.location.href =
+      `/order?title=${encodeURIComponent(design.title)}` +
+      `&image=${encodeURIComponent(design.openImage)}`;
+  }}
+>
+  {text.choose}
+</button>
+
 
           </div>
 
