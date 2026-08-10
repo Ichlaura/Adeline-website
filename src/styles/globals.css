@@ -2244,3 +2244,54 @@ body,
     padding: 12px;
   }
 }
+
+
+/* =========================================
+   BOTÓN VER DISEÑO - TARJETAS DEL HOME
+========================================= */
+
+.card-content .view-design-button {
+  display: block;
+  width: 100%;
+  margin-top: 18px;
+
+  padding: 15px 24px;
+
+  border: none;
+  border-radius: 999px;
+
+  background: #c49343;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+
+  text-align: center;
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(100, 70, 30, 0.15);
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-content .view-design-button:hover {
+  background: #b1843c;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(100, 70, 30, 0.22);
+}
+
+.card-content .view-design-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 700px) {
+  .card-content .view-design-button {
+    padding: 14px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
