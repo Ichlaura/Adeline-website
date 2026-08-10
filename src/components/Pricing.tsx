@@ -6,6 +6,7 @@ const content = {
     subtitle: "Tu invitación digital incluye estas funciones:",
    
     items: [
+      ["🌎", "Invitaciones multilingües", "Tus invitados pueden elegir el idioma de la invitación y disfrutar toda la experiencia en su propio idioma."],
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
@@ -30,6 +31,7 @@ const content = {
     subtitle: "Tu invitación digital incluye estas funciones:",
    
     items: [
+      ["🌎", "Invitaciones multilingües", "Tus invitados pueden elegir el idioma de la invitación y disfrutar toda la experiencia en su propio idioma."],
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
@@ -54,6 +56,7 @@ const content = {
     subtitle: "Tu invitación digital incluye estas funciones:",
     
     items: [
+      ["🌎", "Invitaciones multilingües", "Tus invitados pueden elegir el idioma de la invitación y disfrutar toda la experiencia en su propio idioma."],
       ["✉️", "Sobre interactivo", "Tus invitados abren la invitación como una experiencia especial."],
       ["✅", "Confirmación RSVP", "Tus invitados confirman si asistirán o no."],
       ["📍", "Google Maps", "Tus invitados abren la ubicación con un solo clic."],
@@ -78,6 +81,7 @@ const content = {
     subtitle: "Your digital invitation includes these features:",
     
     items: [
+      ["🌎", "Multilingual invitations", "Guests can choose their preferred language and enjoy the entire invitation experience in their own language."],
       ["✉️", "Interactive envelope", "Guests open the invitation as a special experience."],
       ["✅", "RSVP confirmation", "Guests confirm whether they will attend or not."],
       ["📍", "Google Maps", "Guests open the location with one click."],
@@ -102,6 +106,7 @@ const content = {
     subtitle: "デジタル招待状に含まれる機能：",
   
     items: [
+      ["🌎", "多言語対応の招待状", "ゲストは言語を選択して、自分の言語で招待状をお楽しみいただけます。"],
       ["✉️", "インタラクティブ封筒", "ゲストが特別な演出で招待状を開けます。"],
       ["✅", "出欠確認", "ゲストの出席・欠席を確認できます。"],
       ["📍", "Googleマップ", "ワンクリックで会場の場所を開けます。"],
