@@ -5,11 +5,16 @@ import CountrySelector from "./components/CountrySelector";
 import { countrySettings, type CountryCode } from "./data/countries";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
+import DesignPage from "./pages/DesignPage";
+import OrderPage from "./pages/OrderPage";
+
 
 function App() {
   const isCategoryPage = window.location.pathname.startsWith("/category/");
   const isContactPage = window.location.pathname === "/contact";
   const isPricingPage = window.location.pathname === "/pricing";
+  const isDesignPage = window.location.pathname === "/design";
+  const isOrderPage = window.location.pathname === "/order";
   const fromCategory = sessionStorage.getItem("fromCategory") === "true";
 
 const [country, setCountry] = useState<CountryCode | null>(() => {
@@ -17,6 +22,8 @@ const [country, setCountry] = useState<CountryCode | null>(() => {
   isCategoryPage ||
   isContactPage ||
   isPricingPage ||
+  isDesignPage ||
+  isOrderPage ||
   fromCategory
 ) {
     return (localStorage.getItem("adelina-country") as CountryCode) || null;
@@ -34,12 +41,25 @@ const [country, setCountry] = useState<CountryCode | null>(() => {
     setCountry(selectedCountry);
   }
 
-if (!country && !isContactPage && !isPricingPage && !isCategoryPage) {
+if (!country && 
+  !isContactPage && 
+  !isPricingPage && 
+  !isCategoryPage &&
+  !isDesignPage &&
+  !isOrderPage) {
   return <CountrySelector onSelect={chooseCountry} />;
 }
   if (isCategoryPage) {
     return <CategoryPage />;
   }
+
+  if (isDesignPage) {
+  return <DesignPage />;
+}
+
+if (isOrderPage) {
+  return <OrderPage />;
+}
 
 if (isPricingPage) {
   return <Pricing settings={countrySettings[country!]} />;

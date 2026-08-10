@@ -9,35 +9,35 @@ const categoryText = {
     back: "← Home",
     kicker: "Colección Adelina",
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
-    from: "Desde",
+  
     button: "Ver diseño",
   },
   pe: {
     back: "← Home",
     kicker: "Colección Adelina",
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
-    from: "Desde",
+    
     button: "Ver diseño",
   },
     mx: {
     back: "← Home",
     kicker: "Colección Adelina",
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
-    from: "Desde",
+    
     button: "Ver diseño",
   },
   us: {
     back: "← Home",
     kicker: "Adelina Collection",
     subtitle: "Choose the design that best matches your celebration.",
-    from: "From",
+    
     button: "View design",
   },
   jp: {
     back: "← ホーム",
     kicker: "Adelina コレクション",
     subtitle: "お祝いにぴったりのデザインをお選びください。",
-    from: "価格",
+    
     button: "デザインを見る",
   },
 };
@@ -91,9 +91,7 @@ function CategoryPage() {
             <div className="category-card-content">
               <span>Adelina</span>
               <h3>{card.title}</h3>
-              <p>
-                {text.from} {card.price}
-              </p>
+             
               <button>{text.button}</button>
             </div>
           </article>

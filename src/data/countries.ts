@@ -44,6 +44,7 @@ premiumPlan: "Premium",
 
 price: "Precio",
 
+multilingualInvitations: "Invitaciones multilingües",
 interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
@@ -117,6 +118,8 @@ premiumPlan: "Premium",
 
 price: "Precio",
 
+
+multilingualInvitations: "Invitaciones multilingües",
 interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
@@ -195,6 +198,8 @@ premiumPlan: "Premium",
 
 price: "Precio",
 
+
+multilingualInvitations: "Invitaciones multilingües",
 interactiveEnvelope: "Sobre interactivo",
 eventWebsite: "Sitio web del evento",
 maps: "Google Maps",
@@ -269,6 +274,8 @@ premiumPlan: "Premium",
 
 price: "Price",
 
+
+multilingualInvitations: "Multilingual invitations",
 interactiveEnvelope: "Interactive envelope",
 eventWebsite: "Event website",
 maps: "Google Maps",
@@ -344,6 +351,8 @@ premiumPlan: "プレミアム",
 
 price: "料金",
 
+
+multilingualInvitations: "多言語対応の招待状",
 interactiveEnvelope: "インタラクティブ封筒",
 eventWebsite: "イベントウェブサイト",
 maps: "Google マップ",

@@ -65,6 +65,14 @@ function Pricing({ settings }: Props) {
       <td>{settings.pricing.premium}</td>
     </tr>
 
+<tr>
+  <td>{settings.pricing.multilingualInvitations}</td>
+  <td>✅</td>
+  <td>✅</td>
+  <td>✅</td>
+</tr>
+
+
     <tr>
       <td>{settings.pricing.interactiveEnvelope}</td>
       <td>✅</td>
