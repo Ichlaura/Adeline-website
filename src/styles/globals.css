@@ -2213,3 +2213,34 @@ body,
 .contact-page .back-button{
     margin-bottom: 40px;
 }
+
+
+/* =========================================
+   HOME - INVITACIONES MÁS GRANDES
+========================================= */
+
+.cards-row .invite-card {
+  min-width: 360px;
+}
+
+.cards-row .invite-card-image {
+  width: 100%;
+  height: 500px;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  padding: 6px;
+  background: #fffaf3;
+}
+
+/* CELULAR */
+@media (max-width: 700px) {
+  .cards-row .invite-card {
+    min-width: 88vw;
+  }
+
+  .cards-row .invite-card-image {
+    height: 430px;
+    padding: 12px;
+  }
+}
