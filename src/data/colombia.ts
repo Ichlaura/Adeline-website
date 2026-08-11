@@ -765,6 +765,23 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Silver Wedding open.webp",
   },
   {
+    title: "Gold Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Gold Wedding close.webp",
+    openImage: "/Gold Wedding open foto.webp",
+  },
+  {
+    title: "Gold Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Gold Wedding close.webp",
+    openImage: "/Gold Wedding open.webp",
+  },
+  
+  {
     title: "Golden Botanical",
     category: "Matrimonio",
     country: "co",
