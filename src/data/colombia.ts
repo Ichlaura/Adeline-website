@@ -796,6 +796,21 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open.webp",
   },
-  
+  {
+    title: "Green Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Green Wedding close.webp",
+    openImage: "/Green Wedding open foto.webp",
+  },
+  {
+    title: "Green Wedding",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Green Wedding close.webp",
+    openImage: "/Green Wedding open.webp",
+  },
 
 ];
