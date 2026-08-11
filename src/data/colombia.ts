@@ -749,6 +749,22 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blush Romance open.webp",
   },
   {
+    title: "Pearl Blossom",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pearl Blossom close.webp",
+    openImage: "/Pearl Blossom open foto.webp",
+  },
+  {
+    title: "Pearl Blossom",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pearl Blossom close.webp",
+    openImage: "/Pearl Blossom open.webp",
+  },
+  {
     title: "Silver Wedding",
     category: "Matrimonio",
     country: "co",
