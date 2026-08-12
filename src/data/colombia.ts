@@ -815,6 +815,22 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Golden Botanical open.webp",
   },
   {
+    title: "Sakura Romance",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Sakura Romance close.webp",
+    openImage: "/Sakura Romance open foto.webp",
+  },
+  {
+    title: "Sakura Romance",
+    category: "Matrimonio",
+    country: "co",
+    price: "$39",
+    closedImage: "/Sakura Romance close.webp",
+    openImage: "/Sakura Romance open.webp",
+  },
+  {
     title: "Autumn Whisper",
     category: "Matrimonio",
     country: "co",
