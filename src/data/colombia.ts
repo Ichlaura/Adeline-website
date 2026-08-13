@@ -442,22 +442,6 @@ export const colombiaInvitations: Invitation[] = [
   openImage: "/Blue & Blush.open.webp",
   },
   {
-  title: "Cloud Wishes",
-  category: "Revelación de género",
-  country: "co",
-  price: "$39",
-  closedImage: "/Cloud Wishes.close.webp",
-  openImage: "/Cloud Wishes.open.webp",
-  },
-  {
-  title: "Sky & Blush",
-  category: "Revelación de género",
-  country: "co",
-  price: "$39",
-  closedImage: "/Sky & Blush.close.webp",
-  openImage: "/Sky & Blush.open.webp",
-  },
-  {
   title: "Golden Paws",
   category: "Revelación de género",
   country: "co",
