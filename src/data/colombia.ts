@@ -47,6 +47,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Golden Dreams open.webp",
   },
   {
+    title: "Blush Butterfly",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Blush Butterfly close.webp",
+    openImage: "/Blush Butterfly open.webp",
+  },
+  {
     title: "Blue Serenity",
     category: "Quince Años",
     country: "co",
