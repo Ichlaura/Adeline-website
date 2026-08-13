@@ -430,8 +430,8 @@ export const colombiaInvitations: Invitation[] = [
   category: "Revelación de género",
   country: "co",
   price: "$39",
-  closedImage: "/Kitty Reveal.close.webp",
-  openImage: "/Kitty Reveal.open.webp",
+  closedImage: "/Kitty Reveal close.webp",
+  openImage: "/Kitty Reveal open.webp",
   },
   {
   title: "Blue & Blush",
