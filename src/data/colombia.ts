@@ -462,8 +462,8 @@ export const colombiaInvitations: Invitation[] = [
   category: "Revelación de género",
   country: "co",
   price: "$39",
-  closedImage: "/Golden Paws.close.webp",
-  openImage: "/Golden Paws.open.webp",
+  closedImage: "/Golden Paws close.webp",
+  openImage: "/Golden Paws open.webp",
   },
 
   {
