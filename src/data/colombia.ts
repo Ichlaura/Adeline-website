@@ -23,6 +23,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blush Princess open.webp",
   },
   {
+    title: "Royal Garden",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Royal Garden close.webp",
+    openImage: "/Royal Garden open.webp",
+  },
+  {
     title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "co",
