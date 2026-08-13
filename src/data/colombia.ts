@@ -46,6 +46,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Golden Dreams close.webp",
     openImage: "/Golden Dreams open.webp",
   },
+  {
+    title: "Blue Serenity",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Blue Serenity close.webp",
+    openImage: "/Blue Serenity open.webp",
+  },
+   {
+    title: "Ivory Bloom",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Ivory Bloom close.webp",
+    openImage: "/Ivory Bloom open.webp",
+  },
   
   {
     title: "Unicorn Party",
