@@ -30,6 +30,14 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Emerald Quinceañera close.webp",
     openImage: "/Emerald Quinceañera open.webp",
   },
+  {
+    title: "Golden Dreams",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Golden Dreams close.webp",
+    openImage: "/Golden Dreams open.webp",
+  },
   
   {
     title: "Unicorn Party",
