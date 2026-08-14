@@ -117,7 +117,7 @@ export const colombiaInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/Cars Partyclose.webp",
+    closedImage: "/Cars Party close.webp",
     openImage: "/Cars Party open.webp",
   },
   {
