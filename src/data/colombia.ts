@@ -434,12 +434,12 @@ export const colombiaInvitations: Invitation[] = [
   openImage: "/Kitty Reveal open.webp",
   },
   {
-  title: "Blue & Blush",
+  title: "Sky & Blush",
   category: "Revelación de género",
   country: "co",
   price: "$39",
-  closedImage: "/Blue & Blush close.webp",
-  openImage: "/Blue & Blush open.webp",
+  closedImage: "/Sky & Blush close.webp",
+  openImage: "/Sky & Blush open.webp",
   },
   {
   title: "Golden Paws",
@@ -448,6 +448,14 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Golden Paws close.webp",
   openImage: "/Golden Paws open.webp",
+  },
+  {
+  title: "Blue & Blush",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/Blue & Blush close.webp",
+  openImage: "/Blue & Blush open.webp",
   },
 
   {
