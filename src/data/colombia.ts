@@ -88,6 +88,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Soccer Party open.webp",
   },
   {
+    title: "Little Chef",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Little Chef close.webp",
+    openImage: "/Little Chef open.webp",
+  },
+  {
     title: "Dinosaur Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
@@ -249,14 +257,7 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open.webp",
   },
-  {
-    title: "Little Chef",
-    category: "Cumpleaños y fiestas infantiles",
-    country: "co",
-    price: "$39",
-    closedImage: "/Little Chef.close.webp",
-    openImage: "/Little Chef open.webp",
-  },
+
   {
     title: "Little Chef Pink",
     category: "Cumpleaños y fiestas infantiles",
