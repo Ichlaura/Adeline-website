@@ -292,12 +292,12 @@ export const colombiaInvitations: Invitation[] = [
   },
   
   {
-    title: "Blush Invitation",
+    title: "Blush & Gold",
     category: "Baby Shower",
     country: "co",
     price: "$39",
-    closedImage: "/Blush Invitation close.webp",
-    openImage: "/Blush Invitation open.webp",
+    closedImage: "/Blush & Gold close.webp",
+    openImage: "/Blush & Gold open.webp",
   },
   {
     title: "Yellow Baby",
