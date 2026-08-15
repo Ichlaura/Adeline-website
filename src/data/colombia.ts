@@ -112,12 +112,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/cumpledinosaurios_open.webp",
   },
   {
-    title: "Princess Sofia",
+    title: "Princess Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/cumpleprincesasofia_close.webp",
-    openImage: "/cumpleprincesasofia_open.webp",
+    closedImage: "/Princess Party close.webp",
+    openImage: "/Princess Party open.webp",
   },
   {
     title: "Fairy Party",
