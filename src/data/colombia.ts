@@ -80,6 +80,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Unicorn Party open.webp",
   },
   {
+    title: "Unicorn Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Unicorn Party close.webp",
+    openImage: "/Unicorn Party open foto.webp",
+  },
+  {
     title: "Soccer Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
