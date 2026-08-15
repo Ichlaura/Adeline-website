@@ -54,13 +54,24 @@ const text = {
         <p>{t.description}</p>
       </div>
 
-      <div className="showcase-stage">
-        <div className="showcase-envelope">
-          <div className="showcase-card">
-            {t.card}
-          </div>
-        </div>
-      </div>
+    <div className="showcase-stage">
+  <div className="showcase-video">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="metadata"
+    >
+      <source
+        src="/videos/adeline-promo.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </div>
+</div>
+
+
     </section>
   );
 }
