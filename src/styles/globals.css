@@ -2295,3 +2295,32 @@ body,
     margin-top: 15px;
   }
 }
+
+
+
+/* VIDEO SHOWCASE */
+
+.showcase-video {
+  width: min(100%, 850px);
+  margin: 0 auto;
+
+  overflow: hidden;
+  border-radius: 28px;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.15);
+}
+
+.showcase-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .showcase-video {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
