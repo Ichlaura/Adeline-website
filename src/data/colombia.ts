@@ -158,6 +158,14 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Mermaid Party.webp",
+    openImage: "/Mermaid Party foto.webp",
+  },
+  {
+    title: "Mermaid Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Mermaid Party.webp",
     openImage: "/Mermaid Party.webp",
   },
  {
