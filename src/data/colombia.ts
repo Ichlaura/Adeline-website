@@ -283,12 +283,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Baby Luxe open.webp",
   },
   {
-    title: "Blue Teddy",
+    title: "Blush Teddy",
     category: "Baby Shower",
     country: "co",
     price: "$39",
-    closedImage: "/Blue Teddy close.webp",
-    openImage: "/Blue Teddy open.webp",
+    closedImage: "/Blush Teddy close.webp",
+    openImage: "/Blush Teddy open.webp",
   },
   
   {
