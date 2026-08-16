@@ -117,6 +117,14 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Princess Party close.webp",
+    openImage: "/Princess Party foto open.webp",
+  },
+  {
+    title: "Princess Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Princess Party close.webp",
     openImage: "/Princess Party open.webp",
   },
   {
