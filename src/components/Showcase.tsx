@@ -1,4 +1,5 @@
 import type { CountryCode } from "../data/countries";
+import ExperienceCarousel from "./ExperienceCarousel";
 
 function Showcase() {
   const currentCountry =
@@ -55,6 +56,8 @@ const text = {
       </div>
 
     <div className="showcase-stage">
+
+
   <div className="showcase-video">
     <video
       autoPlay
@@ -71,6 +74,10 @@ const text = {
   </div>
 </div>
 
+
+
+
+<ExperienceCarousel />
 
     </section>
   );
