@@ -67,8 +67,8 @@ function Pricing({ settings }: Props) {
 
 <tr>
   <td>{settings.pricing.multilingualInvitations}</td>
-  <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
   <td>✅</td>
 </tr>
 
