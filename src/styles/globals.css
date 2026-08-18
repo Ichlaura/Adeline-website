@@ -2324,3 +2324,218 @@ body,
     border-radius: 20px;
   }
 }
+
+/* =========================================
+   ADELINE EXPERIENCE 3D CAROUSEL
+========================================= */
+
+.experience-carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 65px auto 55px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.experience-carousel-heading {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 5px;
+}
+
+.experience-carousel-heading > span {
+  display: block;
+
+  margin-bottom: 12px;
+
+  color: #b59664;
+
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.experience-carousel-heading h3 {
+  margin: 0;
+
+  color: #344239;
+
+  font-family: Georgia, serif;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 400;
+}
+
+
+/* ESCENARIO 3D */
+
+.experience-stand {
+  position: relative;
+
+  width: 100%;
+  height: 330px;
+
+  margin: 10px auto 0;
+
+  perspective: 1100px;
+  overflow: hidden;
+}
+
+
+/* ELEMENTO QUE GIRA */
+
+.experience-rotator {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 135px;
+  height: 170px;
+
+  transform-style: preserve-3d;
+
+  animation: rotateAdelineExperience 24s linear infinite;
+}
+
+
+/* TARJETAS */
+
+.experience-item {
+  position: absolute;
+
+  width: 135px;
+  height: 170px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+
+  border: 1px solid rgba(181, 150, 100, 0.38);
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.98),
+      rgba(249, 246, 239, 0.94)
+    );
+
+  box-shadow:
+    0 20px 45px rgba(40, 50, 44, 0.14);
+
+  backface-visibility: visible;
+}
+
+
+/* ICONO */
+
+.experience-icon {
+  width: 58px;
+  height: 58px;
+
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(181, 150, 100, 0.32);
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  font-size: 25px;
+
+  box-shadow:
+    0 8px 20px rgba(80, 65, 45, 0.08);
+}
+
+
+/* NOMBRE */
+
+.experience-item strong {
+  color: #405044;
+
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+
+/* GIRO */
+
+@keyframes rotateAdelineExperience {
+
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotateY(0deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotateY(360deg);
+  }
+}
+
+
+/* PAUSA AL PONER EL MOUSE */
+
+.experience-rotator:hover {
+  animation-play-state: paused;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .experience-carousel {
+    margin: 45px auto 35px;
+  }
+
+  .experience-carousel-heading {
+    padding: 0 20px;
+  }
+
+  .experience-carousel-heading h3 {
+    font-size: 30px;
+  }
+
+  .experience-stand {
+    height: 285px;
+
+    perspective: 900px;
+  }
+
+  .experience-rotator {
+    width: 105px;
+    height: 140px;
+  }
+
+  .experience-item {
+    width: 105px;
+    height: 140px;
+
+    padding: 10px;
+
+    border-radius: 19px;
+  }
+
+  .experience-icon {
+    width: 46px;
+    height: 46px;
+
+    margin-bottom: 12px;
+
+    font-size: 20px;
+  }
+
+  .experience-item strong {
+    font-size: 11px;
+  }
+}
