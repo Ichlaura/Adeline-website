@@ -340,12 +340,12 @@ export const colombiaInvitations: Invitation[] = [
   },
   
   {
-    title: "Halloween Black",
+    title: "Halloween",
     category: "Celebraciones y fiestas",
     country: "co",
     price: "$39",
-    closedImage: "/halloweenpartyblack_close.webp",
-    openImage: "/halloweenpartyblack_open.webp",
+    closedImage: "/Halloween close.webp",
+    openImage: "/Halloween open.webp",
   },
   {
     title: "Halloween Orange",
