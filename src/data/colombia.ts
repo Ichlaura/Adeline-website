@@ -397,30 +397,21 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Bridal Chic open.webp",
   },
   {
-    title: "Golden Blessing",
-    category: "Primera comunión y bautismo",
-    country: "co",
-    price: "$39",
-    closedImage: "/Golden Blessing close.webp",
-    openImage: "/Golden Blessing open.webp",
-  } 
-  {
-    title: "Pink Blessing",
-    category: "Primera comunión y bautismo",
-    country: "co",
-    price: "$39",
-    closedImage: "/Pink Blessing.close.webp",
-    openImage: "/Pink Blessing.open.webp",
-  },
-
-  {
-    title: "Blue Blessing",
-    category: "Primera comunión y bautismo",
-    country: "co",
-    price: "$39",
-    closedImage: "/Blue Blessing.close.webp",
-    openImage: "/Blue Blessing.open.webp",
-  },
+  title: "Golden Blessing",
+  category: "Primera comunión y bautismo",
+  country: "co",
+  price: "$39",
+  closedImage: "/Golden Blessing close.webp",
+  openImage: "/Golden Blessing open.webp",
+},
+{
+  title: "Blue Blessing",
+  category: "Primera comunión y bautismo",
+  country: "co",
+  price: "$39",
+  closedImage: "/Blue Blessing close.webp",
+  openImage: "/Blue Blessing open.webp",
+},
 
   {
     title: "Beige Communion",
