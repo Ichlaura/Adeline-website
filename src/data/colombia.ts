@@ -323,23 +323,6 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Green Baby",
-    category: "Baby Shower",
-    country: "co",
-    price: "$39",
-    closedImage: "/babyshower_green_close.webp",
-    openImage: "/babyshower_green_open.webp",
-  },
-  {
-    title: "Green Bear",
-    category: "Baby Shower",
-    country: "co",
-    price: "$39",
-    closedImage: "/Green Baby close.webp",
-    openImage: "/Green Bear open.webp",
-  },
-
-  {
     title: "Golden Christmas",
     category: "Celebraciones y fiestas",
     country: "co",
