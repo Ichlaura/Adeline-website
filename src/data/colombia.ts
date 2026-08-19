@@ -70,14 +70,13 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Ivory Bloom close.webp",
     openImage: "/Ivory Bloom open.webp",
   },
-  
-  {
+   {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
-    openImage: "/Unicorn Party open.webp",
+    openImage: "/Unicorn Party open foto.webp",
   },
   {
     title: "Unicorn Party",
@@ -85,7 +84,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
-    openImage: "/Unicorn Party open foto.webp",
+    openImage: "/Unicorn Party open.webp",
   },
   {
     title: "Soccer Party",
