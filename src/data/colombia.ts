@@ -387,12 +387,20 @@ export const colombiaInvitations: Invitation[] = [
   openImage: "/Golden Blessing open.webp",
 },
 {
-  title: "Blue Blessing",
+  title: "Divine Grace",
   category: "Primera comunión y bautismo",
   country: "co",
   price: "$39",
-  closedImage: "/Blue Blessing close.webp",
-  openImage: "/Blue Blessing open.webp",
+  closedImage: "/Divine Grace close.webp",
+  openImage: "/Divine Grace open foto.webp",
+},
+{
+  title: "Divine Grace",
+  category: "Primera comunión y bautismo",
+  country: "co",
+  price: "$39",
+  closedImage: "/Divine Grace close.webp",
+  openImage: "/Divine Grace open.webp",
 },
 
   {
@@ -446,12 +454,12 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Blue Elegance",
+    title: "Annual Celebration",
     category: "Corporativo",
     country: "co",
     price: "$49",
-    closedImage: "/Blue Elegance close.webp",
-    openImage: "/Blue Elegance open.webp",
+    closedImage: "/Annual Celebration close.webp",
+    openImage: "/Annual Celebration open.webp",
   },
   {
     title: "Golden Celebration",
