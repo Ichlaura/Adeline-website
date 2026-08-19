@@ -282,6 +282,22 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Pirate Legacy open.webp",
   },
   {
+    title: "Blue Teddy",
+    category: "Baby Shower",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blue Teddy close.webp",
+    openImage: "/Blue Teddy open.webp",
+  },
+  {
+    title: "Blush Teddy",
+    category: "Baby Shower",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blush Teddy close.webp",
+    openImage: "/Blush Teddy open.webp",
+  },
+  {
     title: "Baby Bloom",
     category: "Baby Shower",
     country: "co",
@@ -305,14 +321,7 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Blush & Gold close.webp",
     openImage: "/Blush & Gold open.webp",
   },
-  {
-    title: "Blush Teddy",
-    category: "Baby Shower",
-    country: "co",
-    price: "$39",
-    closedImage: "/Blush Teddy close.webp",
-    openImage: "/Blush Teddy open.webp",
-  },
+
   {
     title: "Green Baby",
     category: "Baby Shower",
