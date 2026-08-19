@@ -404,7 +404,6 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Golden Blessing close.webp",
     openImage: "/Golden Blessing open.webp",
   } 
-
   {
     title: "Pink Blessing",
     category: "Primera comunión y bautismo",
