@@ -322,12 +322,12 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
-    title: "Golden Christmas",
+    title: "Christmas Evergreen",
     category: "Celebraciones y fiestas",
     country: "co",
     price: "$39",
-    closedImage: "/Golden Christmas.close.webp",
-    openImage: "/Golden Christmas.open.webp",
+    closedImage: "/Christmas Evergreen close.webp",
+    openImage: "/Christmas Evergreen open.webp",
   },
   
   {
