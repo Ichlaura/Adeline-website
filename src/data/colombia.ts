@@ -406,6 +406,14 @@ export const colombiaInvitations: Invitation[] = [
   },
 
   {
+  title: "A Little Surprise",
+  category: "Revelación de género",
+  country: "co",
+  price: "$39",
+  closedImage: "/A Little Surprise close.webp",
+  openImage: "/A Little Surprise open.webp",
+  },
+  {
   title: "Kitty Reveal",
   category: "Revelación de género",
   country: "co",
