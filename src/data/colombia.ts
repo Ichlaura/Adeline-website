@@ -298,6 +298,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blush Teddy open.webp",
   },
   {
+    title: "Blush & Gold",
+    category: "Baby Shower",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blush & Gold close.webp",
+    openImage: "/Blush & Gold open.webp",
+  },
+  {
     title: "Baby Bloom",
     category: "Baby Shower",
     country: "co",
@@ -312,14 +320,6 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Baby Blue close.webp",
     openImage: "/Baby Blue open.webp",
-  },
-  {
-    title: "Blush & Gold",
-    category: "Baby Shower",
-    country: "co",
-    price: "$39",
-    closedImage: "/Blush & Gold close.webp",
-    openImage: "/Blush & Gold open.webp",
   },
 
   {
