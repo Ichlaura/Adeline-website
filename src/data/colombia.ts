@@ -486,12 +486,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Academic Elegance open.webp",
   },
   {
-    title: "Champagne Prestige",
+    title: "New Chapter",
     category: "Graduación",
     country: "co",
     price: "$39",
-    closedImage: "/Champagne Prestige close.webp",
-    openImage: "/Champagne Prestige open.webp",
+    closedImage: "/New Chapter close.webp",
+    openImage: "/New Chapter open.webp",
   },
   {
     title: "Diploma Dreams",
