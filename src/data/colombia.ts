@@ -494,12 +494,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Diploma Dreams open.webp",
   },
   {
-    title: "Rose Diploma",
+    title: "Proud Achievement",
     category: "Graduación",
     country: "co",
     price: "$39",
-    closedImage: "/Rose Diploma close.webp",
-    openImage: "/Rose Diploma open.webp",
+    closedImage: "/Proud Achievement close.webp",
+    openImage: "/Proud Achievement open.webp",
   },
   {
     title: "Serenity",
