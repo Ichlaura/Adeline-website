@@ -197,8 +197,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/spaparty close.webp",
-    openImage: "/spaparty open.webp",
+    closedImage: "/Spa Party close.webp",
+    openImage: "/Spa Party open.webp",
   },
   {
     title: "Hawaii Party",
