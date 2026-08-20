@@ -462,6 +462,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Royal Awards open.webp",
   },
   {
+    title: "Convention",
+    category: "Corporativo",
+    country: "co",
+    price: "$49",
+    closedImage: "/Convention close.webp",
+    openImage: "/Convention open.webp",
+  },
+  {
     title: "Noble Graduate",
     category: "Graduación",
     country: "co",
