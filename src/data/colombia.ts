@@ -380,12 +380,12 @@ export const colombiaInvitations: Invitation[] = [
 },
 
   {
-    title: "Beige Communion",
+    title: "Waters of Grace",
     category: "Primera comunión y bautismo",
     country: "co",
     price: "$39",
-    closedImage: "/Beige Communion.close.webp",
-    openImage: "/Beige Communion.open.webp",
+    closedImage: "/Waters of Grace close.webp",
+    openImage: "/Waters of Grace open.webp",
   },
 
   {
