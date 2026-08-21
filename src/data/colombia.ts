@@ -209,12 +209,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/fiestamagia_open.webp",
   },
   {
-    title: "Cowboy Kids Party",
+    title: "Cowboy Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/Cowboy Kids Party close.webp",
-    openImage: "/Cowboy Kids Party Open.webp",
+    closedImage: "/Cowboy Party close.webp",
+    openImage: "/Cowboy Party Open.webp",
   },
   {
     title: "Motorcycle",
