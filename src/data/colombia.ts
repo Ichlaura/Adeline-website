@@ -172,8 +172,8 @@ export const colombiaInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/superfiesta_close.webp",
-    openImage: "/superfiesta_open.webp",
+    closedImage: "/Super Party close.webp",
+    openImage: "/Super Party open.webp",
   },
 
   {
