@@ -214,7 +214,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Cowboy Party close.webp",
-    openImage: "/Cowboy Party Open.webp",
+    openImage: "/Cowboy Party open.webp",
   },
   {
     title: "Motorcycle",
