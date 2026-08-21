@@ -233,12 +233,12 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Motorcycle open.webp",
   },
   {
-    title: "Purple Paw",
+    title: "Cute Kittens",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
     price: "$39",
-    closedImage: "/Purple Paw close.webp",
-    openImage: "/Purple Paw open.webp",
+    closedImage: "/Cute Kittens close.webp",
+    openImage: "/Cute Kittens open.webp",
   },
   {
     title: "Blue Doggy",
