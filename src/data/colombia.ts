@@ -371,6 +371,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Bachelorette party open.webp",
   },
   {
+    title: "Orange Halloween",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Orange Halloween close.webp",
+    openImage: "/Orange Halloween open.webp",
+  },
+  {
   title: "Golden Blessing",
   category: "Primera comunión y bautismo",
   country: "co",
