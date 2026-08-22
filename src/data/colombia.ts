@@ -70,6 +70,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Ivory Bloom close.webp",
     openImage: "/Ivory Bloom open.webp",
   },
+  {
+    title: "Purple Elegance",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Purple Elegance close.webp",
+    openImage: "/Purple Elegance open.webp",
+  },
+  {
+    title: "Black Diamond",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Black Diamond close.webp",
+    openImage: "/Black Diamond open.webp",
+  },
    {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
