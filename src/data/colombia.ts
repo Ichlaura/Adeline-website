@@ -379,6 +379,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Orange Halloween open.webp",
   },
   {
+    title: "Silk Blessing",
+    category: "Primera comunión y bautismo",
+    country: "co",
+    price: "$39",
+    closedImage: "/Silk Blessing close.webp",
+    openImage: "/Silk Blessing open foto.webp",
+  },
+  {
   title: "Golden Blessing",
   category: "Primera comunión y bautismo",
   country: "co",
