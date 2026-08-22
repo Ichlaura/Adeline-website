@@ -289,6 +289,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Pirate Legacy open.webp",
   },
   {
+    title: "Art Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Art Party close.webp",
+    openImage: "/Art Party open.webp",
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "co",
@@ -508,6 +516,14 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Proud Achievement close.webp",
     openImage: "/Proud Achievement open.webp",
+  },
+  {
+    title: "Blue Graduation",
+    category: "Graduación",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blue Graduation close.webp",
+    openImage: "/Blue Graduation open.webp",
   },
   {
     title: "Serenity",
