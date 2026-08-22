@@ -201,6 +201,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Hawaii Party open.webp",
   },
   {
+    title: "Magical Bunny",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Magical Bunny close.webp",
+    openImage: "/Magical Bunny open.webp",
+  },
+  {
     title: "Magic Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
