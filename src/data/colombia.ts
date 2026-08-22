@@ -411,6 +411,22 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Waters of Grace close.webp",
     openImage: "/Waters of Grace open.webp",
   },
+  {
+    title: "Olive Communion",
+    category: "Primera comunión y bautismo",
+    country: "co",
+    price: "$39",
+    closedImage: "/Olive Communion close.webp",
+    openImage: "/Olive Communion open foto.webp",
+  },
+  {
+    title: "Olive Communion",
+    category: "Primera comunión y bautismo",
+    country: "co",
+    price: "$39",
+    closedImage: "/Olive Communion close.webp",
+    openImage: "/Olive Communion open.webp",
+  },
 
   {
   title: "A Little Surprise",
