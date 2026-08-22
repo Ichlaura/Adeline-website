@@ -526,6 +526,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blue Graduation open.webp",
   },
   {
+    title: "Blush Graduation",
+    category: "Graduación",
+    country: "co",
+    price: "$39",
+    closedImage: "/Blush Graduation close.webp",
+    openImage: "/Blushdsfsdf Graduation open.webp",
+  },
+  {
     title: "Serenity",
     category: "Matrimonio",
     country: "co",
