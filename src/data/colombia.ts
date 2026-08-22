@@ -217,6 +217,14 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Magic Party open.webp",
   },
   {
+    title: "Little Cowboy",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Little Cowboy close.webp",
+    openImage: "/Little Cowboy open.webp",
+  },
+  {
     title: "Cowboy Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
