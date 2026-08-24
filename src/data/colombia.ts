@@ -16,13 +16,14 @@ export const colombiaInvitations: Invitation[] = [
   // ==========================
 
   {
-    title: "Blush Princess",
+    title: "Blush Butterfly",
     category: "Quince Años",
     country: "co",
     price: "$49",
-    closedImage: "/Blush Princess close.webp",
-    openImage: "/Blush Princess open.webp",
-    keywords: ["princesa", "blush", "quinceañera"]
+    closedImage: "/Blush Butterfly close.webp",
+    openImage: "/Blush Butterfly open.webp",
+    keywords: ["mariposa", "blush", "quinceañera"]
+  
   },
   {
     title: "Royal Garden",
@@ -50,16 +51,6 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Golden Dreams close.webp",
     openImage: "/Golden Dreams open.webp",
     keywords: ["dorado", "sueños", "quinceañera"]
-  },
-  {
-    title: "Blush Butterfly",
-    category: "Quince Años",
-    country: "co",
-    price: "$49",
-    closedImage: "/Blush Butterfly close.webp",
-    openImage: "/Blush Butterfly open.webp",
-    keywords: ["mariposa", "blush", "quinceañera"]
-  
   },
   {
     title: "Blue Serenity",
@@ -113,6 +104,15 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Emerald Quinceañera close.webp",
     openImage: "/Emerald Quinceañera open.webp",
     keywords: ["esmeralda", "quinceañera", "verde", "Green"]
+  },
+  {
+    title: "Blush Princess",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Blush Princess close.webp",
+    openImage: "/Blush Princess open.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
   },
    {
     title: "Unicorn Party",
