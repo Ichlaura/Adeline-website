@@ -1,5 +1,4 @@
 import type { CountryCode } from "../data/countries";
-import ExperienceCarousel from "./ExperienceCarousel";
 
 function Showcase() {
   const currentCountry =
