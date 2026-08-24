@@ -62,16 +62,6 @@ export const colombiaInvitations: Invitation[] = [
   
   },
   {
-    title: "Pink Blossom",
-    category: "Quince Años",
-    country: "co",
-    price: "$49",
-    closedImage: "/Pink Blossom close.webp",
-    openImage: "/Pink Blossom open.webp",
-    keywords: ["mariposa", "blush", "quinceañera"]
-  
-  },
-  {
     title: "Blue Serenity",
     category: "Quince Años",
     country: "co",
@@ -96,6 +86,16 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Purple Elegance close.webp",
     openImage: "/Purple Elegance open.webp",
+  },
+  {
+    title: "Pink Blossom",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Pink Blossom close.webp",
+    openImage: "/Pink Blossom open.webp",
+    keywords: ["mariposa", "blush", "quinceañera"]
+  
   },
   {
     title: "Black Diamond",
