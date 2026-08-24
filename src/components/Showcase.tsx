@@ -77,7 +77,6 @@ const text = {
 
 
 
-<ExperienceCarousel />
 
     </section>
   );

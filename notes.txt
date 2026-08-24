@@ -1,62 +1,20 @@
 adeline website notas
 
 
+# 1. Ver estado actual
+git status
 
-notas para ruby:
+# 2. Ir a main
+git switch main
 
-Guía rápida de Git para trabajar con ramas
+# 3. Actualizar main desde GitHub
+git pull origin main
 
-1. Antes de empezar
+# 4. Crear un branch para el nuevo trabajo
+git switch -c feature/wompi-payments
 
-Siempre actualizar la rama principal:
+# 5. Confirmar branch
+git branch
 
-    git checkout main
-    git pull
-
-2. Crear una rama nueva para cada tarea
-
-:
-
-    git checkout -b ruby
-  
-
- 3. mirar si estoy en mi rama de ruby 
-
- git branch 
-
- debes ver el asterisco en ruby y no en main 
-
-3.correrlo y mirarlo en pantalla 
-
+# 6. ver pagina en terminal
 npm run dev 
-
-para cambiar de rama con : git switch <nombree　de la rama>
-4. Guardar cambios
-
-    git add .
-    git commit -m "add pictures"
-
-5. Subir la rama
-
-La primera vez:
-
-    git push -u origin ruby
-
-Después:
-
-    git push
-
-6. Crear un Pull Request
-
-Desde GitHub crear un Pull Request hacia main.
-
-Esperar revisión antes de hacer Merge.
-
-Reglas importantes
-
--   Nunca hacer cambios directamente en main.
--   Una rama por cada funcionalidad o corrección.
--   Siempre hacer git pull en main antes de crear una rama nueva.
--   Si hay dudas, preguntar antes de hacer Merge.
-
-¡Así el proyecto principal siempre estará seguro!
