@@ -2539,3 +2539,67 @@ body,
     font-size: 11px;
   }
 }
+
+
+
+/* =========================
+   BUSCADOR DE DISEÑOS
+========================= */
+
+.category-search {
+  width: min(520px, 90%);
+  margin: 32px auto 0;
+}
+
+.category-search input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 15px 22px;
+
+  background: rgba(255, 255, 255, 0.88);
+  color: #4f463c;
+
+  border: 1px solid rgba(190, 158, 105, 0.55);
+  border-radius: 999px;
+
+  font-family: Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+
+  outline: none;
+
+  box-shadow:
+    0 8px 24px rgba(73, 55, 32, 0.06);
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.category-search input::placeholder {
+  color: #aaa096;
+  opacity: 1;
+}
+
+.category-search input:focus {
+  background: #ffffff;
+  border-color: #b8955c;
+
+  box-shadow:
+    0 0 0 3px rgba(184, 149, 92, 0.10),
+    0 10px 28px rgba(73, 55, 32, 0.08);
+}
+
+@media (max-width: 600px) {
+  .category-search {
+    width: calc(100% - 40px);
+    margin-top: 25px;
+  }
+
+  .category-search input {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+}
