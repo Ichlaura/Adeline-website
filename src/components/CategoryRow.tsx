@@ -41,7 +41,8 @@ const rowText = {
 
 function CategoryRow({ title }: { title: string }) {
   const [openedCard, setOpenedCard] = useState<string | null>(null);
-
+const [canScrollLeft, setCanScrollLeft] = useState(false);
+const [canScrollRight, setCanScrollRight] = useState(false);
   const rowRef = useRef<HTMLDivElement>(null);
 
   const canHover = window.matchMedia(
@@ -68,6 +69,30 @@ function CategoryRow({ title }: { title: string }) {
       open.src = card.openImage;
     });
   }, [categoryCards]);
+
+useEffect(() => {
+  const row = rowRef.current;
+
+  if (!row) return;
+
+  const updateArrows = () => {
+    const maxScroll = row.scrollWidth - row.clientWidth;
+
+    setCanScrollLeft(row.scrollLeft > 5);
+    setCanScrollRight(row.scrollLeft < maxScroll - 5);
+  };
+
+  updateArrows();
+
+  row.addEventListener("scroll", updateArrows);
+  window.addEventListener("resize", updateArrows);
+
+  return () => {
+    row.removeEventListener("scroll", updateArrows);
+    window.removeEventListener("resize", updateArrows);
+  };
+}, [categoryCards]);
+
 
   if (categoryCards.length === 0) {
     return null;
@@ -205,33 +230,44 @@ function CategoryRow({ title }: { title: string }) {
 
         </div>
 
-        {/* FLECHA IZQUIERDA */}
-        <button
-          type="button"
-          className="scroll-arrow-left"
-          onClick={() =>
-            rowRef.current?.scrollBy({
-              left: -350,
-              behavior: "smooth",
-            })
-          }
-        >
-          ❮
-        </button>
 
-        {/* FLECHA DERECHA */}
-        <button
-          type="button"
-          className="scroll-arrow"
-          onClick={() =>
-            rowRef.current?.scrollBy({
-              left: 350,
-              behavior: "smooth",
-            })
-          }
-        >
-          ❯
-        </button>
+
+
+{/* FLECHA IZQUIERDA - solo aparece si hay tarjetas antes */}
+{canScrollLeft && (
+  <button
+    type="button"
+    className="scroll-arrow-left"
+    onClick={() =>
+      rowRef.current?.scrollBy({
+        left: -350,
+        behavior: "smooth",
+      })
+    }
+    aria-label="Anterior"
+  >
+    ❮
+  </button>
+)}
+
+{/* FLECHA DERECHA - solo aparece si hay tarjetas después */}
+{canScrollRight && (
+  <button
+    type="button"
+    className="scroll-arrow"
+    onClick={() =>
+      rowRef.current?.scrollBy({
+        left: 350,
+        behavior: "smooth",
+      })
+    }
+    aria-label="Siguiente"
+  >
+    ❯
+  </button>
+)}
+
+
 
       </div>
     </section>
