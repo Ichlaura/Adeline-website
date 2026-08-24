@@ -7,6 +7,7 @@ export type Invitation = {
   price: string;
   closedImage: string;
   openImage: string;
+  keywords?: string[];
 };
 
 export const peruInvitations: Invitation[] = [
@@ -21,6 +22,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Pink Butterfly close.webp",
     openImage: "/Pink Butterfly open.webp",
+    keywords: ["rosa", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Pink Butterfly",
@@ -29,6 +31,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Pink Butterfly close.webp",
     openImage: "/Pink Butterfly open foto.webp",
+    keywords: ["rosa", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
   },
   
   {
@@ -38,6 +41,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Butterfly close.webp",
     openImage: "/Green Butterfly open.webp",
+    keywords: ["verde", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Green Butterfly",
@@ -46,6 +50,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Butterfly close.webp",
     openImage: "/Green Butterfly open foto.webp",
+    keywords: ["verde", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Morganite",
@@ -54,6 +59,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Morganite close.webp",
     openImage: "/Morganite open.webp",
+    keywords: ["morganita", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Morganite",
@@ -62,6 +68,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Morganite close.webp",
     openImage: "/Morganite open foto.webp",
+    keywords: ["morganita", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Emerald Quinceañera",
@@ -70,6 +77,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosverde_close.webp",
     openImage: "/quinceanosverde_open.webp",
+    keywords: ["verde", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Emerald Quinceañera",
@@ -78,6 +86,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosverde_close.webp",
     openImage: "/quinceanosverde_open foto.webp",
+    keywords: ["verde", "quinceañera", "fiesta", "cumpleaños"]
   },
 
   
@@ -88,6 +97,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosazul_close.webp",
     openImage: "/quinceanosazul_open.webp",
+    keywords: ["azul", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Blue Quinceañera",
@@ -96,6 +106,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosazul_close.webp",
     openImage: "/quinceanosazul_open foto.webp",
+    keywords: ["azul", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Champagne Tiara",
@@ -104,6 +115,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Champagne Tiara close.webp",
     openImage: "/Champagne Tiara open.webp",
+    keywords: ["champagne", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Champagne Tiara",
@@ -112,6 +124,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Champagne Tiara close.webp",
     openImage: "/Champagne Tiara open foto.webp",
+    keywords: ["champagne", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Pink Princess",
@@ -120,6 +133,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanospink_close.webp",
     openImage: "/quinceanospink_open.webp",
+    keywords: ["rosa", "princesa", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Pink Princess",
@@ -128,6 +142,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanospink_close.webp",
     openImage: "/quinceanospink_open foto.webp",
+    keywords: ["rosa", "princesa", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Purple Luxury",
@@ -136,6 +151,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanospurpura_close.webp",
     openImage: "/quinceanospurpura_open.webp",
+    keywords: ["morado", "lujo", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Purple Luxury",
@@ -144,6 +160,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanospurpura_close.webp",
     openImage: "/quinceanospurpura_open foto.webp",
+    keywords: ["morado", "lujo", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Violet",
@@ -152,6 +169,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosmorado_close.webp",
     openImage: "/quinceanosmorado_open.webp",
+    keywords: ["morado", "real", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Violet",
@@ -160,6 +178,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosmorado_close.webp",
     openImage: "/quinceanosmorado_open foto.webp",
+    keywords: ["morado", "real", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Neutral Floral",
@@ -168,6 +187,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosfloresneutral_close.webp",
     openImage: "/quinceanosfloresneutral_close_open.webp",
+    keywords: ["neutro", "floral", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Neutral Floral",
@@ -176,6 +196,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/quinceanosfloresneutral_close.webp",
     openImage: "/quinceanosfloresneutral_close_open foto.webp",
+    keywords: ["neutro", "floral", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Blue Serenity",
@@ -184,6 +205,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Serenity close.webp",
     openImage: "/Blue Serenity open.webp",
+    keywords: ["azul", "serenidad", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Blue Serenity",
@@ -192,6 +214,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Serenity close.webp",
     openImage: "/Blue Serenity open foto.webp",
+    keywords: ["azul", "serenidad", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Garden",
@@ -200,6 +223,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Garden close.webp",
     openImage: "/Royal Garden open.webp",
+    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Garden",
@@ -208,6 +232,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Garden close.webp",
     openImage: "/Royal Garden open foto.webp",
+    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Noble Rose",
@@ -216,6 +241,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Noble Rose close.webp",
     openImage: "/Noble Rose open.webp",
+    keywords: ["rosa", "noble", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Noble Rose",
@@ -224,6 +250,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Noble Rose close.webp",
     openImage: "/Noble Rose open foto.webp",
+    keywords: ["rosa", "noble", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Noble Garden",
@@ -232,6 +259,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Noble Garden close.webp",
     openImage: "/Noble Garden open.webp",
+    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Noble Garden",
@@ -240,6 +268,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Noble Garden close.webp",
     openImage: "/Noble Garden open foto.webp",
+    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Black Diamond",
@@ -248,6 +277,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
+    keywords: ["negro", "diamante", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Black Diamond",
@@ -256,6 +286,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open foto.webp",
+    keywords: ["negro", "diamante", "quinceañera", "fiesta", "cumpleaños"]
   },
 
   {
@@ -265,6 +296,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumpleunicornios_close.webp",
     openImage: "/cumpleunicornios_open.webp",
+    keywords: ["unicornio", "princesa", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Soccer Party",
@@ -273,6 +305,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumplefutbol_close.webp",
     openImage: "/cumplefutbol_open.webp",
+    keywords: ["fútbol", "deporte", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Dinosaur Party",
@@ -281,6 +314,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumpledinosaurios_close.webp",
     openImage: "/cumpledinosaurios_open.webp",
+    keywords: ["dinosaurio", "jungla", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Princess Sofia",
@@ -289,6 +323,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumpleprincesasofia_close.webp",
     openImage: "/cumpleprincesasofia_open.webp",
+    keywords: ["princesa", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Fairy Party",
@@ -297,6 +332,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumplehadas_close.webp",
     openImage: "/cumplehadas_open.webp",
+    keywords: ["hada", "cumpleaños", "fiesta", "infantil"]
   },
   
   {
@@ -306,6 +342,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumplecars_close.webp",
     openImage: "/cumplecars_open.webp",
+    keywords: ["coche", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Animals Party",
@@ -314,6 +351,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumpleanimals_close.webp",
     openImage: "/cumpleanimals_open.webp",
+    keywords: ["animal", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Basketball Party",
@@ -322,6 +360,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/cumplebaloncesto_close.webp",
     openImage: "/cumplebaloncesto_open.webp",
+    keywords: ["baloncesto", "deporte", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Mermaid Party",
@@ -330,6 +369,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/sirena_close.webp",
     openImage: "/sirena_open.webp",
+    keywords: ["sirena", "cumpleaños", "fiesta", "infantil"]
   },
  {
     title: "Super Party",
@@ -338,6 +378,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/superfiesta_close.webp",
     openImage: "/superfiesta_open.webp",
+    keywords: ["super", "cumpleaños", "fiesta", "infantil"]
   },
 
   {
@@ -347,6 +388,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/robotparty_close.webp",
     openImage: "/robotparty_open.webp",
+    keywords: ["robot", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Spa Party",
@@ -355,6 +397,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/spaparty_close.webp",
     openImage: "/spaparty_open.webp",
+    keywords: ["spa", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Hawaii Party",
@@ -363,6 +406,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/hawaifiesta_close.webp",
     openImage: "/hawaifiesta_open.webp",
+    keywords: ["hawaiano", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Magic Party",
@@ -371,6 +415,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/fiestamagia_close.webp",
     openImage: "/fiestamagia_open.webp",
+    keywords: ["mágico", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Cowboy Kids Party",
@@ -379,6 +424,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cowboy Kids Party close.webp",
     openImage: "/Cowboy Kids Party Open.webp",
+    keywords: ["cowboy", "niños", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Motorcycle",
@@ -387,6 +433,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Motorcycle close.webp",
     openImage: "/Motorcycle open.webp",
+    keywords: ["motocicleta", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Purple Paw",
@@ -395,6 +442,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Purple Paw close.webp",
     openImage: "/Purple Paw open.webp",
+    keywords: ["púrpura", "pata", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Blue Doggy",
@@ -403,6 +451,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Doggy close.webp",
     openImage: "/Blue Doggy open.webp",
+    keywords: ["azul", "perro", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Outer Space",
@@ -411,6 +460,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Outer Space close.webp",
     openImage: "/Outer Space open.webp",
+    keywords: ["espacio", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Purple Dino",
@@ -419,6 +469,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Purple Dino close.webp",
     openImage: "/Purple Dino open.webp",
+    keywords: ["púrpura", "dinosaurio", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Science Lab",
@@ -427,6 +478,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Science Lab close.webp",
     openImage: "/Science Lab open.webp",
+    keywords: ["ciencia", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Pirate Legacy",
@@ -435,6 +487,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open.webp",
+    keywords: ["pirata", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Little Chef",
@@ -443,6 +496,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Little Chef.close.webp",
     openImage: "/Little Chef open.webp",
+    keywords: ["cocina", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Little Chef Pink",
@@ -451,6 +505,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Little Chef close pink.webp",
     openImage: "/Little Chef open pink.webp",
+    keywords: ["rosado", "cocina", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Baby Luxe",
@@ -459,6 +514,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Baby Luxe close.webp",
     openImage: "/Baby Luxe open.webp",
+    keywords: ["luxe", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Blue Teddy",
@@ -467,6 +523,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Teddy close.webp",
     openImage: "/Blue Teddy open.webp",
+    keywords: ["azul", "osito", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   
   {
@@ -476,6 +533,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Invitation close.webp",
     openImage: "/Blush Invitation open.webp",
+    keywords: ["rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Yellow Baby",
@@ -484,6 +542,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/babyshower_yellow_close.webp",
     openImage: "/babyshower_yellow_open.webp",
+    keywords: ["amarillo", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Pink Baby",
@@ -492,6 +551,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pink Baby close.webp",
     openImage: "/babyshowerrosado_open.webp",
+    keywords: ["rosado", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Green Baby",
@@ -500,6 +560,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/babyshower_green_close.webp",
     openImage: "/babyshower_green_open.webp",
+    keywords: ["verde", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
     title: "Green Bear",
@@ -508,6 +569,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Baby close.webp",
     openImage: "/Green Bear open.webp",
+    keywords: ["verde", "osito", "baby", "cumpleaños", "fiesta", "infantil"]
   },
 
   {
@@ -517,6 +579,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Christmas.close.webp",
     openImage: "/Golden Christmas.open.webp",
+    keywords: ["dorado", "navidad", "fiesta", "celebración"]
   },
   
   {
@@ -526,6 +589,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/halloweenpartyblack_close.webp",
     openImage: "/halloweenpartyblack_open.webp",
+    keywords: ["negro", "halloween", "fiesta", "infantil"]
   },
   {
     title: "Halloween Orange",
@@ -534,6 +598,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/halloweenparty_close.webp",
     openImage: "/halloweenparty_open.webp",
+    keywords: ["naranja", "halloween", "fiesta", "infantil"]
   },
   {
     title: "Noel Elegance",
@@ -542,6 +607,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Noel Elegance.close.webp",
     openImage: "/Noel Elegance open.webp",
+    keywords: ["dorado", "navidad", "fiesta", "celebración"]
   },
   {
     title: "Christmas Wishes",
@@ -550,6 +616,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Christmas Wishes.close.webp",
     openImage: "/Christmas Wishes.open.webp",
+    keywords: ["dorado", "navidad", "fiesta", "celebración"]
   },
   {
     title: "Cowboy Party",
@@ -558,6 +625,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cowboy close.webp",
     openImage: "/Cowboy open.webp",
+    keywords: ["vaquero", "fiesta", "infantil"]
   },
   {
     title: "Bridal Bliss",
@@ -566,6 +634,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Bridal Bliss close.webp",
     openImage: "/Bridal Bliss open.webp",
+    keywords: ["dorado", "boda", "fiesta", "celebración"]
   },
   {
     title: "Bridal Chic",
@@ -574,6 +643,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Bridal Chic close.webp",
     openImage: "/Bridal Chic open.webp",
+    keywords: ["dorado", "boda", "fiesta", "celebración"]
   },
 
   {
@@ -583,6 +653,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pink Blessing.close.webp",
     openImage: "/Pink Blessing.open.webp",
+    keywords: ["rosado", "bautismo", "fiesta", "infantil"]
   },
 
   {
@@ -592,6 +663,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Blessing.close.webp",
     openImage: "/Golden Blessing.open.webp",
+    keywords: ["dorado", "bautismo", "fiesta", "infantil"]
   },
 
   {
@@ -601,6 +673,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Blessing.close.webp",
     openImage: "/Blue Blessing.open.webp",
+    keywords: ["azul", "bautismo", "fiesta", "infantil"]
   },
 
   {
@@ -610,6 +683,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Beige Communion.close.webp",
     openImage: "/Beige Communion.open.webp",
+    keywords: ["beige", "comunión", "fiesta", "infantil"]
   },
 
   {
@@ -619,6 +693,7 @@ export const peruInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Kitty Reveal.close.webp",
   openImage: "/Kitty Reveal.open.webp",
+  keywords: ["rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
   title: "Blue & Blush",
@@ -627,6 +702,7 @@ export const peruInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Blue & Blush.close.webp",
   openImage: "/Blue & Blush.open.webp",
+  keywords: ["azul", "rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
   title: "Cloud Wishes",
@@ -635,6 +711,7 @@ export const peruInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Cloud Wishes.close.webp",
   openImage: "/Cloud Wishes.open.webp",
+  keywords: ["nube", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
   title: "Sky & Blush",
@@ -643,6 +720,7 @@ export const peruInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Sky & Blush.close.webp",
   openImage: "/Sky & Blush.open.webp",
+  keywords: ["azul", "rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
   {
   title: "Golden Paws",
@@ -651,6 +729,7 @@ export const peruInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Golden Paws.close.webp",
   openImage: "/Golden Paws.open.webp",
+  keywords: ["dorado", "patas", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
   },
 
   {
@@ -660,6 +739,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Elegance close.webp",
     openImage: "/Blue Elegance open.webp",
+    keywords: ["azul", "elegante", "corporativo"]
   },
   {
     title: "Golden Celebration",
@@ -668,6 +748,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Golden Celebration close.webp",
     openImage: "/Golden Celebration open.webp",
+    keywords: ["dorado", "celebración", "corporativo"]
   },
   {
     title: "Grand Opening",
@@ -676,6 +757,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Grand Opening close.webp",
     openImage: "/Grand Opening open.webp",
+    keywords: ["gran apertura", "corporativo"]
   },
   {
     title: "Noble Graduate",
@@ -684,6 +766,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "Noble Graduate close.webp",
     openImage: "/Noble Graduate open.webp",
+    keywords: ["noble", "graduación", "corporativo"]
   },
   {
     title: "Academic Elegance",
@@ -692,6 +775,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Academic Elegance close.webp",
     openImage: "/Academic Elegance open.webp",
+    keywords: ["académico", "elegante", "graduación"]
   },
   {
     title: "Champagne Prestige",
@@ -700,6 +784,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Champagne Prestige close.webp",
     openImage: "/Champagne Prestige open.webp",
+    keywords: ["champagne", "prestigio", "graduación"]
   },
   {
     title: "Diploma Dreams",
@@ -708,6 +793,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Diploma Dreams close.webp",
     openImage: "/Diploma Dreams open.webp",
+    keywords: ["sueños", "diploma", "graduación"]
   },
   {
     title: "Rose Diploma",
@@ -716,6 +802,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Rose Diploma close.webp",
     openImage: "/Rose Diploma open.webp",
+    keywords: ["rosa", "diploma", "graduación"]
   },
   {
     title: "Serenity",
@@ -724,6 +811,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open foto.webp",
+    keywords: ["serenidad", "matrimonio", "boda"]
   },
   {
     title: "Serenity",
@@ -732,6 +820,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open.webp",
+    keywords: ["serenidad", "matrimonio", "boda"]
   },
   {
     title: "Pearl Blossom",
@@ -740,6 +829,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open foto.webp",
+    keywords: ["perla", "flor", "matrimonio", "boda"]
   },
   {
     title: "Pearl Blossom",
@@ -748,6 +838,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open.webp",
+    keywords: ["perla", "flor", "matrimonio", "boda"]
   },
   {
     title: "Blush Romance",
@@ -756,6 +847,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open foto.webp",
+    keywords: ["rosado", "romance", "matrimonio", "boda"]
   },
   {
     title: "Blush Romance",
@@ -764,6 +856,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open.webp",
+    keywords: ["rosado", "romance", "matrimonio", "boda"]
   },
 
   {
@@ -773,6 +866,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open foto.webp",
+    keywords: ["plata", "matrimonio", "boda"]
   },
   {
     title: "Silver Wedding",
@@ -781,6 +875,8 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open.webp",
+    keywords: ["plata", "matrimonio", "boda"]
+
   },
   {
     title: "Gold Wedding",
@@ -789,6 +885,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open foto.webp",
+    keywords: ["dorado", "matrimonio", "boda"]
   },
   {
     title: "Gold Wedding",
@@ -797,6 +894,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open.webp",
+    keywords: ["dorado", "matrimonio", "boda"]
   },
   
   {
@@ -806,6 +904,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open foto.webp",
+    keywords: ["dorado", "botánico", "matrimonio", "boda"]
   },
   {
     title: "Golden Botanical",
@@ -814,6 +913,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open.webp",
+    keywords: ["dorado", "botánico", "matrimonio", "boda"]
   },
   {
     title: "Sakura Romance",
@@ -822,6 +922,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open foto.webp",
+    keywords: ["sakura", "romance", "matrimonio", "boda"]
   },
   {
     title: "Sakura Romance",
@@ -830,6 +931,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open.webp",
+    keywords: ["sakura", "romance", "matrimonio", "boda"]
   },
   {
     title: "Autumn Whisper",
@@ -838,6 +940,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open foto.webp",
+    keywords: ["otoño", "susurro", "matrimonio", "boda"]
   },
   {
     title: "Autumn Whisper",
@@ -846,6 +949,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open.webp",
+    keywords: ["otoño", "susurro", "matrimonio", "boda"]
   },
   {
     title: "Green Wedding",
@@ -854,6 +958,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open foto.webp",
+    keywords: ["verde", "matrimonio", "boda"]
   },
   {
     title: "Green Wedding",
@@ -862,6 +967,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open.webp",
+    keywords: ["verde", "matrimonio", "boda"]
   },
   {
     title: "Blue Wedding",
@@ -870,6 +976,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open foto.webp",
+    keywords: ["azul", "matrimonio", "boda"]
   },
   {
     title: "Blue Wedding",
@@ -878,6 +985,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open.webp",
+    keywords: ["azul", "matrimonio", "boda"]
   },
 
 ];

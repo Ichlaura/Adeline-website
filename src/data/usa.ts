@@ -7,6 +7,7 @@ export type Invitation = {
   price: string;
   closedImage: string;
   openImage: string;
+  keywords?: string[];
 };
 
 export const usaInvitations: Invitation[] = [
@@ -89,6 +90,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open foto ENG.webp",
+    keywords: ["oro", "boda"]
   },
   {
     title: "Gold Wedding",
@@ -97,6 +99,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open ENG.webp",
+    keywords: ["oro", "boda"],
   },
   
   {
@@ -106,6 +109,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open foto ENG.webp",
+    keywords: ["oro", "botánico"]
   },
   {
     title: "Golden Botanical",
@@ -114,6 +118,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open ENG.webp",
+    keywords: ["oro", "botánico"]
   },
   {
     title: "Sakura Romance",
@@ -122,6 +127,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open foto ENG.webp",
+    keywords: ["sakura", "romance"]
   },
   {
     title: "Sakura Romance",
@@ -130,6 +136,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open ENG.webp",
+    keywords: ["sakura", "romance"]
   },
   {
     title: "Autumn Whisper",
@@ -138,6 +145,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open foto ENG.webp",
+    keywords: ["otoño", "susurro"]
   },
   {
     title: "Autumn Whisper",
@@ -146,6 +154,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open ENG.webp",
+    keywords: ["otoño", "susurro"]
   },
   {
     title: "Green Wedding",
@@ -154,6 +163,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open foto ENG.webp",
+    keywords: ["verde", "boda"]
   },
   {
     title: "Green Wedding",
@@ -162,6 +172,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open ENG.webp",
+    keywords: ["verde", "boda"]
   },
   {
     title: "Blue Wedding",
@@ -170,6 +181,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open foto ENG.webp",
+    keywords: ["azul", "boda"]
   },
   {
     title: "Blue Wedding",
@@ -178,6 +190,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open ENG.webp",
+    keywords: ["azul", "boda"]
   },
   
   {
@@ -187,6 +200,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
+    keywords: ["cumpleaños", "fiesta"]
   },
   {
     title: "Baby Shower",
@@ -195,6 +209,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/babyshower_yellow_close.jpeg",
     openImage: "/babyshower_yellow_open.jpeg",
+    keywords: ["baby", "shower"]
   },
   {
   title: "Gender Reveal",
@@ -203,6 +218,7 @@ export const usaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/babyshower_yellow_close.jpeg",
   openImage: "/babyshower_yellow_open.jpeg",
+  keywords: ["gender", "reveal"]
 },
   {
     title: "Graduation Classic",
@@ -211,6 +227,7 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/robotparty_close.jpeg",
     openImage: "/robotparty_open.jpeg",
+    keywords: ["graduación", "clásico"]
   },
   {
     title: "Corporate Event",
@@ -219,6 +236,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/corporativo_close.jpeg",
     openImage: "/corporativo_open.jpeg",
+    keywords: ["corporativo", "evento"]
   },
 
 

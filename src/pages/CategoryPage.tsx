@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../styles/CategoryPage.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -11,6 +12,7 @@ const categoryText = {
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
   
     button: "Ver diseño",
+    search: "Buscar por tema: sirena, animales, vaquero...",
   },
   pe: {
     back: "← Home",
@@ -18,6 +20,7 @@ const categoryText = {
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
     
     button: "Ver diseño",
+    search: "Buscar por tema: sirena, animales, vaquero...",
   },
     mx: {
     back: "← Home",
@@ -25,6 +28,7 @@ const categoryText = {
     subtitle: "Elige el diseño que mejor combina con tu celebración.",
     
     button: "Ver diseño",
+    search: "Buscar por tema: sirena, animales, vaquero...",
   },
   us: {
     back: "← Home",
@@ -32,6 +36,7 @@ const categoryText = {
     subtitle: "Choose the design that best matches your celebration.",
     
     button: "View design",
+    search: "Search by theme: mermaid, animals, cowboy...",
   },
   jp: {
     back: "← ホーム",
@@ -39,10 +44,12 @@ const categoryText = {
     subtitle: "お祝いにぴったりのデザインをお選びください。",
     
     button: "デザインを見る",
+    search: "テーマで検索: 人魚, 動物, カウボーイ...",
   },
 };
 
 function CategoryPage() {
+  const [search, setSearch] = useState("");
 
 
   const currentCountry =
@@ -58,50 +65,99 @@ function CategoryPage() {
     (item) => item.category === categoryName && item.country === currentCountry
   );
 
-  return (
-    <main className="category-page">
-<Navbar />
-      <section className="category-hero">
-        <button
-          className="back-button"
-          onClick={() => {
-            sessionStorage.setItem("fromCategory", "true");
-            window.location.href = "/";
-          }}
+
+
+
+const filteredCards = categoryCards.filter((card) => {
+  const term = search.toLowerCase().trim();
+
+  if (!term) return true;
+
+  const searchableCard = card as typeof card & {
+    keywords?: string[];
+  };
+
+  const titleMatches = card.title
+    .toLowerCase()
+    .includes(term);
+
+  const keywordMatches =
+    searchableCard.keywords?.some((keyword) =>
+      keyword.toLowerCase().includes(term)
+    ) ?? false;
+
+  return titleMatches || keywordMatches;
+});
+
+
+
+
+
+
+
+return (
+  <main className="category-page">
+    <Navbar />
+
+    {/* CABECERA DE LA CATEGORÍA */}
+    <section className="category-hero">
+      <button
+        className="back-button"
+        onClick={() => {
+          sessionStorage.setItem("fromCategory", "true");
+          window.location.href = "/";
+        }}
+      >
+        {text.back}
+      </button>
+
+      <span className="category-kicker">{text.kicker}</span>
+
+      <h1>{categoryName}</h1>
+
+      <p>{text.subtitle}</p>
+
+      {/* BUSCADOR */}
+      <div className="category-search">
+        <input
+          type="text"
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+          placeholder={text.search}
+          aria-label={text.search}
+        />
+      </div>
+    </section>
+
+    {/* TARJETAS */}
+    <section id="designs" className="category-page-grid">
+      {filteredCards.map((card) => (
+        <article
+          className="category-invite-card"
+          key={card.title}
         >
-          {text.back}
-        </button>
+          <div className="category-image-wrap">
+            <img
+              src={card.openImage}
+              alt={card.title}
+              className="category-invite-image"
+            />
+          </div>
 
-        <span className="category-kicker">{text.kicker}</span>
-        <h1>{categoryName}</h1>
-        <p>{text.subtitle}</p>
-      </section>
+          <div className="category-card-content">
+            <span>Adelina</span>
 
-      <section id="designs" className="category-page-grid">
-        {categoryCards.map((card) => (
-          <article className="category-invite-card" key={card.title}>
-            <div className="category-image-wrap">
-              <img
-                src={card.openImage}
-                alt={card.title}
-                className="category-invite-image"
-              />
-            </div>
+            <h3>{card.title}</h3>
 
-            <div className="category-card-content">
-              <span>Adelina</span>
-              <h3>{card.title}</h3>
-             
-              <button>{text.button}</button>
-            </div>
-          </article>
-        ))}
-      </section>
+            <button>{text.button}</button>
+          </div>
+        </article>
+      ))}
+    </section>
 
-    
-      <Footer />
-    </main>
-  );
+    <Footer />
+  </main>
+);
 }
 
 export default CategoryPage;
