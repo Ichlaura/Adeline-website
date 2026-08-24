@@ -40,7 +40,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Elegance close.webp",
     openImage: "/Green Elegance open.webp",
-    keywords: ["esmeralda", "quinceañera"]
+    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
   {
     title: "Golden Dreams",
@@ -58,6 +58,16 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Butterfly close.webp",
     openImage: "/Blush Butterfly open.webp",
+    keywords: ["mariposa", "blush", "quinceañera"]
+  
+  },
+  {
+    title: "Pink Blossom",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Pink Blossom close.webp",
+    openImage: "/Pink Blossom open.webp",
     keywords: ["mariposa", "blush", "quinceañera"]
   
   },
@@ -102,7 +112,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Emerald Quinceañera close.webp",
     openImage: "/Emerald Quinceañera open.webp",
-    keywords: ["esmeralda", "quinceañera"]
+    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
    {
     title: "Unicorn Party",
