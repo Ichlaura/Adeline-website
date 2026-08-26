@@ -101,3 +101,12 @@
     width: 19%;
   }
 }
+
+/* Líneas uniformes en todas las filas */
+.pricing-table tbody tr {
+  border-bottom: 1px solid #ececec;
+}
+
+.pricing-table tbody td {
+  border-bottom: none;
+}
