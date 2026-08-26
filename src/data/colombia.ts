@@ -242,7 +242,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Super Party close.webp",
     openImage: "/Super Party open.webp",
-    keywords: ["super", "fiesta", "cumpleaños"]
+    keywords: ["super", "fiesta", "cumpleaños", "Heroes", "superhéroes"]
   },
 
   {
@@ -289,6 +289,15 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/Magic Party close.webp",
     openImage: "/Magic Party open.webp",
     keywords: ["magia", "magic", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Soccer Star",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Soccer Star close.webp",
+    openImage: "/Soccer Star open.webp",
+    keywords: ["fútbol", "soccer", "estrella", "fiesta", "cumpleaños"]
   },
   {
     title: "Little Cowboy",
