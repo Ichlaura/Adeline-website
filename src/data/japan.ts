@@ -17,383 +17,203 @@ export const japanInvitations: Invitation[] = [
   // ==========================
 
   {
-    title: "桜花", // Sakura
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Cerezo de Marfil close.webp",
-    openImage: "/Cerezo de Marfil open  JP.webp",
-    keywords: [
-      "桜",
-      "さくら",
-      "サクラ",
-      "ピンク",
-      "花",
-      "春",
-      "和風",
-      "結婚式",
-      "ウェディング",
-      "sakura",
-      "wedding"
-    ],
-  },
+  title: "凪",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Serenity close.webp",
+  openImage: "/Serenity open foto JP.webp",
+  keywords: ["凪", "穏やか", "結婚式", "ウェディング", "自然"]
+},
 
-  {
-    title: "桜花", // Sakura con foto
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Cerezo de Marfil close.webp",
-    openImage: "/Cerezo de Marfil open foto JP.webp",
-    keywords: [
-      "桜",
-      "さくら",
-      "サクラ",
-      "ピンク",
-      "花",
-      "春",
-      "和風",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "sakura",
-      "wedding"
-    ],
-  },
+{
+  title: "凪",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Serenity close.webp",
+  openImage: "/Serenity open JP.webp",
+  keywords: ["凪", "穏やか", "結婚式", "ウェディング", "自然"]
+},
 
-  {
-    title: "白雅", // Elegancia Blanca
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Ivory Elegance close.webp",
-    openImage: "/Ivory Elegance open JP.webp",
-    keywords: [
-      "白",
-      "ホワイト",
-      "アイボリー",
-      "上品",
-      "エレガント",
-      "シンプル",
-      "高級",
-      "結婚式",
-      "ウェディング",
-      "white",
-      "ivory",
-      "elegant"
-    ],
-  },
+{
+  title: "真珠桜",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Pearl Blossom close.webp",
+  openImage: "/Pearl Blossom open foto JP.webp",
+  keywords: ["真珠", "桜", "花", "結婚式", "ウェディング"]
+},
 
-  {
-    title: "白雅",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Ivory Elegance close.webp",
-    openImage: "/Ivory Elegance open foto JP.webp",
-    keywords: [
-      "白",
-      "ホワイト",
-      "アイボリー",
-      "上品",
-      "エレガント",
-      "シンプル",
-      "高級",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "white",
-      "ivory",
-      "elegant"
-    ],
-  },
+{
+  title: "真珠桜",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Pearl Blossom close.webp",
+  openImage: "/Pearl Blossom open JP.webp",
+  keywords: ["真珠", "桜", "花", "結婚式", "ウェディング"]
+},
 
-  {
-    title: "金麗", // Belleza Dorada
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Gold Wedding.close.webp",
-    openImage: "/Gold Wedding open JP.webp",
-    keywords: [
-      "金",
-      "ゴールド",
-      "金色",
-      "豪華",
-      "高級",
-      "エレガント",
-      "華やか",
-      "結婚式",
-      "ウェディング",
-      "gold",
-      "golden",
-      "luxury"
-    ],
-  },
+{
+  title: "桃花",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Blush Romance close.webp",
+  openImage: "/Blush Romance open foto JP.webp",
+  keywords: ["桃花", "ピンク", "ロマンチック", "結婚式", "ウェディング"]
+},
 
-  {
-    title: "金麗",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Gold Wedding.close.webp",
-    openImage: "/Gold Wedding open foto JP.webp",
-    keywords: [
-      "金",
-      "ゴールド",
-      "金色",
-      "豪華",
-      "高級",
-      "エレガント",
-      "華やか",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "gold",
-      "golden",
-      "luxury"
-    ],
-  },
+{
+  title: "桃花",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Blush Romance close.webp",
+  openImage: "/Blush Romance open JP.webp",
+  keywords: ["桃花", "ピンク", "ロマンチック", "結婚式", "ウェディング"]
+},
 
-  {
-    title: "白椿", // Camelia Blanca
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/White Camellia close.webp",
-    openImage: "/White Camellia open JP.webp",
-    keywords: [
-      "白",
-      "ホワイト",
-      "椿",
-      "つばき",
-      "花",
-      "フラワー",
-      "上品",
-      "和風",
-      "結婚式",
-      "ウェディング",
-      "white",
-      "camellia",
-      "flower"
-    ],
-  },
+{
+  title: "月白",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Silver Wedding close.webp",
+  openImage: "/Silver Wedding open foto JP.webp",
+  keywords: ["月白", "月", "銀", "上品", "結婚式"]
+},
 
-  {
-    title: "白椿",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/White Camellia close.webp",
-    openImage: "/White Camellia open foto JP.webp",
-    keywords: [
-      "白",
-      "ホワイト",
-      "椿",
-      "つばき",
-      "花",
-      "フラワー",
-      "上品",
-      "和風",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "white",
-      "camellia",
-      "flower"
-    ],
-  },
+{
+  title: "月白",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Silver Wedding close.webp",
+  openImage: "/Silver Wedding open JP.webp",
+  keywords: ["月白", "月", "銀", "上品", "結婚式"]
+},
 
-  {
-    title: "淡金", // Oro Suave / Champagne
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Champagne.Wedding.close.webp",
-    openImage: "/Champagne.Wedding.open JP.webp",
-    keywords: [
-      "シャンパン",
-      "ゴールド",
-      "金",
-      "淡い",
-      "ベージュ",
-      "上品",
-      "エレガント",
-      "高級",
-      "結婚式",
-      "ウェディング",
-      "champagne",
-      "gold",
-      "elegant"
-    ],
-  },
+{
+  title: "金木犀",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Gold Wedding close.webp",
+  openImage: "/Gold Wedding open foto JP.webp",
+  keywords: ["金木犀", "金", "花", "上品", "結婚式"]
+},
 
-  {
-    title: "淡金",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Champagne.Wedding.close.webp",
-    openImage: "/Champagne.Wedding.open foto JP.webp",
-    keywords: [
-      "シャンパン",
-      "ゴールド",
-      "金",
-      "淡い",
-      "ベージュ",
-      "上品",
-      "エレガント",
-      "高級",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "champagne",
-      "gold",
-      "elegant"
-    ],
-  },
+{
+  title: "金木犀",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Gold Wedding close.webp",
+  openImage: "/Gold Wedding open JP.webp",
+  keywords: ["金木犀", "金", "花", "上品", "結婚式"]
+},
 
-  {
-    title: "真珠", // Perla
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Pearl Wedding.close.webp",
-    openImage: "/Pearl Wedding.open JP.webp",
-    keywords: [
-      "真珠",
-      "パール",
-      "白",
-      "ホワイト",
-      "上品",
-      "エレガント",
-      "高級",
-      "結婚式",
-      "ウェディング",
-      "pearl",
-      "white",
-      "elegant"
-    ],
-  },
+{
+  title: "金蘭",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Golden Botanical close.webp",
+  openImage: "/Golden Botanical open foto JP.webp",
+  keywords: ["金蘭", "植物", "ボタニカル", "金", "結婚式"]
+},
 
-  {
-    title: "真珠",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Pearl Wedding.close.webp",
-    openImage: "/Pearl Wedding.open foto JP.webp",
-    keywords: [
-      "真珠",
-      "パール",
-      "白",
-      "ホワイト",
-      "上品",
-      "エレガント",
-      "高級",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "pearl",
-      "white",
-      "elegant"
-    ],
-  },
+{
+  title: "金蘭",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Golden Botanical close.webp",
+  openImage: "/Golden Botanical open JP.webp",
+  keywords: ["金蘭", "植物", "ボタニカル", "金", "結婚式"]
+},
 
-  {
-    title: "銀雅", // Elegancia Plateada
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Silver.Wedding.close.webp",
-    openImage: "/Silver.Wedding.open JP.webp",
-    keywords: [
-      "銀",
-      "シルバー",
-      "銀色",
-      "グレー",
-      "上品",
-      "エレガント",
-      "高級",
-      "結婚式",
-      "ウェディング",
-      "silver",
-      "gray",
-      "elegant"
-    ],
-  },
+{
+  title: "花霞",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Sakura Romance close.webp",
+  openImage: "/Sakura Romance open foto JP.webp",
+  keywords: ["花霞", "桜", "春", "花", "結婚式"]
+},
 
-  {
-    title: "銀雅",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Silver.Wedding.close.webp",
-    openImage: "/Silver.Wedding.open foto JP.webp",
-    keywords: [
-      "銀",
-      "シルバー",
-      "銀色",
-      "グレー",
-      "上品",
-      "エレガント",
-      "高級",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "silver",
-      "gray",
-      "elegant"
-    ],
-  },
+{
+  title: "花霞",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Sakura Romance close.webp",
+  openImage: "/Sakura Romance open JP.webp",
+  keywords: ["花霞", "桜", "春", "花", "結婚式"]
+},
 
-  {
-    title: "鶴の誓い",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Grullas close JP.webp",
-    openImage: "/Grullas open JP.webp",
-    keywords: [
-      "鶴",
-      "つる",
-      "和風",
-      "和婚",
-      "日本",
-      "伝統",
-      "和",
-      "縁起",
-      "結婚式",
-      "ウェディング",
-      "crane",
-      "japanese",
-      "traditional"
-    ],
-  },
+{
+  title: "紅葉",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Autumn Whisper close.webp",
+  openImage: "/Autumn Whisper open foto JP.webp",
+  keywords: ["紅葉", "秋", "もみじ", "自然", "結婚式"]
+},
 
-  {
-    title: "鶴の誓い",
-    category: "結婚式",
-    country: "jp",
-    price: "$39",
-    closedImage: "/Grullas close JP.webp",
-    openImage: "/Grullas open foto JP.webp",
-    keywords: [
-      "鶴",
-      "つる",
-      "和風",
-      "和婚",
-      "日本",
-      "伝統",
-      "和",
-      "縁起",
-      "写真",
-      "結婚式",
-      "ウェディング",
-      "crane",
-      "japanese",
-      "traditional"
-    ],
-  },
+{
+  title: "紅葉",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Autumn Whisper close.webp",
+  openImage: "/Autumn Whisper open JP.webp",
+  keywords: ["紅葉", "秋", "もみじ", "自然", "結婚式"]
+},
+
+{
+  title: "若葉",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Green Wedding close.webp",
+  openImage: "/Green Wedding open foto JP.webp",
+  keywords: ["若葉", "緑", "植物", "自然", "結婚式"]
+},
+
+{
+  title: "若葉",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Green Wedding close.webp",
+  openImage: "/Green Wedding open JP.webp",
+  keywords: ["若葉", "緑", "植物", "自然", "結婚式"]
+},
+
+{
+  title: "青海",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Blue Wedding close.webp",
+  openImage: "/Blue Wedding open foto JP.webp",
+  keywords: ["青海", "青", "海", "爽やか", "結婚式"]
+},
+
+{
+  title: "青海",
+  category: "Matrimonio",
+  country: "jp",
+  price: "$39",
+  closedImage: "/Blue Wedding close.webp",
+  openImage: "/Blue Wedding open JP.webp",
+  keywords: ["青海", "青", "海", "爽やか", "結婚式"]
+},
 
 ];
