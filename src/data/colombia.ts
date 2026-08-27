@@ -318,6 +318,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños"]
   },
   {
+    title: "Rock Star Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Rock Star Party close.webp",
+    openImage: "/Rock Star Party open.webp",
+    keywords: ["rock", "star", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Motorcycle",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
