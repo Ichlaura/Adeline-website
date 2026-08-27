@@ -5,6 +5,7 @@ import Showcase from "../components/Showcase";
 import Footer from "../components/Footer";
 import Pricing from "../components/Pricing";
 import type { CountryCode } from "../data/countries";
+import LiveDemo from "../components/LiveDemo";
 
 type HomeProps = {
   settings: {
@@ -58,6 +59,8 @@ function Home({ settings }: HomeProps) {
 
 {/* <Features /> */}
 <Showcase />
+
+<LiveDemo />
 
 
 

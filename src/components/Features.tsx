@@ -35,6 +35,25 @@ function Features() {
             Create a completely unique invitation.
           </p>
         </article>
+
+        <article className="feature-card demo-card">
+          <span>💌</span>
+
+          <h3>Try a Live Invitation</h3>
+
+          <p>
+            Experience an Adelina invitation just like your guests will.
+          </p>
+
+          <a
+            href="AQUI-VA-LA-URL-DE-TU-APP/invitation/demo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="demo-button"
+          >
+            View Live Demo
+          </a>
+        </article>
       </div>
     </section>
   );

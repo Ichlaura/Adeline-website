@@ -1,0 +1,203 @@
+.adelina-demo-section {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 85px 24px;
+
+  background: #f7f1e8;
+}
+
+.adelina-demo-inner {
+  width: 100%;
+  max-width: 780px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+
+/* ICONO */
+
+.adelina-demo-symbol {
+  width: 68px;
+  height: 68px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
+
+  border: 1px solid #e3d3b9;
+  border-radius: 50%;
+
+  background: #fffaf3;
+
+  color: #b88a45;
+
+  font-size: 27px;
+
+  box-shadow: 0 8px 25px rgba(82, 60, 34, 0.07);
+}
+
+
+/* TEXTO PEQUEÑO */
+
+.adelina-demo-eyebrow {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color: #b88a45;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+
+/* TÍTULO */
+
+.adelina-demo-title {
+  margin: 0 0 18px;
+
+  color: #201a15;
+
+  font-size: clamp(36px, 4vw, 54px);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+
+/* DESCRIPCIÓN */
+
+.adelina-demo-description {
+  width: 100%;
+  max-width: 650px;
+
+  margin: 0 auto 30px;
+
+  color: #706256;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* BOTÓN */
+
+.adelina-demo-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  padding: 15px 30px;
+
+  border-radius: 999px;
+
+  background: #bd8d40;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  box-shadow: 0 9px 24px rgba(135, 93, 36, 0.18);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.adelina-demo-cta:hover {
+  transform: translateY(-2px);
+
+  background: #aa7a31;
+
+  box-shadow: 0 13px 30px rgba(135, 93, 36, 0.24);
+}
+
+.adelina-demo-arrow {
+  font-size: 19px;
+  line-height: 1;
+}
+
+
+/* NOTA */
+
+.adelina-demo-note {
+  display: block;
+
+  margin-top: 14px;
+
+  color: #9a8c7b;
+
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .adelina-demo-section {
+    padding: 65px 20px;
+  }
+
+  .adelina-demo-title {
+    font-size: 36px;
+  }
+
+  .adelina-demo-description {
+    max-width: 520px;
+
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .adelina-demo-section {
+    padding: 55px 18px;
+  }
+
+  .adelina-demo-symbol {
+    width: 60px;
+    height: 60px;
+
+    font-size: 23px;
+  }
+
+  .adelina-demo-eyebrow {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+
+  .adelina-demo-title {
+    font-size: 31px;
+  }
+
+  .adelina-demo-description {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .adelina-demo-cta {
+    padding: 14px 25px;
+
+    font-size: 15px;
+  }
+
+  .adelina-demo-note {
+    font-size: 11px;
+  }
+}
