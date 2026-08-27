@@ -399,6 +399,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["arte", "art", "fiesta", "cumpleaños"]
   },
   {
+    title: "My First Race",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/My First Race close.webp",
+    openImage: "/My First Race open.webp",
+    keywords: ["carro", "race", "car", "cumpleaños"]
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "co",
