@@ -500,6 +500,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
   },
   {
+    title: "Groom Night",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Groom Night close.webp",
+    openImage: "/Groom Night open.webp",
+    keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
+  },
+  {
     title: "Silk Blessing",
     category: "Primera comunión y bautismo",
     country: "co",
