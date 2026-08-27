@@ -479,7 +479,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Bachelorette party close.webp",
     openImage: "/Bachelorette party open.webp",
-    keywords: ["despedida", "soltera", "fiesta", "cumpleaños"]
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
   },
   {
     title: "Orange Halloween",
@@ -488,7 +488,16 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Orange Halloween close.webp",
     openImage: "/Orange Halloween open.webp",
-    keywords: ["halloween", "naranja", "fiesta", "cumpleaños"]
+    keywords: ["halloween", "naranja", "fiesta"]
+  },
+  {
+    title: "Bride to Be Bash",
+    category: "Celebraciones y fiestas",
+    country: "co",
+    price: "$39",
+    closedImage: "/Bride to Be Bash close.webp",
+    openImage: "/Bride to Be Bash open.webp",
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
   },
   {
     title: "Silk Blessing",
