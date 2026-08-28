@@ -112,7 +112,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding close.webp",
-  openImage: "/金木犀 open.webp",
+  openImage: "/Unicorn Party open foto.webp",
   keywords: ["金木犀", "金", "花", "上品", "結婚式"]
 },
 
