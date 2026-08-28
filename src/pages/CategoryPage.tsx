@@ -51,7 +51,7 @@ const categoryText = {
 function CategoryPage() {
   const [search, setSearch] = useState("");
 
-
+const [searchOpen, setSearchOpen] = useState(false);
   const currentCountry =
     (localStorage.getItem("adelina-country") as CountryCode) || "co";
 
@@ -117,16 +117,43 @@ return (
 
       <p>{text.subtitle}</p>
 
-      {/* BUSCADOR */}
-      <div className="category-search">
-        <input
-          type="text"
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-          placeholder={text.search}
-          aria-label={text.search}
-        />
-      </div>
+    
+
+
+
+{/* BUSCADOR */}
+<div className={`category-search ${searchOpen ? "open" : ""}`}>
+  <button
+    type="button"
+    className="category-search-button"
+    onClick={() => setSearchOpen((prev) => !prev)}
+    aria-label={text.search}
+  >
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className="category-search-icon"
+    >
+      <circle cx="11" cy="11" r="7" />
+      <line x1="16.5" y1="16.5" x2="21" y2="21" />
+    </svg>
+  </button>
+
+  {searchOpen && (
+    <input
+      autoFocus
+      type="text"
+      value={search}
+      onChange={(event) => setSearch(event.target.value)}
+      placeholder=""
+      aria-label={text.search}
+    />
+  )}
+</div>
+
+
+
+
     </section>
 
     {/* TARJETAS */}

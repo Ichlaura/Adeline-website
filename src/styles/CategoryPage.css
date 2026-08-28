@@ -160,6 +160,112 @@
 
 
 
+/* SEARCH */
+
+.category-search {
+  margin: 34px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.category-search-button {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #dfc79f;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.88);
+  color: #b88a45;
+
+  cursor: pointer;
+
+  box-shadow: 0 10px 28px rgba(83, 58, 31, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.category-search-button:hover {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.category-search-icon {
+  width: 25px;
+  height: 25px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.category-search input {
+  width: min(420px, 70vw);
+  height: 56px;
+
+  box-sizing: border-box;
+
+  padding: 0 22px;
+
+  border: 1px solid #dfc79f;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  color: #1f1a14;
+  font-size: 16px;
+
+  outline: none;
+
+  box-shadow: 0 10px 28px rgba(83, 58, 31, 0.07);
+
+  animation: searchAppear 0.2s ease;
+}
+
+.category-search input:focus {
+  border-color: #b88a45;
+}
+
+@keyframes searchAppear {
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 680px) {
+  .category-search {
+    margin-top: 28px;
+  }
+
+  .category-search-button {
+    width: 54px;
+    height: 54px;
+  }
+
+  .category-search input {
+    width: calc(88vw - 70px);
+    height: 54px;
+  }
+}
+
+
+
 
 
 
