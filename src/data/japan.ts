@@ -18,7 +18,7 @@ export const japanInvitations: Invitation[] = [
 
   {
   title: "凪",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Serenity close.webp",
@@ -28,7 +28,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "凪",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Serenity close.webp",
@@ -38,7 +38,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "真珠桜",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Blossom close.webp",
@@ -48,7 +48,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "真珠桜",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Blossom close.webp",
@@ -58,7 +58,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "桃花",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Blush Romance close.webp",
@@ -68,7 +68,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "桃花",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Blush Romance close.webp",
@@ -78,7 +78,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "月白",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Silver Wedding close.webp",
@@ -88,7 +88,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "月白",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Silver Wedding close.webp",
@@ -98,7 +98,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "金木犀",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding close.webp",
@@ -108,7 +108,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "金木犀",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding close.webp",
@@ -118,7 +118,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "金蘭",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Golden Botanical close.webp",
@@ -128,7 +128,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "金蘭",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Golden Botanical close.webp",
@@ -138,7 +138,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "花霞",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Sakura Romance close.webp",
@@ -148,7 +148,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "花霞",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Sakura Romance close.webp",
@@ -158,7 +158,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "紅葉",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Autumn Whisper close.webp",
@@ -168,7 +168,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "紅葉",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Autumn Whisper close.webp",
@@ -178,7 +178,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "若葉",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Green Wedding close.webp",
@@ -188,7 +188,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "若葉",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Green Wedding close.webp",
@@ -198,7 +198,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "青海",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Blue Wedding close.webp",
@@ -208,7 +208,7 @@ export const japanInvitations: Invitation[] = [
 
 {
   title: "青海",
-  category: "Matrimonio",
+  category: "結婚式",
   country: "jp",
   price: "$39",
   closedImage: "/Blue Wedding close.webp",
