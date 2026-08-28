@@ -170,7 +170,7 @@ function Pricing({ settings }: Props) {
     <tr>
       <td>{settings.pricing.customPhoto}</td>
       <td>❌</td>
-      <td>❌</td>
+      <td>✅</td>
       <td>✅</td>
     </tr>
 
