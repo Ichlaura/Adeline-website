@@ -148,7 +148,7 @@ function Pricing({ settings }: Props) {
 
     <tr>
       <td>{settings.pricing.countdown}</td>
-      <td>❌</td>
+      <td>✅</td>
       <td>✅</td>
       <td>✅</td>
     </tr>
