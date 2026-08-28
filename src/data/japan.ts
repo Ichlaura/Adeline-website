@@ -22,7 +22,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Serenity close.webp",
-  openImage: "/凪 open foto JP.webp",
+  openImage: "/凪 open foto.webp",
   keywords: ["凪", "穏やか", "結婚式", "ウェディング", "自然"]
 },
 
@@ -32,7 +32,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Serenity close.webp",
-  openImage: "/凪 open JP.webp",
+  openImage: "/凪 open.webp",
   keywords: ["凪", "穏やか", "結婚式", "ウェディング", "自然"]
 },
 
@@ -42,7 +42,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Blossom close.webp",
-  openImage: "/真珠桜 open foto JP.webp",
+  openImage: "/真珠桜 open foto.webp",
   keywords: ["真珠", "桜", "花", "結婚式", "ウェディング"]
 },
 
@@ -52,7 +52,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Pearl Blossom close.webp",
-  openImage: "/真珠桜 open JP.webp",
+  openImage: "/真珠桜 open.webp",
   keywords: ["真珠", "桜", "花", "結婚式", "ウェディング"]
 },
 
@@ -62,7 +62,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Blush Romance close.webp",
-  openImage: "/桃花 open foto JP.webp",
+  openImage: "/桃花 open foto.webp",
   keywords: ["桃花", "ピンク", "ロマンチック", "結婚式", "ウェディング"]
 },
 
@@ -72,7 +72,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Blush Romance close.webp",
-  openImage: "/桃花 open JP.webp",
+  openImage: "/桃花 open.webp",
   keywords: ["桃花", "ピンク", "ロマンチック", "結婚式", "ウェディング"]
 },
 
@@ -82,7 +82,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Silver Wedding close.webp",
-  openImage: "/月白 open foto JP.webp",
+  openImage: "/月白 open foto.webp",
   keywords: ["月白", "月", "銀", "上品", "結婚式"]
 },
 
@@ -92,7 +92,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Silver Wedding close.webp",
-  openImage: "/月白 open JP.webp",
+  openImage: "/月白 open.webp",
   keywords: ["月白", "月", "銀", "上品", "結婚式"]
 },
 
@@ -102,7 +102,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding close.webp",
-  openImage: "/金木犀 open foto JP.webp",
+  openImage: "/金木犀 open foto.webp",
   keywords: ["金木犀", "金", "花", "上品", "結婚式"]
 },
 
@@ -112,7 +112,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Gold Wedding close.webp",
-  openImage: "/金木犀 open JP.webp",
+  openImage: "/金木犀 open.webp",
   keywords: ["金木犀", "金", "花", "上品", "結婚式"]
 },
 
@@ -122,7 +122,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Golden Botanical close.webp",
-  openImage: "/金蘭 open foto JP.webp",
+  openImage: "/金蘭 open foto.webp",
   keywords: ["金蘭", "植物", "ボタニカル", "金", "結婚式"]
 },
 
@@ -132,7 +132,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Golden Botanical close.webp",
-  openImage: "/金蘭 open JP.webp",
+  openImage: "/金蘭 open.webp",
   keywords: ["金蘭", "植物", "ボタニカル", "金", "結婚式"]
 },
 
@@ -142,7 +142,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Sakura Romance close.webp",
-  openImage: "/花霞 open foto JP.webp",
+  openImage: "/花霞 open foto.webp",
   keywords: ["花霞", "桜", "春", "花", "結婚式"]
 },
 
@@ -152,7 +152,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Sakura Romance close.webp",
-  openImage: "/花霞 open JP.webp",
+  openImage: "/花霞 open.webp",
   keywords: ["花霞", "桜", "春", "花", "結婚式"]
 },
 
@@ -162,7 +162,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Autumn Whisper close.webp",
-  openImage: "/紅葉 open foto JP.webp",
+  openImage: "/紅葉 open foto.webp",
   keywords: ["紅葉", "秋", "もみじ", "自然", "結婚式"]
 },
 
@@ -172,7 +172,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Autumn Whisper close.webp",
-  openImage: "/紅葉 open JP.webp",
+  openImage: "/紅葉 open.webp",
   keywords: ["紅葉", "秋", "もみじ", "自然", "結婚式"]
 },
 
@@ -182,7 +182,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Green Wedding close.webp",
-  openImage: "/若葉 open foto JP.webp",
+  openImage: "/若葉 open foto.webp",
   keywords: ["若葉", "緑", "植物", "自然", "結婚式"]
 },
 
@@ -192,7 +192,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Green Wedding close.webp",
-  openImage: "/若葉 open JP.webp",
+  openImage: "/若葉 open.webp",
   keywords: ["若葉", "緑", "植物", "自然", "結婚式"]
 },
 
@@ -202,7 +202,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Blue Wedding close.webp",
-  openImage: "/青海 open foto JP.webp",
+  openImage: "/青海 open foto.webp",
   keywords: ["青海", "青", "海", "爽やか", "結婚式"]
 },
 
@@ -212,7 +212,7 @@ export const japanInvitations: Invitation[] = [
   country: "jp",
   price: "$39",
   closedImage: "/Blue Wedding close.webp",
-  openImage: "/青海 open JP.webp",
+  openImage: "/青海 open.webp",
   keywords: ["青海", "青", "海", "爽やか", "結婚式"]
 },
 
