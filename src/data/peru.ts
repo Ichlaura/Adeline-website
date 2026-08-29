@@ -860,6 +860,14 @@ export const peruInvitations: Invitation[] = [
     country: "pe",
     price: "$39",
     closedImage: "/Sakura Blossom close.webp",
+    openImage: "/Sakura Blossom open foto.webp",
+  },
+  {
+    title: "Sakura Blossom",
+    category: "Matrimonio",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Sakura Blossom close.webp",
     openImage: "/Sakura Blossom open.webp",
   },
   {
