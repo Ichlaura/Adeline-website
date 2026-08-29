@@ -526,7 +526,7 @@ export const usaInvitations: Invitation[] = [
     country: "us",
     price: "$39",
     closedImage: "/Silk Blessing close.webp",
-    openImage: "/Silk Blessing open foto ENG.webp",
+    openImage: "/Silk Blessing open ENG.webp",
     keywords: ["seda", "bendición", "fiesta", "First Communio"]
   },
   {
