@@ -390,6 +390,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
   },
   {
+    title: "Choo Choo Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Choo Choo Party close.webp",
+    openImage: "/Choo Choo Party open.webp",
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Art Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",

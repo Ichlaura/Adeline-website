@@ -392,6 +392,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Pirate Legacy open ENG.webp",
     keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
   },
+   {
+    title: "Choo Choo Party",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Choo Choo Party close.webp",
+    openImage: "/Choo Choo Party open.webp",
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+  },
   {
     title: "Art Party",
     category: "Kids Birthdays",
