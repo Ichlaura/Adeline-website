@@ -15,206 +15,15 @@ export const peruInvitations: Invitation[] = [
   // PERÚ
   // ==========================
 
-  {
-    title: "Pink Butterfly",
+   {
+    title: "Blush Butterfly",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Pink Butterfly close.webp",
-    openImage: "/Pink Butterfly open.webp",
-    keywords: ["rosa", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Pink Butterfly",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Pink Butterfly close.webp",
-    openImage: "/Pink Butterfly open foto.webp",
-    keywords: ["rosa", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
-  },
+    closedImage: "/Blush Butterfly close.webp",
+    openImage: "/Blush Butterfly open.webp",
+    keywords: ["mariposa", "blush", "quinceañera"]
   
-  {
-    title: "Green Butterfly",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Green Butterfly close.webp",
-    openImage: "/Green Butterfly open.webp",
-    keywords: ["verde", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Green Butterfly",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Green Butterfly close.webp",
-    openImage: "/Green Butterfly open foto.webp",
-    keywords: ["verde", "mariposa", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Morganite",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Morganite close.webp",
-    openImage: "/Morganite open.webp",
-    keywords: ["morganita", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Morganite",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Morganite close.webp",
-    openImage: "/Morganite open foto.webp",
-    keywords: ["morganita", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Emerald Quinceañera",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosverde_close.webp",
-    openImage: "/quinceanosverde_open.webp",
-    keywords: ["verde", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Emerald Quinceañera",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosverde_close.webp",
-    openImage: "/quinceanosverde_open foto.webp",
-    keywords: ["verde", "quinceañera", "fiesta", "cumpleaños"]
-  },
-
-  
-  {
-    title: "Royal Blue Quinceañera",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosazul_close.webp",
-    openImage: "/quinceanosazul_open.webp",
-    keywords: ["azul", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Royal Blue Quinceañera",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosazul_close.webp",
-    openImage: "/quinceanosazul_open foto.webp",
-    keywords: ["azul", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Champagne Tiara",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Champagne Tiara close.webp",
-    openImage: "/Champagne Tiara open.webp",
-    keywords: ["champagne", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Champagne Tiara",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Champagne Tiara close.webp",
-    openImage: "/Champagne Tiara open foto.webp",
-    keywords: ["champagne", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Pink Princess",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanospink_close.webp",
-    openImage: "/quinceanospink_open.webp",
-    keywords: ["rosa", "princesa", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Pink Princess",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanospink_close.webp",
-    openImage: "/quinceanospink_open foto.webp",
-    keywords: ["rosa", "princesa", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Purple Luxury",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanospurpura_close.webp",
-    openImage: "/quinceanospurpura_open.webp",
-    keywords: ["morado", "lujo", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Purple Luxury",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanospurpura_close.webp",
-    openImage: "/quinceanospurpura_open foto.webp",
-    keywords: ["morado", "lujo", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Royal Violet",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosmorado_close.webp",
-    openImage: "/quinceanosmorado_open.webp",
-    keywords: ["morado", "real", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Royal Violet",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosmorado_close.webp",
-    openImage: "/quinceanosmorado_open foto.webp",
-    keywords: ["morado", "real", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Neutral Floral",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosfloresneutral_close.webp",
-    openImage: "/quinceanosfloresneutral_close_open.webp",
-    keywords: ["neutro", "floral", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Neutral Floral",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/quinceanosfloresneutral_close.webp",
-    openImage: "/quinceanosfloresneutral_close_open foto.webp",
-    keywords: ["neutro", "floral", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Blue Serenity",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Blue Serenity close.webp",
-    openImage: "/Blue Serenity open.webp",
-    keywords: ["azul", "serenidad", "quinceañera", "fiesta", "cumpleaños"]
-  },
-  {
-    title: "Blue Serenity",
-    category: "Quince Años",
-    country: "pe",
-    price: "$49",
-    closedImage: "/Blue Serenity close.webp",
-    openImage: "/Blue Serenity open foto.webp",
-    keywords: ["azul", "serenidad", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
     title: "Royal Garden",
@@ -223,52 +32,61 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Garden close.webp",
     openImage: "/Royal Garden open.webp",
-    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
+    keywords: ["jardín", "royal", "quinceañera"]
   },
   {
-    title: "Royal Garden",
+    title: "Green Elegance",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Royal Garden close.webp",
-    openImage: "/Royal Garden open foto.webp",
-    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Green Elegance close.webp",
+    openImage: "/Green Elegance open.webp",
+    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
   {
-    title: "Noble Rose",
+    title: "Golden Dreams",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Noble Rose close.webp",
-    openImage: "/Noble Rose open.webp",
-    keywords: ["rosa", "noble", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Golden Dreams close.webp",
+    openImage: "/Golden Dreams open.webp",
+    keywords: ["dorado", "sueños", "quinceañera"]
   },
   {
-    title: "Noble Rose",
+    title: "Blue Serenity",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Noble Rose close.webp",
-    openImage: "/Noble Rose open foto.webp",
-    keywords: ["rosa", "noble", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Blue Serenity close.webp",
+    openImage: "/Blue Serenity open.webp",
+    keywords: ["azul", "serenidad", "quinceañera"]
   },
   {
-    title: "Noble Garden",
+    title: "Ivory Bloom",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Noble Garden close.webp",
-    openImage: "/Noble Garden open.webp",
-    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Ivory Bloom close.webp",
+    openImage: "/Ivory Bloom open.webp",
+    keywords: ["marfil", "flor", "quinceañera"]
   },
   {
-    title: "Noble Garden",
+    title: "Purple Elegance",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Noble Garden close.webp",
-    openImage: "/Noble Garden open foto.webp",
-    keywords: ["real", "jardín", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Purple Elegance close.webp",
+    openImage: "/Purple Elegance open.webp",
+  },
+  {
+    title: "Pink Blossom",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Pink Blossom close.webp",
+    openImage: "/Pink Blossom open.webp",
+    keywords: ["mariposa", "blush", "quinceañera"]
+  
   },
   {
     title: "Black Diamond",
@@ -277,62 +95,95 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
-    keywords: ["negro", "diamante", "quinceañera", "fiesta", "cumpleaños"]
   },
   {
-    title: "Black Diamond",
+    title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "pe",
     price: "$49",
-    closedImage: "/Black Diamond close.webp",
-    openImage: "/Black Diamond open foto.webp",
-    keywords: ["negro", "diamante", "quinceañera", "fiesta", "cumpleaños"]
+    closedImage: "/Emerald Quinceañera close.webp",
+    openImage: "/Emerald Quinceañera open.webp",
+    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
-
+  {
+    title: "Blush Princess",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Blush Princess close.webp",
+    openImage: "/Blush Princess open.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
+  },
+   {
+    title: "Unicorn Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Unicorn Party close.webp",
+    openImage: "/Unicorn Party open foto.webp",
+  },
   {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumpleunicornios_close.webp",
-    openImage: "/cumpleunicornios_open.webp",
-    keywords: ["unicornio", "princesa", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Unicorn Party close.webp",
+    openImage: "/Unicorn Party open.webp",
+    keywords: ["unicornio", "fiesta", "cumpleaños"]
   },
   {
     title: "Soccer Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumplefutbol_close.webp",
-    openImage: "/cumplefutbol_open.webp",
-    keywords: ["fútbol", "deporte", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Soccer Party close.webp",
+    openImage: "/Soccer Party open.webp",
+    keywords: ["fútbol", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Little Chef",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Little Chef close.webp",
+    openImage: "/Little Chef open.webp",
+    keywords: ["chef", "cocina", "fiesta", "cumpleaños"]
   },
   {
     title: "Dinosaur Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumpledinosaurios_close.webp",
-    openImage: "/cumpledinosaurios_open.webp",
-    keywords: ["dinosaurio", "jungla", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Dinosaur Party close.webp",
+    openImage: "/Dinosaur Party open.webp",
+    keywords: ["dinosaurio", "fiesta", "cumpleaños"]
   },
   {
-    title: "Princess Sofia",
+    title: "Princess Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumpleprincesasofia_close.webp",
-    openImage: "/cumpleprincesasofia_open.webp",
-    keywords: ["princesa", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Princess Party close.webp",
+    openImage: "/Princess Party open foto.webp",
+    keywords: ["princesa", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Princess Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Princess Party close.webp",
+    openImage: "/Princess Party open.webp",
+    keywords: ["princesa", "fiesta", "cumpleaños"]
   },
   {
     title: "Fairy Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumplehadas_close.webp",
-    openImage: "/cumplehadas_open.webp",
-    keywords: ["hada", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Fairy Party close.webp",
+    openImage: "/Fairy Party open.webp",
+    keywords: ["hada", "fiesta", "cumpleaños"]
   },
   
   {
@@ -340,45 +191,58 @@ export const peruInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumplecars_close.webp",
-    openImage: "/cumplecars_open.webp",
-    keywords: ["coche", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Cars Party close.webp",
+    openImage: "/Cars Party open.webp",
+    keywords: ["coches", "autos", "fiesta", "cumpleaños"]
   },
   {
     title: "Animals Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumpleanimals_close.webp",
-    openImage: "/cumpleanimals_open.webp",
-    keywords: ["animal", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Animals Party close.webp",
+    openImage: "/Animals Party open.webp",
+    keywords: ["animales", "fiesta", "cumpleaños"]
   },
   {
     title: "Basketball Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/cumplebaloncesto_close.webp",
-    openImage: "/cumplebaloncesto_open.webp",
-    keywords: ["baloncesto", "deporte", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Basketball Party close.webp",
+    openImage: "/Basketball Party open.webp",
+    keywords: ["baloncesto", "basketball", "fiesta", "cumpleaños"]
   },
-  {
-    title: "Mermaid Party",
-    category: "Cumpleaños y fiestas infantiles",
-    country: "pe",
-    price: "$39",
-    closedImage: "/sirena_close.webp",
-    openImage: "/sirena_open.webp",
-    keywords: ["sirena", "cumpleaños", "fiesta", "infantil"]
-  },
+  
+
+{
+  title: "Mermaid Party",
+  category: "Cumpleaños y fiestas infantiles",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Mermaid Party close.webp",
+  openImage: "/Mermaid Party open foto.webp",
+  keywords: [
+    "sirena",
+    "sirenas",
+    "mermaid",
+    "mar",
+    "océano",
+    "oceano",
+    "playa",
+    "azul",
+    "niña"
+  ],
+},
+
  {
     title: "Super Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/superfiesta_close.webp",
-    openImage: "/superfiesta_open.webp",
-    keywords: ["super", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Super Party close.webp",
+    openImage: "/Super Party open.webp",
+    keywords: ["super", "fiesta", "cumpleaños", "Heroes", "superhéroes"]
   },
 
   {
@@ -386,45 +250,81 @@ export const peruInvitations: Invitation[] = [
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/robotparty_close.webp",
-    openImage: "/robotparty_open.webp",
-    keywords: ["robot", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Robot Party close.webp",
+    openImage: "/Robot Party open.webp",
+    keywords: ["robot", "fiesta", "cumpleaños"]
   },
   {
     title: "Spa Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/spaparty_close.webp",
-    openImage: "/spaparty_open.webp",
-    keywords: ["spa", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Spa Party close.webp",
+    openImage: "/Spa Party open.webp",
+    keywords: ["spa", "fiesta", "cumpleaños"]
   },
   {
     title: "Hawaii Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/hawaifiesta_close.webp",
-    openImage: "/hawaifiesta_open.webp",
-    keywords: ["hawaiano", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Hawaii Party close.webp",
+    openImage: "/Hawaii Party open.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Magical Bunny",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Magical Bunny close.webp",
+    openImage: "/Magical Bunny open.webp",
+    keywords: ["conejo", "bunny", "magical", "fiesta", "cumpleaños"]
   },
   {
     title: "Magic Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/fiestamagia_close.webp",
-    openImage: "/fiestamagia_open.webp",
-    keywords: ["mágico", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Magic Party close.webp",
+    openImage: "/Magic Party open.webp",
+    keywords: ["magia", "magic", "fiesta", "cumpleaños"]
   },
   {
-    title: "Cowboy Kids Party",
+    title: "Soccer Star",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/Cowboy Kids Party close.webp",
-    openImage: "/Cowboy Kids Party Open.webp",
-    keywords: ["cowboy", "niños", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Soccer Star close.webp",
+    openImage: "/Soccer Star open.webp",
+    keywords: ["fútbol", "soccer", "estrella", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Little Cowboy",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Little Cowboy close.webp",
+    openImage: "/Little Cowboy open.webp",
+    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Cowboy Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Cowboy Party close.webp",
+    openImage: "/Cowboy Party open.webp",
+    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Rock Star Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Rock Star Party close.webp",
+    openImage: "/Rock Star Party open.webp",
+    keywords: ["rock", "star", "fiesta", "cumpleaños"]
   },
   {
     title: "Motorcycle",
@@ -433,16 +333,16 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Motorcycle close.webp",
     openImage: "/Motorcycle open.webp",
-    keywords: ["motocicleta", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["moto", "motorcycle", "fiesta", "cumpleaños"]
   },
   {
-    title: "Purple Paw",
+    title: "Cute Kittens",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/Purple Paw close.webp",
-    openImage: "/Purple Paw open.webp",
-    keywords: ["púrpura", "pata", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Cute Kittens close.webp",
+    openImage: "/Cute Kittens open.webp",
+    keywords: ["gatitos", "kittens", "fiesta", "cumpleaños"]
   },
   {
     title: "Blue Doggy",
@@ -451,7 +351,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Doggy close.webp",
     openImage: "/Blue Doggy open.webp",
-    keywords: ["azul", "perro", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["perrito", "doggy", "fiesta", "cumpleaños"]
   },
   {
     title: "Outer Space",
@@ -460,7 +360,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Outer Space close.webp",
     openImage: "/Outer Space open.webp",
-    keywords: ["espacio", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["espacio", "space", "fiesta", "cumpleaños"]
   },
   {
     title: "Purple Dino",
@@ -469,7 +369,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Purple Dino close.webp",
     openImage: "/Purple Dino open.webp",
-    keywords: ["púrpura", "dinosaurio", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["dinosaurio", "dino", "fiesta", "cumpleaños"]
   },
   {
     title: "Science Lab",
@@ -478,7 +378,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Science Lab close.webp",
     openImage: "/Science Lab open.webp",
-    keywords: ["ciencia", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["ciencia", "science", "fiesta", "cumpleaños"]
   },
   {
     title: "Pirate Legacy",
@@ -487,34 +387,25 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open.webp",
-    keywords: ["pirata", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
   },
   {
-    title: "Little Chef",
+    title: "Art Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/Little Chef.close.webp",
-    openImage: "/Little Chef open.webp",
-    keywords: ["cocina", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Art Party close.webp",
+    openImage: "/Art Party open.webp",
+    keywords: ["arte", "art", "fiesta", "cumpleaños"]
   },
   {
-    title: "Little Chef Pink",
+    title: "My First Race",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
-    closedImage: "/Little Chef close pink.webp",
-    openImage: "/Little Chef open pink.webp",
-    keywords: ["rosado", "cocina", "cumpleaños", "fiesta", "infantil"]
-  },
-  {
-    title: "Baby Luxe",
-    category: "Baby Shower",
-    country: "pe",
-    price: "$39",
-    closedImage: "/Baby Luxe close.webp",
-    openImage: "/Baby Luxe open.webp",
-    keywords: ["luxe", "baby", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/My First Race close.webp",
+    openImage: "/My First Race open.webp",
+    keywords: ["carro", "race", "car", "cumpleaños"]
   },
   {
     title: "Blue Teddy",
@@ -523,250 +414,273 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Teddy close.webp",
     openImage: "/Blue Teddy open.webp",
-    keywords: ["azul", "osito", "baby", "cumpleaños", "fiesta", "infantil"]
+    keywords: ["osito", "teddy", "fiesta", "cumpleaños"]
   },
-  
   {
-    title: "Blush Invitation",
+    title: "Blush Teddy",
     category: "Baby Shower",
     country: "pe",
     price: "$39",
-    closedImage: "/Blush Invitation close.webp",
-    openImage: "/Blush Invitation open.webp",
-    keywords: ["rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Blush Teddy close.webp",
+    openImage: "/Blush Teddy open.webp",
+    keywords: ["osito", "teddy", "fiesta", "cumpleaños"]
   },
   {
-    title: "Yellow Baby",
+    title: "Blush & Gold",
     category: "Baby Shower",
     country: "pe",
     price: "$39",
-    closedImage: "/babyshower_yellow_close.webp",
-    openImage: "/babyshower_yellow_open.webp",
-    keywords: ["amarillo", "baby", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Blush & Gold close.webp",
+    openImage: "/Blush & Gold open.webp",
+    keywords: ["blush", "gold", "fiesta", "cumpleaños"]
   },
   {
-    title: "Pink Baby",
+    title: "Baby Bloom",
     category: "Baby Shower",
     country: "pe",
     price: "$39",
-    closedImage: "/Pink Baby close.webp",
-    openImage: "/babyshowerrosado_open.webp",
-    keywords: ["rosado", "baby", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Baby Bloom close.webp",
+    openImage: "/Baby Bloom open.webp",
+    keywords: ["baby", "bloom", "fiesta", "cumpleaños"]
   },
   {
-    title: "Green Baby",
+    title: "Baby Blue",
     category: "Baby Shower",
     country: "pe",
     price: "$39",
-    closedImage: "/babyshower_green_close.webp",
-    openImage: "/babyshower_green_open.webp",
-    keywords: ["verde", "baby", "cumpleaños", "fiesta", "infantil"]
-  },
-  {
-    title: "Green Bear",
-    category: "Baby Shower",
-    country: "pe",
-    price: "$39",
-    closedImage: "/Green Baby close.webp",
-    openImage: "/Green Bear open.webp",
-    keywords: ["verde", "osito", "baby", "cumpleaños", "fiesta", "infantil"]
+    closedImage: "/Baby Blue close.webp",
+    openImage: "/Baby Blue open.webp",
+    keywords: ["baby", "blue", "fiesta", "cumpleaños"]
   },
 
   {
-    title: "Golden Christmas",
+    title: "Christmas Evergreen",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/Golden Christmas.close.webp",
-    openImage: "/Golden Christmas.open.webp",
-    keywords: ["dorado", "navidad", "fiesta", "celebración"]
+    closedImage: "/Christmas Evergreen close.webp",
+    openImage: "/Christmas Evergreen open.webp",
+    keywords: ["navidad", "christmas", "fiesta", "cumpleaños"]
   },
   
   {
-    title: "Halloween Black",
+    title: "Halloween",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/halloweenpartyblack_close.webp",
-    openImage: "/halloweenpartyblack_open.webp",
-    keywords: ["negro", "halloween", "fiesta", "infantil"]
-  },
-  {
-    title: "Halloween Orange",
-    category: "Celebraciones y fiestas",
-    country: "pe",
-    price: "$39",
-    closedImage: "/halloweenparty_close.webp",
-    openImage: "/halloweenparty_open.webp",
-    keywords: ["naranja", "halloween", "fiesta", "infantil"]
-  },
-  {
-    title: "Noel Elegance",
-    category: "Celebraciones y fiestas",
-    country: "pe",
-    price: "$39",
-    closedImage: "/Noel Elegance.close.webp",
-    openImage: "/Noel Elegance open.webp",
-    keywords: ["dorado", "navidad", "fiesta", "celebración"]
+    closedImage: "/Halloween close.webp",
+    openImage: "/Halloween open.webp",
+    keywords: ["halloween", "fantasía", "fiesta", "cumpleaños"]
   },
   {
     title: "Christmas Wishes",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/Christmas Wishes.close.webp",
-    openImage: "/Christmas Wishes.open.webp",
-    keywords: ["dorado", "navidad", "fiesta", "celebración"]
+    closedImage: "/Christmas Wishes close.webp",
+    openImage: "/Christmas Wishes open.webp",
+    keywords: ["navidad", "christmas", "fiesta", "cumpleaños"]
   },
   {
-    title: "Cowboy Party",
+    title: "Bachelorette party",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/Cowboy close.webp",
-    openImage: "/Cowboy open.webp",
-    keywords: ["vaquero", "fiesta", "infantil"]
+    closedImage: "/Bachelorette party close.webp",
+    openImage: "/Bachelorette party open.webp",
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
   },
   {
-    title: "Bridal Bliss",
+    title: "Orange Halloween",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/Bridal Bliss close.webp",
-    openImage: "/Bridal Bliss open.webp",
-    keywords: ["dorado", "boda", "fiesta", "celebración"]
+    closedImage: "/Orange Halloween close.webp",
+    openImage: "/Orange Halloween open.webp",
+    keywords: ["halloween", "naranja", "fiesta"]
   },
   {
-    title: "Bridal Chic",
+    title: "Bride to Be Bash",
     category: "Celebraciones y fiestas",
     country: "pe",
     price: "$39",
-    closedImage: "/Bridal Chic close.webp",
-    openImage: "/Bridal Chic open.webp",
-    keywords: ["dorado", "boda", "fiesta", "celebración"]
+    closedImage: "/Bride to Be Bash close.webp",
+    openImage: "/Bride to Be Bash open.webp",
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
   },
-
   {
-    title: "Pink Blessing",
+    title: "Groom Night",
+    category: "Celebraciones y fiestas",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Groom Night close.webp",
+    openImage: "/Groom Night open.webp",
+    keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
+  },
+  {
+    title: "Silk Blessing",
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Pink Blessing.close.webp",
-    openImage: "/Pink Blessing.open.webp",
-    keywords: ["rosado", "bautismo", "fiesta", "infantil"]
+    closedImage: "/Silk Blessing close.webp",
+    openImage: "/Silk Blessing open foto.webp",
+    keywords: ["seda", "bendición", "fiesta", "cumpleaños"]
   },
+  {
+  title: "Golden Blessing",
+  category: "Primera comunión y bautismo",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Golden Blessing close.webp",
+  openImage: "/Golden Blessing open.webp",
+  keywords: ["oro", "bendición", "fiesta", "cumpleaños"]
+},
+{
+  title: "Divine Grace",
+  category: "Primera comunión y bautismo",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Divine Grace close.webp",
+  openImage: "/Divine Grace open foto.webp",
+  keywords: ["divina", "gracia", "fiesta", "cumpleaños"]
+},
+{
+  title: "Divine Grace",
+  category: "Primera comunión y bautismo",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Divine Grace close.webp",
+  openImage: "/Divine Grace open.webp",
+  keywords: ["divina", "gracia", "fiesta", "cumpleaños"]
+},
 
   {
-    title: "Golden Blessing",
+    title: "Waters of Grace",
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Golden Blessing.close.webp",
-    openImage: "/Golden Blessing.open.webp",
-    keywords: ["dorado", "bautismo", "fiesta", "infantil"]
+    closedImage: "/Waters of Grace close.webp",
+    openImage: "/Waters of Grace open.webp",
+    keywords: ["aguas", "gracia", "fiesta", "cumpleaños"]
   },
-
   {
-    title: "Blue Blessing",
+    title: "Olive Communion",
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Blue Blessing.close.webp",
-    openImage: "/Blue Blessing.open.webp",
-    keywords: ["azul", "bautismo", "fiesta", "infantil"]
+    closedImage: "/Olive Communion close.webp",
+    openImage: "/Olive Communion open foto.webp",
+    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
-
   {
-    title: "Beige Communion",
+    title: "Olive Communion",
     category: "Primera comunión y bautismo",
     country: "pe",
     price: "$39",
-    closedImage: "/Beige Communion.close.webp",
-    openImage: "/Beige Communion.open.webp",
-    keywords: ["beige", "comunión", "fiesta", "infantil"]
+    closedImage: "/Olive Communion close.webp",
+    openImage: "/Olive Communion open.webp",
+    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
 
+  {
+  title: "A Little Surprise",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/A Little Surprise close.webp",
+  openImage: "/A Little Surprise open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
+  },
   {
   title: "Kitty Reveal",
   category: "Revelación de género",
   country: "pe",
   price: "$39",
-  closedImage: "/Kitty Reveal.close.webp",
-  openImage: "/Kitty Reveal.open.webp",
-  keywords: ["rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
-  },
-  {
-  title: "Blue & Blush",
-  category: "Revelación de género",
-  country: "pe",
-  price: "$39",
-  closedImage: "/Blue & Blush.close.webp",
-  openImage: "/Blue & Blush.open.webp",
-  keywords: ["azul", "rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
-  },
-  {
-  title: "Cloud Wishes",
-  category: "Revelación de género",
-  country: "pe",
-  price: "$39",
-  closedImage: "/Cloud Wishes.close.webp",
-  openImage: "/Cloud Wishes.open.webp",
-  keywords: ["nube", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
+  closedImage: "/Kitty Reveal close.webp",
+  openImage: "/Kitty Reveal open.webp",
+  keywords: ["gatito", "revelación", "fiesta", "cumpleaños"]
   },
   {
   title: "Sky & Blush",
   category: "Revelación de género",
   country: "pe",
   price: "$39",
-  closedImage: "/Sky & Blush.close.webp",
-  openImage: "/Sky & Blush.open.webp",
-  keywords: ["azul", "rosado", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
+  closedImage: "/Sky & Blush close.webp",
+  openImage: "/Sky & Blush open.webp",
+  keywords: ["cielo", "blush", "fiesta", "cumpleaños"]
   },
   {
   title: "Golden Paws",
   category: "Revelación de género",
   country: "pe",
   price: "$39",
-  closedImage: "/Golden Paws.close.webp",
-  openImage: "/Golden Paws.open.webp",
-  keywords: ["dorado", "patas", "invitación", "baby", "cumpleaños", "fiesta", "infantil"]
+  closedImage: "/Golden Paws close.webp",
+  openImage: "/Golden Paws open.webp",
+  keywords: ["patas", "dorado", "fiesta", "cumpleaños"]
+  },
+  {
+  title: "Blue & Blush",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Blue & Blush close.webp",
+  openImage: "/Blue & Blush open.webp",
+  keywords: ["azul", "blush", "fiesta", "cumpleaños"]
   },
 
   {
-    title: "Blue Elegance",
+    title: "Annual Celebration",
     category: "Corporativo",
     country: "pe",
     price: "$49",
-    closedImage: "/Blue Elegance close.webp",
-    openImage: "/Blue Elegance open.webp",
-    keywords: ["azul", "elegante", "corporativo"]
+    closedImage: "/Annual Celebration close.webp",
+    openImage: "/Annual Celebration open.webp",
+    keywords: ["aniversario", "fiesta", "cumpleaños"]
   },
   {
-    title: "Golden Celebration",
+    title: "Golden Legacy",
     category: "Corporativo",
     country: "pe",
     price: "$49",
-    closedImage: "/Golden Celebration close.webp",
-    openImage: "/Golden Celebration open.webp",
-    keywords: ["dorado", "celebración", "corporativo"]
+    closedImage: "/Golden Legacy close.webp",
+    openImage: "/Golden Legacy open.webp",
+    keywords: ["legado", "dorado", "fiesta", "cumpleaños"]
   },
   {
-    title: "Grand Opening",
+    title: "New Horizons",
     category: "Corporativo",
     country: "pe",
     price: "$49",
-    closedImage: "/Grand Opening close.webp",
-    openImage: "/Grand Opening open.webp",
-    keywords: ["gran apertura", "corporativo"]
+    closedImage: "/New Horizons close.webp",
+    openImage: "/New Horizons open.webp",
+    keywords: ["nuevos", "horizontes", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Royal Awards",
+    category: "Corporativo",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Royal Awards close.webp",
+    openImage: "/Royal Awards open.webp",
+    keywords: ["premios", "royal", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Convention",
+    category: "Corporativo",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Convention close.webp",
+    openImage: "/Convention open.webp",
+    keywords: ["congreso", "fiesta", "cumpleaños"]
   },
   {
     title: "Noble Graduate",
     category: "Graduación",
     country: "pe",
     price: "$39",
-    closedImage: "Noble Graduate close.webp",
+    closedImage: "/Noble Graduate close.webp",
     openImage: "/Noble Graduate open.webp",
-    keywords: ["noble", "graduación", "corporativo"]
+    keywords: ["graduación", "fiesta", "cumpleaños"]
   },
   {
     title: "Academic Elegance",
@@ -775,34 +689,43 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Academic Elegance close.webp",
     openImage: "/Academic Elegance open.webp",
-    keywords: ["académico", "elegante", "graduación"]
+    keywords: ["académica", "elegancia", "fiesta", "cumpleaños"]
   },
   {
-    title: "Champagne Prestige",
+    title: "New Chapter",
     category: "Graduación",
     country: "pe",
     price: "$39",
-    closedImage: "/Champagne Prestige close.webp",
-    openImage: "/Champagne Prestige open.webp",
-    keywords: ["champagne", "prestigio", "graduación"]
+    closedImage: "/New Chapter close.webp",
+    openImage: "/New Chapter open.webp",
+    keywords: ["nuevo", "capítulo", "fiesta", "cumpleaños"]
   },
   {
-    title: "Diploma Dreams",
+    title: "Proud Achievement",
     category: "Graduación",
     country: "pe",
     price: "$39",
-    closedImage: "/Diploma Dreams close.webp",
-    openImage: "/Diploma Dreams open.webp",
-    keywords: ["sueños", "diploma", "graduación"]
+    closedImage: "/Proud Achievement close.webp",
+    openImage: "/Proud Achievement open.webp",
+    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños"]
   },
   {
-    title: "Rose Diploma",
+    title: "Blue Graduation",
     category: "Graduación",
     country: "pe",
     price: "$39",
-    closedImage: "/Rose Diploma close.webp",
-    openImage: "/Rose Diploma open.webp",
-    keywords: ["rosa", "diploma", "graduación"]
+    closedImage: "/Blue Graduation close.webp",
+    openImage: "/Blue Graduation open.webp",
+    keywords: ["azul", "graduación", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Blush Graduation",
+    category: "Graduación",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Blush Graduation close.webp",
+    openImage: "/Blush Graduation open.webp",
+    keywords: ["blush", "graduación", "fiesta", "cumpleaños"]
   },
   {
     title: "Serenity",
@@ -811,7 +734,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open foto.webp",
-    keywords: ["serenidad", "matrimonio", "boda"]
+    keywords: ["serenidad", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Serenity",
@@ -820,7 +743,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open.webp",
-    keywords: ["serenidad", "matrimonio", "boda"]
+    keywords: ["serenidad", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Pearl Blossom",
@@ -829,7 +752,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open foto.webp",
-    keywords: ["perla", "flor", "matrimonio", "boda"]
+    keywords: ["perla", "florecer", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Pearl Blossom",
@@ -838,7 +761,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open.webp",
-    keywords: ["perla", "flor", "matrimonio", "boda"]
+    keywords: ["perla", "florecer", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Blush Romance",
@@ -847,7 +770,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open foto.webp",
-    keywords: ["rosado", "romance", "matrimonio", "boda"]
+    keywords: ["blush", "romance", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Blush Romance",
@@ -856,7 +779,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open.webp",
-    keywords: ["rosado", "romance", "matrimonio", "boda"]
+    keywords: ["blush", "romance", "matrimonio", "fiesta", "cumpleaños"]
   },
 
   {
@@ -866,7 +789,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open foto.webp",
-    keywords: ["plata", "matrimonio", "boda"]
+    keywords: ["plata", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Silver Wedding",
@@ -875,8 +798,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open.webp",
-    keywords: ["plata", "matrimonio", "boda"]
-
+    keywords: ["plata", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Gold Wedding",
@@ -885,7 +807,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open foto.webp",
-    keywords: ["dorado", "matrimonio", "boda"]
+    keywords: ["oro", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Gold Wedding",
@@ -894,7 +816,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open.webp",
-    keywords: ["dorado", "matrimonio", "boda"]
+    keywords: ["oro", "boda", "fiesta", "cumpleaños"]
   },
   
   {
@@ -904,7 +826,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open foto.webp",
-    keywords: ["dorado", "botánico", "matrimonio", "boda"]
+    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Golden Botanical",
@@ -913,7 +835,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open.webp",
-    keywords: ["dorado", "botánico", "matrimonio", "boda"]
+    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Sakura Romance",
@@ -922,7 +844,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open foto.webp",
-    keywords: ["sakura", "romance", "matrimonio", "boda"]
+    keywords: ["sakura", "romance", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Sakura Romance",
@@ -931,7 +853,6 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open.webp",
-    keywords: ["sakura", "romance", "matrimonio", "boda"]
   },
   {
     title: "Autumn Whisper",
@@ -940,7 +861,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open foto.webp",
-    keywords: ["otoño", "susurro", "matrimonio", "boda"]
+    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Autumn Whisper",
@@ -949,7 +870,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open.webp",
-    keywords: ["otoño", "susurro", "matrimonio", "boda"]
+    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños"]
   },
   {
     title: "Green Wedding",
@@ -958,7 +879,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open foto.webp",
-    keywords: ["verde", "matrimonio", "boda"]
+    keywords: ["verde", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Green Wedding",
@@ -967,7 +888,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open.webp",
-    keywords: ["verde", "matrimonio", "boda"]
+    keywords: ["verde", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Blue Wedding",
@@ -976,7 +897,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open foto.webp",
-    keywords: ["azul", "matrimonio", "boda"]
+    keywords: ["azul", "boda", "fiesta", "cumpleaños"]
   },
   {
     title: "Blue Wedding",
@@ -985,7 +906,7 @@ export const peruInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open.webp",
-    keywords: ["azul", "matrimonio", "boda"]
+    keywords: ["azul", "boda", "fiesta", "cumpleaños"]
   },
 
 ];
