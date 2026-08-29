@@ -15,13 +15,7 @@ const content = {
     note: "Demo interactivo · Se abrirá en una nueva pestaña",
     guest: "PARA TUS INVITADOS",
     admin: "PARA TI",
-    features: [
-      ["💌", "Invitación", "Una experiencia digital personalizada"],
-      ["✓", "RSVP", "Confirmaciones en tiempo real"],
-      ["📅", "Evento", "Fecha, programa, ubicación y calendario"],
-      ["♡", "Photo Booth", "Fotos compartidas por tus invitados"],
-      ["⚙", "Panel privado", "Gestiona invitados, mesas y respuestas"],
-    ],
+   
   },
 
   pe: {
@@ -34,13 +28,7 @@ const content = {
     note: "Demo interactivo · Se abrirá en una nueva pestaña",
     guest: "PARA TUS INVITADOS",
     admin: "PARA TI",
-    features: [
-      ["💌", "Invitación", "Una experiencia digital personalizada"],
-      ["✓", "RSVP", "Confirmaciones en tiempo real"],
-      ["📅", "Evento", "Fecha, programa, ubicación y calendario"],
-      ["♡", "Photo Booth", "Fotos compartidas por tus invitados"],
-      ["⚙", "Panel privado", "Gestiona invitados, mesas y respuestas"],
-    ],
+  
   },
 
   mx: {
@@ -53,13 +41,7 @@ const content = {
     note: "Demo interactivo · Se abrirá en una nueva pestaña",
     guest: "PARA TUS INVITADOS",
     admin: "PARA TI",
-    features: [
-      ["💌", "Invitación", "Una experiencia digital personalizada"],
-      ["✓", "RSVP", "Confirmaciones en tiempo real"],
-      ["📅", "Evento", "Fecha, programa, ubicación y calendario"],
-      ["♡", "Photo Booth", "Fotos compartidas por tus invitados"],
-      ["⚙", "Panel privado", "Gestiona invitados, mesas y respuestas"],
-    ],
+  
   },
 
   us: {
@@ -72,13 +54,7 @@ const content = {
     note: "Interactive demo · Opens in a new tab",
     guest: "FOR YOUR GUESTS",
     admin: "FOR YOU",
-    features: [
-      ["💌", "Invitation", "A personalized digital experience"],
-      ["✓", "RSVP", "Real-time confirmations"],
-      ["📅", "Event", "Date, schedule, location and calendar"],
-      ["♡", "Photo Booth", "Photos shared by your guests"],
-      ["⚙", "Private dashboard", "Manage guests, tables and responses"],
-    ],
+   
   },
 
   jp: {
@@ -91,13 +67,7 @@ const content = {
     note: "インタラクティブデモ · 新しいタブで開きます",
     guest: "ゲスト向け",
     admin: "主催者向け",
-    features: [
-      ["💌", "招待状", "パーソナライズされたデジタル体験"],
-      ["✓", "RSVP", "リアルタイムの出欠確認"],
-      ["📅", "イベント", "日付、スケジュール、場所"],
-      ["♡", "フォトブース", "ゲストと写真を共有"],
-      ["⚙", "管理画面", "ゲストやテーブルを管理"],
-    ],
+
   },
 };
 
