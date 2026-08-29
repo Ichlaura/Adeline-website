@@ -114,6 +114,15 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Blush Princess open.webp",
     keywords: ["princesa", "blush", "quinceañera"]
   },
+  {
+    title: "Lavender Dream",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Lavender Dream close.webp",
+    openImage: "/Lavender Dream open.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
+  },
    {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",

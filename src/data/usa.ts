@@ -117,6 +117,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Blush Princess open ENG.webp",
     keywords: ["princesa", "blush", "quinceañera"]
   },
+  {
+    title: "Lavender Dream",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Lavender Dream close.webp",
+    openImage: "/Lavender Dream open ENG.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
+  },
    {
     title: "Unicorn Party",
     category: "Kids Birthdays",
