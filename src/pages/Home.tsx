@@ -66,6 +66,48 @@ function Home({ settings }: HomeProps) {
 
   <Pricing />
 
+
+
+
+<section className="designs-intro">
+  <span className="designs-eyebrow">
+    {currentCountry === "us"
+      ? "OUR COLLECTION"
+      : currentCountry === "jp"
+      ? "コレクション"
+      : "NUESTRA COLECCIÓN"}
+  </span>
+
+  <h2>
+    {currentCountry === "us"
+      ? "Find the perfect invitation"
+      : currentCountry === "jp"
+      ? "特別な日にぴったりの招待状"
+      : "Encuentra la invitación perfecta"}
+
+    <span>
+      {currentCountry === "us"
+        ? " for every celebration."
+        : currentCountry === "jp"
+        ? "を見つけて。"
+        : " para cada celebración."}
+    </span>
+  </h2>
+
+  <p>
+    {currentCountry === "us"
+      ? "Explore our collection and discover a design made for your special moment."
+      : currentCountry === "jp"
+      ? "さまざまなデザインから、大切な一日にぴったりの招待状をお選びください。"
+      : "Explora nuestra colección y descubre un diseño creado para tu momento especial."}
+  </p>
+</section>
+
+<section id="designs"></section>
+
+
+
+
 <section id="designs">
   {settings.categories.map((category) => (
     <CategoryRow key={category} title={category} />

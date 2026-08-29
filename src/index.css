@@ -110,3 +110,60 @@ code {
   background: var(--code-bg);
 }
 
+
+
+/* ===========================
+   FEATURED INVITATIONS HEADER
+=========================== */
+
+.featured-header {
+  max-width: 900px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.featured-eyebrow {
+  display: block;
+  color: #b88a45;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.featured-header h2 {
+  margin: 0;
+  font-size: clamp(42px, 6vw, 78px);
+  line-height: 0.98;
+  font-weight: 500;
+  color: #1f1a14;
+}
+
+.featured-header h2 span {
+  display: block;
+  color: #b88a45;
+  margin-top: 10px;
+}
+
+.featured-header p {
+  max-width: 680px;
+  margin: 26px auto 0;
+  color: #5f554b;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .featured-header {
+    margin-bottom: 45px;
+  }
+
+  .featured-header h2 {
+    font-size: 42px;
+  }
+
+  .featured-header p {
+    font-size: 16px;
+  }
+}
