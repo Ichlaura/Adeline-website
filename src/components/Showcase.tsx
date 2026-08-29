@@ -6,7 +6,7 @@ function Showcase() {
 const text = {
   co: {
     tag: "Experiencia premium",
-    title: "La primera impresión de tu gran día.",
+    title: "Aquí comienza el gran momento.",
     description:
       "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
@@ -14,21 +14,21 @@ const text = {
 
   pe: {
     tag: "Experiencia premium",
-    title: "La primera impresión de tu gran día.",
+    title: "Aquí comienza el gran momento.",
     description:
       "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
   },
  mx: {
     tag: "Experiencia premium",
-    title: "La primera impresión de tu gran día.",
+    title: "Aquí comienza el gran momento.",
     description:
       "Antes de que llegue el evento, tus invitados ya estarán viviendo una experiencia inolvidable.",
     card: "RSVP",
   },
   us: {
     tag: "Premium Experience",
-    title: "The first impression of your special day.",
+    title: "This is where the moment begins.",
     description:
       "Before your event even begins, your guests will already be enjoying an unforgettable experience.",
     card: "RSVP",
