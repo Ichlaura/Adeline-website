@@ -858,6 +858,14 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Sakura Romance open ENG.webp",
   },
   {
+    title: "Sakura Blossom",
+    category: "Wedding",
+    country: "us",
+    price: "$39",
+    closedImage: "/Sakura Blossom close.webp",
+    openImage: "/Sakura Blossom open ENG.webp",
+  },
+  {
     title: "Autumn Whisper",
     category: "Wedding",
     country: "us",
