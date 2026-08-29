@@ -181,6 +181,8 @@ function LiveDemo() {
           </div>
         </div>
 
+
+{/*
         <div className="live-demo-features">
           {t.features.map(([icon, title, description]) => (
             <div className="live-demo-feature" key={title}>
@@ -191,8 +193,14 @@ function LiveDemo() {
                 <p>{description}</p>
               </div>
             </div>
+
+
+
           ))}
         </div>
+*/}
+
+
 
       </div>
     </section>
