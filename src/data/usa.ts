@@ -117,6 +117,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Blush Princess open ENG.webp",
     keywords: ["princesa", "blush", "quinceañera"]
   },
+  {
+    title: "Lavender Dream",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Lavender Dream close.webp",
+    openImage: "/Lavender Dream open ENG.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
+  },
    {
     title: "Unicorn Party",
     category: "Kids Birthdays",
@@ -390,6 +399,15 @@ export const usaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open ENG.webp",
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+  },
+   {
+    title: "Choo Choo Party",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Choo Choo Party close.webp",
+    openImage: "/Choo Choo Party open.webp",
     keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
   },
   {

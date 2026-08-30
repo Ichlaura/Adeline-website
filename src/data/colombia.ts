@@ -114,6 +114,15 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Blush Princess open.webp",
     keywords: ["princesa", "blush", "quinceañera"]
   },
+  {
+    title: "Lavender Dream",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Lavender Dream close.webp",
+    openImage: "/Lavender Dream open.webp",
+    keywords: ["princesa", "blush", "quinceañera"]
+  },
    {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
@@ -387,6 +396,15 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open.webp",
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Choo Choo Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Choo Choo Party close.webp",
+    openImage: "/Choo Choo Party open.webp",
     keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
   },
   {
