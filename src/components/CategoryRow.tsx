@@ -41,7 +41,8 @@ const rowText = {
 
 function CategoryRow({ title }: { title: string }) {
   const [openedCard, setOpenedCard] = useState<string | null>(null);
-const [canScrollLeft, setCanScrollLeft] = useState(false);
+const [autoOpenedCard, setAutoOpenedCard] = useState<string | null>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
 const [canScrollRight, setCanScrollRight] = useState(false);
   const rowRef = useRef<HTMLDivElement>(null);
 
@@ -59,6 +60,41 @@ const [canScrollRight, setCanScrollRight] = useState(false);
       item.category === title &&
       item.country === currentCountry
   );
+
+
+
+useEffect(() => {
+  if (categoryCards.length === 0) return;
+
+  let index = 0;
+  let closeTimer: ReturnType<typeof setTimeout>;
+
+  const openNext = () => {
+    const card = categoryCards[index];
+
+    setAutoOpenedCard(card.openImage);
+
+    closeTimer = setTimeout(() => {
+      setAutoOpenedCard(null);
+
+      index = (index + 1) % categoryCards.length;
+    }, 3000);
+  };
+
+  openNext();
+
+  const interval = setInterval(() => {
+    openNext();
+  }, 8000);
+
+  return () => {
+    clearInterval(interval);
+    clearTimeout(closeTimer);
+  };
+}, [title, currentCountry]);
+
+
+
 
   useEffect(() => {
     categoryCards.forEach((card) => {
@@ -122,7 +158,9 @@ useEffect(() => {
         <div className="cards-row" ref={rowRef}>
 
           {categoryCards.map((card) => {
-            const isOpen = openedCard === card.openImage;
+        const isOpen =
+  openedCard === card.openImage ||
+  autoOpenedCard === card.openImage;
 
             return (
               <article
