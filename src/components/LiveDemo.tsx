@@ -1,6 +1,7 @@
 import type { CountryCode } from "../data/countries";
 import "../styles/LiveDemo.css";
 
+
 const DEMO_URL =
   "https://wedding-invitation-app-rho.vercel.app/invitation/demo";
 
@@ -77,6 +78,13 @@ function LiveDemo() {
 
   const t = content[currentCountry];
 
+const demoLanguage =
+  currentCountry === "co" ||
+  currentCountry === "pe" ||
+  currentCountry === "mx"
+    ? "es"
+    : "en";
+
   return (
     <section className="live-demo-section">
       <div className="live-demo-shell">
@@ -118,7 +126,7 @@ function LiveDemo() {
             <div className="demo-phone demo-phone-left">
               <div className="demo-phone-speaker" />
               <img
-                src="/demo/event-info.jpeg"
+                src={`/demo/event-info-${demoLanguage}.jpeg`}
                 alt="Adelina event information"
               />
             </div>
@@ -126,7 +134,7 @@ function LiveDemo() {
             <div className="demo-phone demo-phone-main">
               <div className="demo-phone-speaker" />
               <img
-                src="/demo/invitation.jpeg"
+                src={`/demo/invitation-${demoLanguage}.jpeg`}
                 alt="Adelina digital invitation"
               />
             </div>
@@ -134,7 +142,7 @@ function LiveDemo() {
             <div className="demo-phone demo-phone-right">
               <div className="demo-phone-speaker" />
               <img
-                src="/demo/rsvp.jpeg"
+                src={`/demo/rsvp-${demoLanguage}.jpeg`}
                 alt="Adelina RSVP"
               />
             </div>
@@ -143,7 +151,7 @@ function LiveDemo() {
               <span>{t.admin}</span>
 
               <img
-                src="/demo/dashboard.jpeg"
+               src={`/demo/dashboard-${demoLanguage}.jpeg`}
                 alt="Adelina private dashboard"
               />
             </div>
