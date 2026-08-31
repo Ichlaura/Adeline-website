@@ -295,7 +295,7 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "Speed Racer",
-    category: "Cumpleaños y fiestas infantiles",
+    category: "Kids Birthdays",
     country: "us",
     price: "$39",
     closedImage: "/Speed Racer close.webp",
