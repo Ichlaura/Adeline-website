@@ -79,6 +79,15 @@ export const colombiaInvitations: Invitation[] = [
     openImage: "/Purple Elegance open.webp",
   },
   {
+    title: "Blue Dream",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Blue Dream close.webp",
+    openImage: "/Blue Dream open.webp",
+    keywords: ["azul", "azul rey", "quinceañera"]
+  },
+  {
     title: "Pink Blossom",
     category: "Quince Años",
     country: "co",
@@ -95,6 +104,15 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
+  },
+  {
+    title: "Royal Violet",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Royal Violet close.webp",
+    openImage: "/Royal Violet open.webp",
+    keywords: ["princesa", "morada", "quinceañera", "purpura"]
   },
   {
     title: "Emerald Quinceañera",

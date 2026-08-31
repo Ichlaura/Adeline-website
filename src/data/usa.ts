@@ -82,6 +82,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Purple Elegance open ENG.webp",
   },
   {
+    title: "Blue Dream",
+    category: "Quince Años",
+    country: "US",
+    price: "$49",
+    closedImage: "/Blue Dream close.webp",
+    openImage: "/Blue Dream open ENG.webp",
+    keywords: ["azul", "azul rey", "quinceañera"]
+  },
+  {
     title: "Pink Blossom",
     category: "Quinceañera",
     country: "us",
@@ -98,6 +107,15 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open ENG.webp",
+  },
+  {
+    title: "Royal Violet",
+    category: "Quince Años",
+    country: "us",
+    price: "$49",
+    closedImage: "/Royal Violet close.webp",
+    openImage: "/Royal Violet open ENG.webp",
+    keywords: ["princesa", "morada", "quinceañera", "purpura"]
   },
   {
     title: "Emerald Quinceañera",
