@@ -97,6 +97,15 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Black Diamond open.webp",
   },
   {
+    title: "Royal Violet",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Royal Violet close.webp",
+    openImage: "/Royal Violet open.webp",
+    keywords: ["princesa", "morada", "quinceañera", "purpura"]
+  },
+  {
     title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "pe",
