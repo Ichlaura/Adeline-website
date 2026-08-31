@@ -25,7 +25,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Butterfly close.webp",
     openImage: "/Blush Butterfly open ENG.webp",
-    keywords: ["mariposa", "blush", "quinceañera"]
+    keywords: ["mariposa", "blush", "quinceañera", "rosada", "pink"]
   
   },
   {
@@ -35,7 +35,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Garden close.webp",
     openImage: "/Royal Garden open ENG.webp",
-    keywords: ["jardín", "royal", "quinceañera"]
+    keywords: ["jardín", "royal", "quinceañera", "vino tinto", "rojo", "libelula"]
   },
   {
     title: "Green Elegance",
