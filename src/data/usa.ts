@@ -83,7 +83,7 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "Blue Dream",
-    category: "Quince Años",
+    category: "Quinceañera",
     country: "us",
     price: "$49",
     closedImage: "/Blue Dream close.webp",
