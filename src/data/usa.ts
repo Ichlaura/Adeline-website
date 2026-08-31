@@ -629,6 +629,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Olive Communion open ENG.webp",
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "First Communio"]
   },
+  {
+  title: "Little Secret",
+  category: "Gender Reveal",
+  country: "us",
+  price: "$39",
+  closedImage: "/Little Secret close.webp",
+  openImage: "/Little Secret open ENG.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
+  },
 
   {
   title: "A Little Surprise",

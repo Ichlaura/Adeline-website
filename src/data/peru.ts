@@ -627,6 +627,15 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Olive Communion open.webp",
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
+  {
+  title: "Little Secret",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Little Secret close.webp",
+  openImage: "/Little Secret open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
+  },
 
   {
   title: "A Little Surprise",
