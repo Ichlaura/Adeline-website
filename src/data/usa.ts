@@ -301,6 +301,7 @@ export const usaInvitations: Invitation[] = [
     closedImage: "/Speed Racer close.webp",
     openImage: "/Speed Racer open ENG.webp",
     keywords: ["carros", "fiesta", "cumpleaños", "carrera", "speed", "car", "racer","cars",]
+    },
   {
     title: "Hawaii Party",
     category: "Kids Birthdays",
