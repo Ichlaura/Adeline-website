@@ -294,6 +294,14 @@ export const usaInvitations: Invitation[] = [
     keywords: ["spa", "fiesta", "cumpleaños"]
   },
   {
+    title: "Speed Racer",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "us",
+    price: "$39",
+    closedImage: "/Speed Racer close.webp",
+    openImage: "/Speed Racer open ENG.webp",
+    keywords: ["carros", "fiesta", "cumpleaños", "carrera", "speed", "car", "racer","cars",]
+  {
     title: "Hawaii Party",
     category: "Kids Birthdays",
     country: "us",
