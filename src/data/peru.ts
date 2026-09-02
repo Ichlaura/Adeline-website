@@ -628,15 +628,14 @@ export const peruInvitations: Invitation[] = [
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
   {
-  title: "Little Secret",
+  title: "Precious Moment",
   category: "Revelación de género",
   country: "pe",
   price: "$39",
-  closedImage: "/Little Secret close.webp",
-  openImage: "/Little Secret open.webp",
-  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
+  closedImage: "/Precious Moment close.webp",
+  openImage: "/Precious Moment open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
   },
-
   {
   title: "A Little Surprise",
   category: "Revelación de género",
@@ -647,15 +646,6 @@ export const peruInvitations: Invitation[] = [
   keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
   },
   {
-  title: "Precious Moment",
-  category: "Revelación de género",
-  country: "pe",
-  price: "$39",
-  closedImage: "/Precious Moment close.webp",
-  openImage: "/Precious Moment open.webp",
-  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
-  },
-  {
   title: "Kitty Reveal",
   category: "Revelación de género",
   country: "pe",
@@ -663,6 +653,15 @@ export const peruInvitations: Invitation[] = [
   closedImage: "/Kitty Reveal close.webp",
   openImage: "/Kitty Reveal open.webp",
   keywords: ["gatito", "revelación", "fiesta", "cumpleaños"]
+  },
+  {
+  title: "Little Secret",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Little Secret close.webp",
+  openImage: "/Little Secret open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
   },
   {
   title: "Sky & Blush",
