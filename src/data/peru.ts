@@ -647,6 +647,15 @@ export const peruInvitations: Invitation[] = [
   keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
   },
   {
+  title: "Precious Moment",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Precious Moment close.webp",
+  openImage: "/Precious Moment open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
+  },
+  {
   title: "Kitty Reveal",
   category: "Revelación de género",
   country: "pe",

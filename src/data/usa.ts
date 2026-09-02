@@ -649,6 +649,15 @@ export const usaInvitations: Invitation[] = [
   keywords: ["sorpresa", "regalo", "fiesta", "Gender Reveal"]
   },
   {
+  title: "Precious Moment",
+  category: "Gender Reveal",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Precious Moment close.webp",
+  openImage: "/Precious Moment open ENG.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "Gender Reveal"]
+  },
+  {
   title: "Kitty Reveal",
   category: "Gender Reveal",
   country: "us",
