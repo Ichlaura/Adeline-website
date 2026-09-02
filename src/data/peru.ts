@@ -674,15 +674,6 @@ export const peruInvitations: Invitation[] = [
   keywords: ["cielo", "blush", "fiesta", "cumpleaños"]
   },
   {
-  title: "Golden Paws",
-  category: "Revelación de género",
-  country: "pe",
-  price: "$39",
-  closedImage: "/Golden Paws close.webp",
-  openImage: "/Golden Paws open.webp",
-  keywords: ["patas", "dorado", "fiesta", "cumpleaños"]
-  },
-  {
   title: "Blue & Blush",
   category: "Revelación de género",
   country: "pe",

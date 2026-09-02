@@ -676,15 +676,6 @@ export const usaInvitations: Invitation[] = [
   keywords: ["cielo", "blush", "fiesta", "Gender Reveal"]
   },
   {
-  title: "Golden Paws",
-  category: "Gender Reveal",
-  country: "us",
-  price: "$39",
-  closedImage: "/Golden Paws close.webp",
-  openImage: "/Golden Paws open ENG.webp",
-  keywords: ["patas", "dorado", "fiesta", "Gender Reveal"]
-  },
-  {
   title: "Blue & Blush",
   category: "Gender Reveal",
   country: "us",
