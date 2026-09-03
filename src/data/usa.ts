@@ -375,6 +375,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["rock", "star", "fiesta", "cumpleaños"]
   },
   {
+    title: "Pool Party",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Pool Party close.webp",
+    openImage: "/Pool Party open ENG.webp",
+    keywords: ["pool", "party", "birthday"]
+  },
+  {
     title: "Motorcycle",
     category: "Kids Birthdays",
     country: "us",

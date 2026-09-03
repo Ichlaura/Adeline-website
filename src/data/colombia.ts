@@ -372,6 +372,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["rock", "star", "fiesta", "cumpleaños"]
   },
   {
+    title: "Pool Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Pool Party close.webp",
+    openImage: "/Pool Party open.webp",
+    keywords: ["piscina", "pool", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Motorcycle",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
