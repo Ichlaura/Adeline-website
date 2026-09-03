@@ -314,7 +314,7 @@ export const colombiaInvitations: Invitation[] = [
     country: "co",
     price: "$39",
     closedImage: "/Aloha Party close.webp",
-    openImage: "/Aloha Party open.webp",
+    openImage: "/Aloha Party open cumple.webp",
     keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
