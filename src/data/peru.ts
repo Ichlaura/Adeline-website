@@ -310,6 +310,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
+    title: "Aloha Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Magical Bunny",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
@@ -562,6 +571,15 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Groom Night close.webp",
     openImage: "/Groom Night open.webp",
     keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
+  },
+  {
+    title: "Aloha Party",
+    category: "Celebraciones y fiestas",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
     title: "Silk Blessing",

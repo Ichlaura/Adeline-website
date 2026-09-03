@@ -312,6 +312,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
+    title: "Aloha Party",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open ENG.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Magical Bunny",
     category: "Kids Birthdays",
     country: "us",
@@ -564,6 +573,15 @@ export const usaInvitations: Invitation[] = [
     closedImage: "/Groom Night close.webp",
     openImage: "/Groom Night open ENG.webp",
     keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
+  },
+  {
+    title: "Aloha Party",
+    category: "Parties & Celebrations",
+    country: "us",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open ENG.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
     title: "Silk Blessing",
