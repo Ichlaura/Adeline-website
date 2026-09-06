@@ -128,12 +128,21 @@ export const usaInvitations: Invitation[] = [
   },
   {
     title: "Royal Violet",
-    category: "Quince Años",
+    category: "Quinceañera",
     country: "us",
     price: "$49",
     closedImage: "/Royal Violet close.webp",
     openImage: "/Royal Violet open ENG.webp",
     keywords: ["princesa", "morada", "quinceañera", "purpura"]
+  },
+  {
+    title: "Ivory Blue",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Ivory Blue close.webp",
+    openImage: "/Ivory Blue open ENG.webp",
+    keywords: ["marfil", "azul", "quinceañera"]
   },
   {
     title: "Emerald Quinceañera",

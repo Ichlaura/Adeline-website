@@ -132,6 +132,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["princesa", "morada", "quinceañera", "purpura"]
   },
   {
+    title: "Ivory Blue",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Ivory Blue close.webp",
+    openImage: "/Ivory Blue open.webp",
+    keywords: ["marfil", "azul", "quinceañera"]
+  },
+  {
     title: "Emerald Quinceañera",
     category: "Quince Años",
     country: "co",
