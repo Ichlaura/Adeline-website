@@ -382,6 +382,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["piscina", "pool", "fiesta", "cumpleaños"]
   },
   {
+    title: "Fairy Garden",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Fairy Garden close.webp",
+    openImage: "/Fairy Garden open.webp",
+    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Motorcycle",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",

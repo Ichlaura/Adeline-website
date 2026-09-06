@@ -384,6 +384,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["pool", "party", "birthday"]
   },
   {
+    title: "Fairy Garden",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Fairy Garden close.webp",
+    openImage: "/Fairy Garden open.webp",
+    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Motorcycle",
     category: "Kids Birthdays",
     country: "us",

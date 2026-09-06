@@ -381,6 +381,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["piscina", "pool", "fiesta", "cumpleaños"]
   },
   {
+    title: "Fairy Garden",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Fairy Garden close.webp",
+    openImage: "/Fairy Garden open.webp",
+    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Motorcycle",
     category: "Cumpleaños y fiestas infantiles",
     country: "co",
