@@ -62,6 +62,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["azul", "serenidad", "quinceañera"]
   },
   {
+    title: "Golden Elegance",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Golden Elegance close.webp",
+    openImage: "/Golden Elegance open.webp",
+    keywords: ["dorado", "elegancia", "quinceañera"]
+  },
+  {
     title: "Ivory Bloom",
     category: "Quince Años",
     country: "co",
