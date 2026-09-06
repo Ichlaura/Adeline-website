@@ -110,6 +110,15 @@ export const usaInvitations: Invitation[] = [
   
   },
   {
+    title: "Ivory Cream",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Ivory Cream close.webp",
+    openImage: "/Ivory Cream open ENG.webp",
+    keywords: ["marfil", "crema", "quinceañera"]
+  },
+  {
     title: "Black Diamond",
     category: "Quinceañera",
     country: "us",

@@ -104,8 +104,16 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Pink Blossom close.webp",
     openImage: "/Pink Blossom open.webp",
-    keywords: ["mariposa", "blush", "quinceañera"]
-  
+    keywords: ["mariposa", "blush", "quinceañera", "pink"]
+  },
+  {
+    title: "Ivory Cream",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Cream close.webp",
+    openImage: "/Ivory Cream open.webp",
+    keywords: ["marfil", "crema", "quinceañera"]
   },
   {
     title: "Black Diamond",
