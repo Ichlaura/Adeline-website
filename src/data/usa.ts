@@ -154,6 +154,16 @@ export const usaInvitations: Invitation[] = [
     keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
   {
+    title: "Ivory Purple",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Ivory Purple close.webp",
+    openImage: "/Ivory Purple open ENG.webp",
+    keywords: ["marfil", "morada", "quinceañera"]
+  },
+  
+  {
     title: "Blush Princess",
     category: "Quinceañera",
     country: "us",

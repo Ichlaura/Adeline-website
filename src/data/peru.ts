@@ -151,6 +151,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["esmeralda", "quinceañera", "verde", "Green"]
   },
   {
+    title: "Ivory Purple",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Purple close.webp",
+    openImage: "/Ivory Purple open.webp",
+    keywords: ["marfil", "morada", "quinceañera"]
+  },
+  {
     title: "Blush Princess",
     category: "Quince Años",
     country: "pe",
