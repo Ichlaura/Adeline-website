@@ -130,6 +130,16 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
+    keywords: ["black", "diamond", "quinceañera", "negro"]
+  },
+  {
+    title: "Sunflower Bloom",
+    category: "Quince Años",
+    country: "co",
+    price: "$49",
+    closedImage: "/Sunflower Bloom close.webp",
+    openImage: "/Sunflower Bloom open.webp",
+    keywords: ["girasol", "sunflower", "quinceañera", "amarillo", "yellow"]
   },
   {
     title: "Royal Violet",

@@ -134,6 +134,16 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open ENG.webp",
+    keywords: ["black", "diamond", "quinceañera", "negro"]
+  },
+  {
+    title: "Sunflower Bloom",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Sunflower Bloom close.webp",
+    openImage: "/Sunflower Bloom open ENG.webp",
+    keywords: ["girasol", "sunflower", "quinceañera", "amarillo", "yellow"]
   },
   {
     title: "Royal Violet",
