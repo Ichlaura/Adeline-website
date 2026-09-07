@@ -562,6 +562,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["carro", "race", "car", "cumpleaños"]
   },
   {
+    title: "Under the Sea",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Under the Sea close.webp",
+    openImage: "/Under the Sea open.webp",
+    keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "pe",

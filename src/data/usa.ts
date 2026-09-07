@@ -566,6 +566,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["carro", "race", "car", "Birthdays"]
   },
   {
+    title: "Under the Sea",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Under the Sea close.webp",
+    openImage: "/Under the Sea open ENG.webp",
+    keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "us",

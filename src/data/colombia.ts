@@ -559,6 +559,15 @@ export const colombiaInvitations: Invitation[] = [
     closedImage: "/My First Race close.webp",
     openImage: "/My First Race open.webp",
     keywords: ["carro", "race", "car", "cumpleaños"]
+  }, 
+  {
+    title: "Under the Sea",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Under the Sea close.webp",
+    openImage: "/Under the Sea open.webp",
+    keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
   },
   {
     title: "Blue Teddy",
