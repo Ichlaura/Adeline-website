@@ -218,6 +218,15 @@ export const usaInvitations: Invitation[] = [
     openImage: "/Red Ruby open ENG.webp",
     keywords: ["rojo", "ruby", "quinceañera", "red"]
   },
+  {
+    title: "Green Serenity",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Green Serenity close.webp",
+    openImage: "/Green Serenity open ENG.webp",
+    keywords: ["verde", "serenidad", "quinceañera", "green"]
+  },
    {
     title: "Unicorn Party",
     category: "Kids Birthdays",
