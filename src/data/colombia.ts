@@ -570,6 +570,15 @@ export const colombiaInvitations: Invitation[] = [
     keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
   },
   {
+    title: "Cinema Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "co",
+    price: "$39",
+    closedImage: "/Cinema Party close.webp",
+    openImage: "/Cinema Party open.webp",
+    keywords: ["cinema", "cinema party", "cine", "cumpleaños", "pelicula", "actor", "movie","Hollywood"]
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "co",

@@ -575,6 +575,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
   },
   {
+    title: "Cinema Party",
+    category: "Kids Birthdays",
+    country: "us",
+    price: "$39",
+    closedImage: "/Cinema Party close.webp",
+    openImage: "/Cinema Party open ENG.webp",
+    keywords: ["cinema", "cinema party", "cine", "cumpleaños", "pelicula", "actor", "movie","Hollywood"]
+  },
+  {
     title: "Blue Teddy",
     category: "Baby Shower",
     country: "us",
