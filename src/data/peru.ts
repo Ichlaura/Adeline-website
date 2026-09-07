@@ -205,6 +205,15 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Ivory Green open.webp",
     keywords: ["marfil", "verde", "quinceañera"]
   },
+  {
+    title: "Red Ruby",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Red Ruby close.webp",
+    openImage: "/Red Ruby open.webp",
+    keywords: ["rojo", "ruby", "quinceañera", "red"]
+  },
    {
     title: "Unicorn Party",
     category: "Cumpleaños y fiestas infantiles",
