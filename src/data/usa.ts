@@ -56,6 +56,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["dorado", "sueños", "quinceañera"]
   },
   {
+    title: "Rosa Imperial",
+    category: "Quinceañera",
+    country: "us",
+    price: "$49",
+    closedImage: "/Rosa Imperial close.webp",
+    openImage: "/Rosa Imperial open ENG.webp",
+    keywords: ["rosa", "imperial", "quinceañera", "red", "rojo"]
+  },
+  {
     title: "Blue Serenity",
     category: "Quinceañera",
     country: "us",
