@@ -767,6 +767,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "First Communio"]
   },
   {
+    title: "A Blessed Beginning",
+    category: "First Communion & Baptism",
+    country: "us",
+    price: "$39",
+    closedImage: "/A Blessed Beginning close.webp",
+    openImage: "/A Blessed Beginning open ENG.webp",
+    keywords: ["bendición", "comunión", "bautismo", "fiesta", "First Communion & Baptism"]
+  },
+  {
   title: "Precious Moment",
   category: "Gender Reveal",
   country: "pe",

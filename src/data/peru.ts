@@ -763,6 +763,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
   {
+    title: "A Blessed Beginning",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/A Blessed Beginning close.webp",
+    openImage: "/A Blessed Beginning open.webp",
+    keywords: ["bendición", "comunión", "bautismo", "fiesta", "cumpleaños"]
+  },
+  {
   title: "Precious Moment",
   category: "Revelación de género",
   country: "pe",
