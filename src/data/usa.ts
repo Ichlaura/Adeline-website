@@ -896,6 +896,15 @@ export const usaInvitations: Invitation[] = [
     keywords: ["académica", "elegancia", "fiesta", "Graduation"]
   },
   {
+    title: "Emerald Achievement",
+    category: "Graduation",
+    country: "us",
+    price: "$39",
+    closedImage: "/Emerald Achievement close.webp",
+    openImage: "/Emerald Achievement open ENG.webp",
+    keywords: ["orgulloso", "logro", "fiesta", "Graduation"]
+  },
+  {
     title: "New Chapter",
     category: "Graduation",
     country: "us",

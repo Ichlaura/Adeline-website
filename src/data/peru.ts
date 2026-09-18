@@ -890,6 +890,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["académica", "elegancia", "fiesta", "cumpleaños"]
   },
   {
+    title: "Emerald Achievement",
+    category: "Graduación",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Emerald Achievement close.webp",
+    openImage: "/Emerald Achievement open.webp",
+    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños"]
+  },
+  {
     title: "New Chapter",
     category: "Graduación",
     country: "pe",
