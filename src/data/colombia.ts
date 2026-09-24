@@ -229,6 +229,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
     openImage: "/Unicorn Party open foto.webp",
+    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
   },
   {
     title: "Unicorn Party",
@@ -237,7 +238,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
     openImage: "/Unicorn Party open.webp",
-    keywords: ["unicornio", "fiesta", "cumpleaños"]
+    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
   },
   {
     title: "Soccer Party",
@@ -264,7 +265,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Dinosaur Party close.webp",
     openImage: "/Dinosaur Party open.webp",
-    keywords: ["dinosaurio", "fiesta", "cumpleaños"]
+    keywords: ["dinosaurio", "fiesta", "cumpleaños", "jurásico", "dino", "jurassic", "jurassic park", "jurassic world","green", "verde"]
   },
   {
     title: "Princess Party",
@@ -273,7 +274,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Princess Party close.webp",
     openImage: "/Princess Party open foto.webp",
-    keywords: ["princesa", "fiesta", "cumpleaños"]
+    keywords: ["princesa", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
   },
   {
     title: "Princess Party",
@@ -282,7 +283,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Princess Party close.webp",
     openImage: "/Princess Party open.webp",
-    keywords: ["princesa", "fiesta", "cumpleaños"]
+    keywords: ["princesa", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
   },
   {
     title: "Fairy Party",
@@ -291,7 +292,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Fairy Party close.webp",
     openImage: "/Fairy Party open.webp",
-    keywords: ["hada", "fiesta", "cumpleaños"]
+    keywords: ["hada", "fiesta", "cumpleaños", "fairy"]
   },
   
   {
@@ -301,7 +302,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cars Party close.webp",
     openImage: "/Cars Party open.webp",
-    keywords: ["coches", "autos", "fiesta", "cumpleaños"]
+    keywords: ["coches", "autos", "fiesta", "cumpleaños", "cars", "cars movie", "cars disney","car","carrro","carrros"]
   },
   {
     title: "Animals Party",
