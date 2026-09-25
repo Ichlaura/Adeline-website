@@ -53,6 +53,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["dorado", "sueños", "quinceañera"]
   },
   {
+    title: "Rosa Imperial",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Rosa Imperial close.webp",
+    openImage: "/Rosa Imperial open.webp",
+    keywords: ["rosa", "imperial", "quinceañera", "red", "rojo"]
+  },
+  {
     title: "Blue Serenity",
     category: "Quince Años",
     country: "pe",
@@ -60,6 +69,15 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Blue Serenity close.webp",
     openImage: "/Blue Serenity open.webp",
     keywords: ["azul", "serenidad", "quinceañera"]
+  },
+  {
+    title: "Golden Elegance",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Golden Elegance close.webp",
+    openImage: "/Golden Elegance open.webp",
+    keywords: ["dorado", "elegancia", "quinceañera"]
   },
   {
     title: "Ivory Bloom",
@@ -77,6 +95,16 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Purple Elegance close.webp",
     openImage: "/Purple Elegance open.webp",
+    keywords: ["morada", "esmeralda", "quinceañera", "purpura"]
+  },
+  {
+    title: "Blue Dream",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Blue Dream close.webp",
+    openImage: "/Blue Dream open.webp",
+    keywords: ["azul", "azul rey", "quinceañera"]
   },
   {
     title: "Pink Blossom",
@@ -85,8 +113,16 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Pink Blossom close.webp",
     openImage: "/Pink Blossom open.webp",
-    keywords: ["mariposa", "blush", "quinceañera"]
-  
+    keywords: ["mariposa", "blush", "quinceañera", "pink"]
+  },
+  {
+    title: "Ivory Cream",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Cream close.webp",
+    openImage: "/Ivory Cream open.webp",
+    keywords: ["marfil", "crema", "quinceañera"]
   },
   {
     title: "Black Diamond",
@@ -95,6 +131,34 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
+    keywords: ["black", "diamond", "quinceañera", "negro"]
+  },
+  {
+    title: "Sunflower Bloom",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Sunflower Bloom close.webp",
+    openImage: "/Sunflower Bloom open.webp",
+    keywords: ["girasol", "sunflower", "quinceañera", "amarillo", "yellow"]
+  },
+   {
+    title: "Royal Violet",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Royal Violet close.webp",
+    openImage: "/Royal Violet open.webp",
+    keywords: ["princesa", "morada", "quinceañera", "purpura"]
+  },
+  {
+    title: "Ivory Blue",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Blue close.webp",
+    openImage: "/Ivory Blue open.webp",
+    keywords: ["marfil", "azul", "quinceañera"]
   },
   {
     title: "Emerald Quinceañera",
@@ -104,6 +168,15 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Emerald Quinceañera close.webp",
     openImage: "/Emerald Quinceañera open.webp",
     keywords: ["esmeralda", "quinceañera", "verde", "Green"]
+  },
+  {
+    title: "Ivory Purple",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Purple close.webp",
+    openImage: "/Ivory Purple open.webp",
+    keywords: ["marfil", "morada", "quinceañera"]
   },
   {
     title: "Blush Princess",
@@ -122,6 +195,33 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Lavender Dream close.webp",
     openImage: "/Lavender Dream open.webp",
     keywords: ["princesa", "blush", "quinceañera"]
+  },
+  {
+    title: "Ivory Green",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Ivory Green close.webp",
+    openImage: "/Ivory Green open.webp",
+    keywords: ["marfil", "verde", "quinceañera"]
+  },
+  {
+    title: "Red Ruby",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Red Ruby close.webp",
+    openImage: "/Red Ruby open.webp",
+    keywords: ["rojo", "ruby", "quinceañera", "red"]
+  },
+  {
+    title: "Green Serenity",
+    category: "Quince Años",
+    country: "pe",
+    price: "$49",
+    closedImage: "/Green Serenity close.webp",
+    openImage: "/Green Serenity open.webp",
+    keywords: ["verde", "serenidad", "quinceañera", "green"]
   },
    {
     title: "Unicorn Party",
@@ -273,12 +373,30 @@ export const peruInvitations: Invitation[] = [
     keywords: ["spa", "fiesta", "cumpleaños"]
   },
   {
+    title: "Speed Racer",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Speed Racer close.webp",
+    openImage: "/Speed Racer open.webp",
+    keywords: ["carros", "fiesta", "cumpleaños", "carrera", "speed", "car", "racer","cars",]
+    },
+  {
     title: "Hawaii Party",
     category: "Cumpleaños y fiestas infantiles",
     country: "pe",
     price: "$39",
     closedImage: "/Hawaii Party close.webp",
     openImage: "/Hawaii Party open.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Aloha Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open cumple.webp",
     keywords: ["hawaii", "fiesta", "cumpleaños"]
   },
   {
@@ -334,6 +452,24 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Rock Star Party close.webp",
     openImage: "/Rock Star Party open.webp",
     keywords: ["rock", "star", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Pool Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Pool Party close.webp",
+    openImage: "/Pool Party open.webp",
+    keywords: ["piscina", "pool", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Fairy Garden",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Fairy Garden close.webp",
+    openImage: "/Fairy Garden open.webp",
+    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños"]
   },
   {
     title: "Motorcycle",
@@ -424,6 +560,24 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/My First Race close.webp",
     openImage: "/My First Race open.webp",
     keywords: ["carro", "race", "car", "cumpleaños"]
+  },
+  {
+    title: "Under the Sea",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Under the Sea close.webp",
+    openImage: "/Under the Sea open.webp",
+    keywords: ["sea", "mar", "pez", "cumpleaños", "under the sea", "ocean", "acuario","peces","fish"]
+  },
+  {
+    title: "Cinema Party",
+    category: "Cumpleaños y fiestas infantiles",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Cinema Party close.webp",
+    openImage: "/Cinema Party open.webp",
+    keywords: ["cinema", "cinema party", "cine", "cumpleaños", "pelicula", "actor", "movie","Hollywood"]
   },
   {
     title: "Blue Teddy",
@@ -536,6 +690,15 @@ export const peruInvitations: Invitation[] = [
     keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
   },
   {
+    title: "Aloha Party",
+    category: "Celebraciones y fiestas",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Aloha Party close.webp",
+    openImage: "/Aloha Party open.webp",
+    keywords: ["hawaii", "fiesta", "cumpleaños"]
+  },
+  {
     title: "Silk Blessing",
     category: "Primera comunión y bautismo",
     country: "pe",
@@ -599,7 +762,24 @@ export const peruInvitations: Invitation[] = [
     openImage: "/Olive Communion open.webp",
     keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
   },
-
+  {
+    title: "A Blessed Beginning",
+    category: "Primera comunión y bautismo",
+    country: "pe",
+    price: "$39",
+    closedImage: "/A Blessed Beginning close.webp",
+    openImage: "/A Blessed Beginning open.webp",
+    keywords: ["bendición", "comunión", "bautismo", "fiesta", "cumpleaños"]
+  },
+  {
+  title: "Precious Moment",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Precious Moment close.webp",
+  openImage: "/Precious Moment open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
+  },
   {
   title: "A Little Surprise",
   category: "Revelación de género",
@@ -619,6 +799,15 @@ export const peruInvitations: Invitation[] = [
   keywords: ["gatito", "revelación", "fiesta", "cumpleaños"]
   },
   {
+  title: "Little Secret",
+  category: "Revelación de género",
+  country: "pe",
+  price: "$39",
+  closedImage: "/Little Secret close.webp",
+  openImage: "/Little Secret open.webp",
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
+  },
+  {
   title: "Sky & Blush",
   category: "Revelación de género",
   country: "pe",
@@ -626,15 +815,6 @@ export const peruInvitations: Invitation[] = [
   closedImage: "/Sky & Blush close.webp",
   openImage: "/Sky & Blush open.webp",
   keywords: ["cielo", "blush", "fiesta", "cumpleaños"]
-  },
-  {
-  title: "Golden Paws",
-  category: "Revelación de género",
-  country: "pe",
-  price: "$39",
-  closedImage: "/Golden Paws close.webp",
-  openImage: "/Golden Paws open.webp",
-  keywords: ["patas", "dorado", "fiesta", "cumpleaños"]
   },
   {
   title: "Blue & Blush",
@@ -708,6 +888,15 @@ export const peruInvitations: Invitation[] = [
     closedImage: "/Academic Elegance close.webp",
     openImage: "/Academic Elegance open.webp",
     keywords: ["académica", "elegancia", "fiesta", "cumpleaños"]
+  },
+  {
+    title: "Emerald Achievement",
+    category: "Graduación",
+    country: "pe",
+    price: "$39",
+    closedImage: "/Emerald Achievement close.webp",
+    openImage: "/Emerald Achievement open.webp",
+    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños"]
   },
   {
     title: "New Chapter",
