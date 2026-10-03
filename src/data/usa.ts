@@ -25,7 +25,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Butterfly close.webp",
     openImage: "/Blush Butterfly open ENG.webp",
-    keywords: ["mariposa", "blush", "quinceañera", "rosada", "pink"]
+    keywords: ["mariposa", "blush", "quinceañera", "rosa", "pink", "butterfly"]
   
   },
   {
@@ -35,7 +35,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Garden close.webp",
     openImage: "/Royal Garden open ENG.webp",
-    keywords: ["jardín", "royal", "quinceañera", "vino tinto", "rojo", "libelula"]
+    keywords: ["jardín", "royal", "quinceañera", "vino tinto", "rojo", "burgundy", "libelula"]
   },
   {
     title: "Green Elegance",
@@ -53,7 +53,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Golden Dreams close.webp",
     openImage: "/Golden Dreams open ENG.webp",
-    keywords: ["dorado", "sueños", "quinceañera"]
+    keywords: ["dorado", "sueños", "quinceañera", "amarillo", "gold", "yellow", "maiposa", "butterfly"]
   },
   {
     title: "Rosa Imperial",
@@ -62,7 +62,7 @@ export const usaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Rosa Imperial close.webp",
     openImage: "/Rosa Imperial open ENG.webp",
-    keywords: ["rosa", "imperial", "quinceañera", "red", "rojo"]
+    keywords: ["rosa", "imperial", "quinceañera", "red", "rojo", "rose"]
   },
   {
     title: "Blue Serenity",
