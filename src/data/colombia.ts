@@ -77,7 +77,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Golden Elegance close.webp",
     openImage: "/Golden Elegance open.webp",
-    keywords: ["dorado", "elegancia", "quinceañera"]
+    keywords: ["dorado", "elegancia", "quinceañera", "gold", "elegance", "mariposa", "butterfly", "beige","marfil"]
   },
   {
     title: "Ivory Bloom",
@@ -86,7 +86,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Bloom close.webp",
     openImage: "/Ivory Bloom open.webp",
-    keywords: ["marfil", "flor", "quinceañera"]
+    keywords: ["marfil", "flor", "quinceañera", "rosado", "blush", "ivory", "bloom", "butterfly", "mariposa","pink"]
   },
   {
     title: "Purple Elegance",
@@ -95,6 +95,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Purple Elegance close.webp",
     openImage: "/Purple Elegance open.webp",
+    keywords: ["morado", "elegancia", "quinceañera", "purple", "elegance", "purpura", "mariposa", "butterfly"]
   },
   {
     title: "Blue Dream",
@@ -103,7 +104,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Dream close.webp",
     openImage: "/Blue Dream open.webp",
-    keywords: ["azul", "azul rey", "quinceañera"]
+    keywords: ["azul", "azul rey", "quinceañera", "blue","royal blue", "flor", "flower"]
   },
   {
     title: "Pink Blossom",
@@ -112,7 +113,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Pink Blossom close.webp",
     openImage: "/Pink Blossom open.webp",
-    keywords: ["mariposa", "blush", "quinceañera", "pink"]
+    keywords: ["mariposa", "blush", "quinceañera", "pink", "rosado", "mariposa", "butterfly", "flor", "flower", "shiny"]
   },
   {
     title: "Ivory Cream",
@@ -121,7 +122,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Cream close.webp",
     openImage: "/Ivory Cream open.webp",
-    keywords: ["marfil", "crema", "quinceañera"]
+    keywords: ["marfil", "crema", "quinceañera", "ivory", "cream", "flor", "flower", "mariposa", "butterfly", "beige"]
   },
   {
     title: "Black Diamond",
@@ -130,7 +131,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Black Diamond close.webp",
     openImage: "/Black Diamond open.webp",
-    keywords: ["black", "diamond", "quinceañera", "negro"]
+    keywords: ["black", "diamond", "quinceañera", "negro", "dark", "flor", "flower", "shiny"]
   },
   {
     title: "Sunflower Bloom",
@@ -139,7 +140,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Sunflower Bloom close.webp",
     openImage: "/Sunflower Bloom open.webp",
-    keywords: ["girasol", "sunflower", "quinceañera", "amarillo", "yellow"]
+    keywords: ["girasol", "sunflower", "quinceañera", "amarillo", "yellow", "flor", "flower"]
   },
   {
     title: "Royal Violet",
@@ -148,7 +149,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Violet close.webp",
     openImage: "/Royal Violet open.webp",
-    keywords: ["princesa", "morada", "quinceañera", "purpura"]
+    keywords: ["princesa", "morada", "quinceañera", "purpura", "shiny", "flor", "flower"]
   },
   {
     title: "Ivory Blue",
@@ -157,7 +158,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Blue close.webp",
     openImage: "/Ivory Blue open.webp",
-    keywords: ["marfil", "azul", "quinceañera"]
+    keywords: ["marfil", "azul", "quinceañera", "blue", "mariposa", "butterfly"]
   },
   {
     title: "Emerald Quinceañera",
@@ -175,7 +176,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Purple close.webp",
     openImage: "/Ivory Purple open.webp",
-    keywords: ["marfil", "morada", "quinceañera"]
+    keywords: ["marfil", "morada", "quinceañera", "purpura", "purple", "mariposa", "butterfly", "lila", "Lavender", "Wisteria", "Lilac", "violeta", "violet"]
   },
   {
     title: "Blush Princess",
@@ -184,7 +185,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Princess close.webp",
     openImage: "/Blush Princess open.webp",
-    keywords: ["princesa", "blush", "quinceañera"]
+    keywords: ["princesa", "blush", "quinceañera", "rosado", "pink"]
   },
   {
     title: "Lavender Dream",
@@ -193,7 +194,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Lavender Dream close.webp",
     openImage: "/Lavender Dream open.webp",
-    keywords: ["princesa", "blush", "quinceañera"]
+    keywords: ["princesa", "blush", "quinceañera", "rosado", "pink", "lavanda", "lavender", "violeta", "violet"]
   },
   {
     title: "Ivory Green",
@@ -202,7 +203,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Green close.webp",
     openImage: "/Ivory Green open.webp",
-    keywords: ["marfil", "verde", "quinceañera"]
+    keywords: ["marfil", "verde", "quinceañera", "green", "mariposa", "butterfly", "Pistachio"]
   },
   {
     title: "Red Ruby",
@@ -211,7 +212,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Red Ruby close.webp",
     openImage: "/Red Ruby open.webp",
-    keywords: ["rojo", "ruby", "quinceañera", "red"]
+    keywords: ["rojo", "ruby", "quinceañera", "red", "ruby", "rubi", "rosa", "rose"]
   },
   {
     title: "Green Serenity",
@@ -220,7 +221,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Serenity close.webp",
     openImage: "/Green Serenity open.webp",
-    keywords: ["verde", "serenidad", "quinceañera", "green"]
+    keywords: ["verde", "serenidad", "quinceañera", "green", "mariposa", "butterfly", "Pistachio"]
   },
    {
     title: "Unicorn Party",
@@ -229,7 +230,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
     openImage: "/Unicorn Party open foto.webp",
-    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
+    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink", "Unicorn", "rosado"]
   },
   {
     title: "Unicorn Party",
@@ -238,7 +239,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Unicorn Party close.webp",
     openImage: "/Unicorn Party open.webp",
-    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
+    keywords: ["unicornio", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink", "Unicorn", "rosado"]
   },
   {
     title: "Soccer Party",
@@ -247,7 +248,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Soccer Party close.webp",
     openImage: "/Soccer Party open.webp",
-    keywords: ["fútbol", "fiesta", "cumpleaños"]
+    keywords: ["fútbol", "fiesta", "cumpleaños", "soccer", "football", "soccer party", "futbol"]
   },
   {
     title: "Little Chef",
@@ -256,7 +257,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Little Chef close.webp",
     openImage: "/Little Chef open.webp",
-    keywords: ["chef", "cocina", "fiesta", "cumpleaños"]
+    keywords: ["chef", "cocina", "fiesta", "cumpleaños", "comida", "cooking", "kitchen"]
   },
   {
     title: "Dinosaur Party",
@@ -265,7 +266,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Dinosaur Party close.webp",
     openImage: "/Dinosaur Party open.webp",
-    keywords: ["dinosaurio", "fiesta", "cumpleaños", "jurásico", "dino", "jurassic", "jurassic park", "jurassic world","green", "verde"]
+    keywords: ["dinosaurio", "fiesta", "cumpleaños", "jurásico", "dino", "jurassic", "jurassic park", "jurassic world","green", "verde", "dinosaur"]
   },
   {
     title: "Princess Party",
@@ -283,7 +284,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Princess Party close.webp",
     openImage: "/Princess Party open.webp",
-    keywords: ["princesa", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink"]
+    keywords: ["princesa", "fiesta", "cumpleaños", "rosa", "rosa pastel", "pastel", "pink", "princess", "princes"]
   },
   {
     title: "Fairy Party",
@@ -292,7 +293,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Fairy Party close.webp",
     openImage: "/Fairy Party open.webp",
-    keywords: ["hada", "fiesta", "cumpleaños", "fairy"]
+    keywords: ["hada", "fiesta", "cumpleaños", "fairy", "hadas", "fairies","pastel", "morado", "purple", "violeta", "violet"]
   },
   
   {
@@ -302,7 +303,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cars Party close.webp",
     openImage: "/Cars Party open.webp",
-    keywords: ["coches", "autos", "fiesta", "cumpleaños", "cars", "cars movie", "cars disney","car","carrro","carrros"]
+    keywords: ["coches", "autos", "fiesta", "cumpleaños", "cars", "cars movie", "cars disney","car","carrro","carrros", "carrera", "race", "racing"]
   },
   {
     title: "Animals Party",
@@ -311,7 +312,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Animals Party close.webp",
     openImage: "/Animals Party open.webp",
-    keywords: ["animales", "fiesta", "cumpleaños"]
+    keywords: ["animales", "fiesta", "cumpleaños", "animales salvajes", "wild animals", "anumals", "jungle", "selva", "safari"]
   },
   {
     title: "Basketball Party",
@@ -320,7 +321,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Basketball Party close.webp",
     openImage: "/Basketball Party open.webp",
-    keywords: ["baloncesto", "basketball", "fiesta", "cumpleaños"]
+    keywords: ["baloncesto", "basketball", "fiesta", "cumpleaños", "basket", "basket ball", "basketball party"]
   },
   
 
@@ -351,7 +352,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Super Party close.webp",
     openImage: "/Super Party open.webp",
-    keywords: ["super", "fiesta", "cumpleaños", "Heroes", "superhéroes"]
+    keywords: ["super", "fiesta", "cumpleaños", "Heroes", "superhéroes", "hero", "superhero", "superheroes"]
   },
 
   {
@@ -361,7 +362,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Robot Party close.webp",
     openImage: "/Robot Party open.webp",
-    keywords: ["robot", "fiesta", "cumpleaños"]
+    keywords: ["robot", "fiesta", "cumpleaños", "robots", "robotics", "technology", "tech"]
   },
   {
     title: "Spa Party",
@@ -370,7 +371,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Spa Party close.webp",
     openImage: "/Spa Party open.webp",
-    keywords: ["spa", "fiesta", "cumpleaños"]
+    keywords: ["spa", "fiesta", "cumpleaños", "relax", "beauty", "pampering", "self-care"]
   },
   {
     title: "Speed Racer",
@@ -379,7 +380,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Speed Racer close.webp",
     openImage: "/Speed Racer open.webp",
-    keywords: ["carros", "fiesta", "cumpleaños", "carrera", "speed", "car", "racer","cars",]
+    keywords: ["carros", "fiesta", "cumpleaños", "carrera", "speed", "car", "racer","cars", "race", "racing"]
   },
   {
     title: "Hawaii Party",
@@ -388,7 +389,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Hawaii Party close.webp",
     openImage: "/Hawaii Party open.webp",
-    keywords: ["hawaii", "fiesta", "cumpleaños"]
+    keywords: ["hawaii", "fiesta", "cumpleaños", "tropical", "luau", "beach", "island", "summer", "pool", "palm trees", "sunset"]
   },
   {
     title: "Aloha Party",
@@ -397,7 +398,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Aloha Party close.webp",
     openImage: "/Aloha Party open cumple.webp",
-    keywords: ["hawaii", "fiesta", "cumpleaños"]
+    keywords: ["hawaii", "fiesta", "cumpleaños", "tropical", "luau", "beach", "island", "summer", "pool", "palm trees", "sunset"]
   },
   {
     title: "Magical Bunny",
@@ -406,7 +407,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Magical Bunny close.webp",
     openImage: "/Magical Bunny open.webp",
-    keywords: ["conejo", "bunny", "magical", "fiesta", "cumpleaños"]
+    keywords: ["conejo", "bunny", "magical", "fiesta", "cumpleaños", "magia", "magic", "rabbit", "easter", "spring", "cute", "adorable", "magical bunny"]
   },
   {
     title: "Magic Party",
@@ -415,7 +416,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Magic Party close.webp",
     openImage: "/Magic Party open.webp",
-    keywords: ["magia", "magic", "fiesta", "cumpleaños"]
+    keywords: ["magia", "magic", "fiesta", "cumpleaños", "magical", "illusion", "trick", "wizard", "sorcerer", "enchantment"]
   },
   {
     title: "Soccer Star",
@@ -424,7 +425,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Soccer Star close.webp",
     openImage: "/Soccer Star open.webp",
-    keywords: ["fútbol", "soccer", "estrella", "fiesta", "cumpleaños"]
+    keywords: ["fútbol", "soccer", "estrella", "fiesta", "cumpleaños", "football", "soccer party"]
   },
   {
     title: "Little Cowboy",
@@ -433,7 +434,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Little Cowboy close.webp",
     openImage: "/Little Cowboy open.webp",
-    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños"]
+    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños", "western", "western party", "cowboy party"]
   },
   {
     title: "Cowboy Party",
@@ -442,7 +443,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cowboy Party close.webp",
     openImage: "/Cowboy Party open.webp",
-    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños"]
+    keywords: ["cowboy", "vaquero", "fiesta", "cumpleaños", "western", "western party", "cowboy party"]
   },
   {
     title: "Rock Star Party",
@@ -451,7 +452,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Rock Star Party close.webp",
     openImage: "/Rock Star Party open.webp",
-    keywords: ["rock", "star", "fiesta", "cumpleaños"]
+    keywords: ["rock", "star", "fiesta", "cumpleaños", "music", "guitar", "band", "concert", "rockstar"]
   },
   {
     title: "Pool Party",
@@ -460,7 +461,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pool Party close.webp",
     openImage: "/Pool Party open.webp",
-    keywords: ["piscina", "pool", "fiesta", "cumpleaños"]
+    keywords: ["piscina", "pool", "fiesta", "cumpleaños", "summer", "beach", "water", "swimming"]
   },
   {
     title: "Fairy Garden",
@@ -469,7 +470,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Fairy Garden close.webp",
     openImage: "/Fairy Garden open.webp",
-    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños"]
+    keywords: ["hada", "fairy", "jardín", "fiesta", "cumpleaños", "garden", "flowers", "magic", "enchantment"]
   },
   {
     title: "Motorcycle",
@@ -478,7 +479,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Motorcycle close.webp",
     openImage: "/Motorcycle open.webp",
-    keywords: ["moto", "motorcycle", "fiesta", "cumpleaños"]
+    keywords: ["moto", "motorcycle", "fiesta", "cumpleaños", "speed", "racer"]
   },
   {
     title: "Cute Kittens",
@@ -487,7 +488,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Cute Kittens close.webp",
     openImage: "/Cute Kittens open.webp",
-    keywords: ["gatitos", "kittens", "fiesta", "cumpleaños"]
+    keywords: ["gatitos", "kittens", "fiesta", "cumpleaños", "cute", "adorable", "cats", "kitty"]
   },
   {
     title: "Blue Doggy",
@@ -496,7 +497,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Doggy close.webp",
     openImage: "/Blue Doggy open.webp",
-    keywords: ["perrito", "doggy", "fiesta", "cumpleaños"]
+    keywords: ["perrito", "doggy", "fiesta", "cumpleaños", "cute", "adorable", "dog", "puppy"]
   },
   {
     title: "Outer Space",
@@ -505,7 +506,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Outer Space close.webp",
     openImage: "/Outer Space open.webp",
-    keywords: ["espacio", "space", "fiesta", "cumpleaños"]
+    keywords: ["espacio", "space", "fiesta", "cumpleaños", "planetas", "planets", "astronauta", "astronaut", "galaxia", "galaxy"]
   },
   {
     title: "Purple Dino",
@@ -514,7 +515,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Purple Dino close.webp",
     openImage: "/Purple Dino open.webp",
-    keywords: ["dinosaurio", "dino", "fiesta", "cumpleaños"]
+    keywords: ["dinosaurio", "dino", "fiesta", "cumpleaños", "purple", "morado", "jurassic", "jurassic park", "jurassic world"]
   },
   {
     title: "Science Lab",
@@ -523,7 +524,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Science Lab close.webp",
     openImage: "/Science Lab open.webp",
-    keywords: ["ciencia", "science", "fiesta", "cumpleaños"]
+    keywords: ["ciencia", "science", "fiesta", "cumpleaños", "experiment", "lab", "scientific"]
   },
   {
     title: "Pirate Legacy",
@@ -532,7 +533,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pirate Legacy close.webp",
     openImage: "/Pirate Legacy open.webp",
-    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños", "treasure", "map", "ship", "adventure"]
   },
   {
     title: "Choo Choo Party",
@@ -541,7 +542,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Choo Choo Party close.webp",
     openImage: "/Choo Choo Party open.webp",
-    keywords: ["pirata", "pirates", "fiesta", "cumpleaños"]
+    keywords: ["pirata", "pirates", "fiesta", "cumpleaños", "tren", "train", "choo choo", "railroad", "locomotive"]
   },
   {
     title: "Art Party",
@@ -550,7 +551,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Art Party close.webp",
     openImage: "/Art Party open.webp",
-    keywords: ["arte", "art", "fiesta", "cumpleaños"]
+    keywords: ["arte", "art", "fiesta", "cumpleaños", "painting", "drawing", "creative", "crafts"]
   },
   {
     title: "My First Race",
@@ -559,7 +560,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/My First Race close.webp",
     openImage: "/My First Race open.webp",
-    keywords: ["carro", "race", "car", "cumpleaños"]
+    keywords: ["carro", "race", "car", "cumpleaños", "speed", "racer"]
   }, 
   {
     title: "Under the Sea",
@@ -586,7 +587,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Teddy close.webp",
     openImage: "/Blue Teddy open.webp",
-    keywords: ["osito", "teddy", "fiesta", "cumpleaños"]
+    keywords: ["osito", "teddy", "fiesta", "cumpleaños","baby shower", "baby", "shower", "boy", "niño", "azul", "blue"]
   },
   {
     title: "Blush Teddy",
@@ -595,7 +596,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Teddy close.webp",
     openImage: "/Blush Teddy open.webp",
-    keywords: ["osito", "teddy", "fiesta", "cumpleaños"]
+    keywords: ["osito", "teddy", "fiesta", "cumpleaños","baby shower", "baby", "shower", "girl", "niña", "rosado", "blush"]
   },
   {
     title: "Blush & Gold",
@@ -604,7 +605,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush & Gold close.webp",
     openImage: "/Blush & Gold open.webp",
-    keywords: ["blush", "gold", "fiesta", "cumpleaños"]
+    keywords: ["blush", "gold", "fiesta", "cumpleaños","baby shower", "baby", "shower", "girl", "niña", "rosado", "blush"]
   },
   {
     title: "Baby Bloom",
@@ -613,7 +614,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Baby Bloom close.webp",
     openImage: "/Baby Bloom open.webp",
-    keywords: ["baby", "bloom", "fiesta", "cumpleaños"]
+    keywords: ["baby", "bloom", "fiesta", "cumpleaños","baby shower", "baby", "shower"]
   },
   {
     title: "Baby Blue",
@@ -622,7 +623,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Baby Blue close.webp",
     openImage: "/Baby Blue open.webp",
-    keywords: ["baby", "blue", "fiesta", "cumpleaños"]
+    keywords: ["baby", "blue", "fiesta", "cumpleaños","baby shower", "baby", "shower", "boy", "niño", "azul", "blue"]
   },
 
   {
@@ -632,7 +633,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Christmas Evergreen close.webp",
     openImage: "/Christmas Evergreen open.webp",
-    keywords: ["navidad", "christmas", "fiesta", "cumpleaños"]
+    keywords: ["navidad", "christmas", "fiesta", "cumpleaños", "evergreen", "decoración"]
   },
   
   {
@@ -642,7 +643,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Halloween close.webp",
     openImage: "/Halloween open.webp",
-    keywords: ["halloween", "fantasía", "fiesta", "cumpleaños"]
+    keywords: ["halloween", "fantasía", "fiesta", "cumpleaños", "disfraz", "disfrazes", "disfraces", "disguise", "costume"]
   },
   {
     title: "Christmas Wishes",
@@ -651,7 +652,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Christmas Wishes close.webp",
     openImage: "/Christmas Wishes open.webp",
-    keywords: ["navidad", "christmas", "fiesta", "cumpleaños"]
+    keywords: ["navidad", "christmas", "fiesta", "cumpleaños", "wishes", "blessings"]
   },
   {
     title: "Bachelorette party",
@@ -660,7 +661,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Bachelorette party close.webp",
     openImage: "/Bachelorette party open.webp",
-    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette", "party"]
   },
   {
     title: "Orange Halloween",
@@ -669,7 +670,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Orange Halloween close.webp",
     openImage: "/Orange Halloween open.webp",
-    keywords: ["halloween", "naranja", "fiesta"]
+    keywords: ["halloween", "naranja", "fiesta", "cumpleaños", "disfraz", "disfrazes", "disfraces", "disguise", "costume"]
   },
   {
     title: "Bride to Be Bash",
@@ -678,7 +679,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Bride to Be Bash close.webp",
     openImage: "/Bride to Be Bash open.webp",
-    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette"]
+    keywords: ["Bride", "Bride to Be", "despedida", "soltera", "Bachelorette", "party"]
   },
   {
     title: "Groom Night",
@@ -687,7 +688,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Groom Night close.webp",
     openImage: "/Groom Night open.webp",
-    keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette"]
+    keywords: ["Groom", "Groom to Be", "despedida", "soltero", "Bachelorette", "party"]
   },
    {
     title: "Aloha Party",
@@ -696,7 +697,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Aloha Party close.webp",
     openImage: "/Aloha Party open.webp",
-    keywords: ["hawaii", "fiesta", "cumpleaños"]
+    keywords: ["hawaii", "fiesta", "cumpleaños", "tropical", "island"]
   },
   
   {
@@ -706,7 +707,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silk Blessing close.webp",
     openImage: "/Silk Blessing open foto.webp",
-    keywords: ["seda", "bendición", "fiesta", "cumpleaños"]
+    keywords: ["seda", "bendición", "fiesta", "cumpleaños", "comunión", "bautismo"]
   },
   {
   title: "Golden Blessing",
@@ -715,7 +716,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Golden Blessing close.webp",
   openImage: "/Golden Blessing open.webp",
-  keywords: ["oro", "bendición", "fiesta", "cumpleaños"]
+  keywords: ["oro", "bendición", "fiesta", "cumpleaños", "comunión", "bautismo"]
 },
 {
   title: "Divine Grace",
@@ -724,7 +725,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Divine Grace close.webp",
   openImage: "/Divine Grace open foto.webp",
-  keywords: ["divina", "gracia", "fiesta", "cumpleaños"]
+  keywords: ["divina", "gracia", "fiesta", "cumpleaños", "comunión", "bautismo"]
 },
 {
   title: "Divine Grace",
@@ -733,7 +734,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Divine Grace close.webp",
   openImage: "/Divine Grace open.webp",
-  keywords: ["divina", "gracia", "fiesta", "cumpleaños"]
+  keywords: ["divina", "gracia", "fiesta", "cumpleaños", "comunión", "bautismo"]
 },
 
   {
@@ -743,7 +744,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Waters of Grace close.webp",
     openImage: "/Waters of Grace open.webp",
-    keywords: ["aguas", "gracia", "fiesta", "cumpleaños"]
+    keywords: ["aguas", "gracia", "fiesta", "cumpleaños", "comunión", "bautismo"]
   },
   {
     title: "Olive Communion",
@@ -752,7 +753,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Olive Communion close.webp",
     openImage: "/Olive Communion open foto.webp",
-    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
+    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños", "comunión", "bautismo"]
   },
   {
     title: "Olive Communion",
@@ -761,7 +762,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Olive Communion close.webp",
     openImage: "/Olive Communion open.webp",
-    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños"]
+    keywords: ["olivo", "comunión", "bautismo", "fiesta", "cumpleaños", "comunión", "bautismo"]
   },
   {
     title: "A Blessed Beginning",
@@ -770,7 +771,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/A Blessed Beginning close.webp",
     openImage: "/A Blessed Beginning open.webp",
-    keywords: ["bendición", "comunión", "bautismo", "fiesta", "cumpleaños"]
+    keywords: ["bendición", "comunión", "bautismo", "fiesta", "cumpleaños", "comunión", "bautismo"]
   },
   {
   title: "Precious Moment",
@@ -779,7 +780,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Precious Moment close.webp",
   openImage: "/Precious Moment open.webp",
-  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños", "revelación de género", "gold", "oro"]
   },
   {
   title: "A Little Surprise",
@@ -788,7 +789,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/A Little Surprise close.webp",
   openImage: "/A Little Surprise open.webp",
-  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños"]
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños", "revelación de género", "pink", "rosa", "rosado"]
   },
   
   {
@@ -798,7 +799,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Kitty Reveal close.webp",
   openImage: "/Kitty Reveal open.webp",
-  keywords: ["gatito", "revelación", "fiesta", "cumpleaños"]
+  keywords: ["gatito", "revelación", "fiesta", "cumpleaños","revelacion de genero", "gato", "kitty", "cat", "pink", "rosa", "rosado"]
   },
   {
   title: "Little Secret",
@@ -807,7 +808,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Little Secret close.webp",
   openImage: "/Little Secret open.webp",
-  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero"]
+  keywords: ["sorpresa", "regalo", "fiesta", "cumpleaños","revelacion de genero", "sky", "cielo", "blue", "azul", "pink", "rosa", "rosado"]
   },
   {
   title: "Sky & Blush",
@@ -816,7 +817,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Sky & Blush close.webp",
   openImage: "/Sky & Blush open.webp",
-  keywords: ["cielo", "blush", "fiesta", "cumpleaños"]
+  keywords: ["cielo", "blush", "fiesta", "cumpleaños", "revelacion de genero", "sky", "cielo", "blue", "azul", "pink", "rosa", "rosado"]
   },
   {
   title: "Blue & Blush",
@@ -825,7 +826,7 @@ export const colombiaInvitations: Invitation[] = [
   price: "$39",
   closedImage: "/Blue & Blush close.webp",
   openImage: "/Blue & Blush open.webp",
-  keywords: ["azul", "blush", "fiesta", "cumpleaños"]
+  keywords: ["azul", "blush", "fiesta", "cumpleaños", "revelacion de genero", "sky", "cielo", "blue", "azul", "pink", "rosa", "rosado"]
   },
 
   {
@@ -835,7 +836,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Annual Celebration close.webp",
     openImage: "/Annual Celebration open.webp",
-    keywords: ["aniversario", "fiesta", "cumpleaños"]
+    keywords: ["aniversario", "fiesta", "cumpleaños", "corporativo", "celebración"]
   },
   {
     title: "Golden Legacy",
@@ -844,7 +845,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Golden Legacy close.webp",
     openImage: "/Golden Legacy open.webp",
-    keywords: ["legado", "dorado", "fiesta", "cumpleaños"]
+    keywords: ["legado", "dorado", "fiesta", "cumpleaños", "corporativo", "celebración"]
   },
   {
     title: "New Horizons",
@@ -853,7 +854,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/New Horizons close.webp",
     openImage: "/New Horizons open.webp",
-    keywords: ["nuevos", "horizontes", "fiesta", "cumpleaños"]
+    keywords: ["nuevos", "horizontes", "fiesta", "cumpleaños", "corporativo", "celebración"]
   },
   {
     title: "Royal Awards",
@@ -862,7 +863,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Royal Awards close.webp",
     openImage: "/Royal Awards open.webp",
-    keywords: ["premios", "royal", "fiesta", "cumpleaños"]
+    keywords: ["premios", "royal", "fiesta", "cumpleaños", "corporativo", "celebración"]
   },
   {
     title: "Convention",
@@ -871,7 +872,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Convention close.webp",
     openImage: "/Convention open.webp",
-    keywords: ["congreso", "fiesta", "cumpleaños"]
+    keywords: ["congreso", "fiesta", "cumpleaños", "corporativo", "celebración"]
   },
   {
     title: "Noble Graduate",
@@ -880,7 +881,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Noble Graduate close.webp",
     openImage: "/Noble Graduate open.webp",
-    keywords: ["graduación", "fiesta", "cumpleaños"]
+    keywords: ["graduación", "fiesta", "cumpleaños", "graduación", "celebración"]
   },
   {
     title: "Academic Elegance",
@@ -889,7 +890,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Academic Elegance close.webp",
     openImage: "/Academic Elegance open.webp",
-    keywords: ["académica", "elegancia", "fiesta", "cumpleaños"]
+    keywords: ["académica", "elegancia", "fiesta", "cumpleaños", "graduación", "celebración", "black", "negro", "gold", "oro"]
   },
   {
     title: "Emerald Achievement",
@@ -898,7 +899,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Emerald Achievement close.webp",
     openImage: "/Emerald Achievement open.webp",
-    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños"]
+    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños", "graduación", "celebración", "green", "verde"]
   },
   {
     title: "New Chapter",
@@ -907,7 +908,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/New Chapter close.webp",
     openImage: "/New Chapter open.webp",
-    keywords: ["nuevo", "capítulo", "fiesta", "cumpleaños"]
+    keywords: ["nuevo", "capítulo", "fiesta", "cumpleaños", "graduación", "celebración", "gold", "oro"]
   },
   {
     title: "Proud Achievement",
@@ -916,7 +917,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Proud Achievement close.webp",
     openImage: "/Proud Achievement open.webp",
-    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños"]
+    keywords: ["orgulloso", "logro", "fiesta", "cumpleaños", "graduación", "celebración", "azul", "blue"]
   },
   {
     title: "Blue Graduation",
@@ -925,7 +926,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Graduation close.webp",
     openImage: "/Blue Graduation open.webp",
-    keywords: ["azul", "graduación", "fiesta", "cumpleaños"]
+    keywords: ["azul", "graduación", "fiesta", "cumpleaños", "blue", "graduation"]
   },
   {
     title: "Blush Graduation",
@@ -934,7 +935,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Graduation close.webp",
     openImage: "/Blush Graduation open.webp",
-    keywords: ["blush", "graduación", "fiesta", "cumpleaños"]
+    keywords: ["blush", "graduación", "fiesta", "cumpleaños", "blush", "graduation", "rosado", "rosa"]
   },
   {
     title: "Serenity",
@@ -943,7 +944,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open foto.webp",
-    keywords: ["serenidad", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["serenidad", "matrimonio", "fiesta", "verde", "green", "Pistachio", "pistacho"]
   },
   {
     title: "Serenity",
@@ -952,7 +953,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Serenity close.webp",
     openImage: "/Serenity open.webp",
-    keywords: ["serenidad", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["serenidad", "matrimonio", "fiesta", "cumpleaños", "verde", "green", "Pistachio", "pistacho"]
   },
   {
     title: "Pearl Blossom",
@@ -961,7 +962,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open foto.webp",
-    keywords: ["perla", "florecer", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["perla", "florecer", "matrimonio", "blanco", "white"]
   },
   {
     title: "Pearl Blossom",
@@ -970,7 +971,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Pearl Blossom close.webp",
     openImage: "/Pearl Blossom open.webp",
-    keywords: ["perla", "florecer", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["perla", "florecer", "matrimonio", "blanco", "white"]
   },
   {
     title: "Blush Romance",
@@ -979,7 +980,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open foto.webp",
-    keywords: ["blush", "romance", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["blush", "romance", "matrimonio", "rosa", "rosado", "pink", "pastele"]
   },
   {
     title: "Blush Romance",
@@ -988,7 +989,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blush Romance close.webp",
     openImage: "/Blush Romance open.webp",
-    keywords: ["blush", "romance", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["blush", "romance", "matrimonio","rosado", "rosa", "pink", "pastele"]
   },
 
   {
@@ -998,7 +999,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open foto.webp",
-    keywords: ["plata", "boda", "fiesta", "cumpleaños"]
+    keywords: ["plata", "boda", "fiesta", "cumpleaños", "silver", "wedding", "gris", "gray"]
   },
   {
     title: "Silver Wedding",
@@ -1007,7 +1008,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Silver Wedding close.webp",
     openImage: "/Silver Wedding open.webp",
-    keywords: ["plata", "boda", "fiesta", "cumpleaños"]
+    keywords: ["plata", "boda", "fiesta", "cumpleaños", "silver", "wedding", "gris", "gray"]
   },
   {
     title: "Gold Wedding",
@@ -1016,7 +1017,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open foto.webp",
-    keywords: ["oro", "boda", "fiesta", "cumpleaños"]
+    keywords: ["oro", "boda", "fiesta", "cumpleaños", "gold", "wedding", "amarillo", "yellow"]
   },
   {
     title: "Gold Wedding",
@@ -1025,7 +1026,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Gold Wedding close.webp",
     openImage: "/Gold Wedding open.webp",
-    keywords: ["oro", "boda", "fiesta", "cumpleaños"]
+    keywords: ["oro", "boda", "gold", "wedding", "amarillo", "yellow"]
   },
   
   {
@@ -1035,7 +1036,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open foto.webp",
-    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["oro", "botánica", "matrimonio", "wedding", "golden", "gold", "beige", "beige"]
   },
   {
     title: "Golden Botanical",
@@ -1044,7 +1045,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open.webp",
-    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños", "wedding", "golden", "gold", "beige", "beige"]
   },
   {
     title: "Sakura Romance",
@@ -1053,7 +1054,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open foto.webp",
-    keywords: ["sakura", "romance", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["sakura", "romance", "matrimonio", "jappan", "japonés", "japanese", "cherry blossom", "flor de cerezo", "beige", "beige"]
   },
   {
     title: "Sakura Romance",
@@ -1062,6 +1063,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Romance close.webp",
     openImage: "/Sakura Romance open.webp",
+    keywords: ["sakura", "romance", "matrimonio", "jappan", "japonés", "japanese", "cherry blossom", "flor de cerezo", "beige", "beige"]
   },
   {
     title: "Sakura Blossom",
@@ -1070,6 +1072,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Blossom close.webp",
     openImage: "/Sakura Blossom open foto.webp",
+     keywords: ["sakura", "romance", "matrimonio", "jappan", "japonés", "japanese", "cherry blossom", "flor de cerezo", "rosado", "rosa", "blush", "pink"]
   },
   {
     title: "Sakura Blossom",
@@ -1078,6 +1081,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Sakura Blossom close.webp",
     openImage: "/Sakura Blossom open.webp",
+    keywords: ["sakura", "romance", "matrimonio", "jappan", "japonés", "japanese", "cherry blossom", "flor de cerezo", "rosado", "rosa", "blush", "pink"]
   },
   {
     title: "Autumn Whisper",
@@ -1086,7 +1090,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open foto.webp",
-    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños", "autumn", "whisper", "fall", "leaves", "beige", "beige"]
   },
   {
     title: "Autumn Whisper",
@@ -1095,7 +1099,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Autumn Whisper close.webp",
     openImage: "/Autumn Whisper open.webp",
-    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños"]
+    keywords: ["otoño", "susurro", "matrimonio", "fiesta", "cumpleaños", "autumn", "whisper", "fall", "leaves", "beige", "beige"]
   },
   {
     title: "Green Wedding",
@@ -1104,7 +1108,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open foto.webp",
-    keywords: ["verde", "boda", "fiesta", "cumpleaños"]
+    keywords: ["verde", "boda", "fiesta", "wedding", "green"]
   },
   {
     title: "Green Wedding",
@@ -1113,7 +1117,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Green Wedding close.webp",
     openImage: "/Green Wedding open.webp",
-    keywords: ["verde", "boda", "fiesta", "cumpleaños"]
+    keywords: ["verde", "boda", "fiesta", "wedding", "green"]
   },
   {
     title: "Blue Wedding",
@@ -1122,7 +1126,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open foto.webp",
-    keywords: ["azul", "boda", "fiesta", "cumpleaños"]
+    keywords: ["azul", "boda", "fiesta", "wedding", "blue"]
   },
   {
     title: "Blue Wedding",
@@ -1131,7 +1135,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Blue Wedding close.webp",
     openImage: "/Blue Wedding open.webp",
-    keywords: ["azul", "boda", "fiesta", "cumpleaños"]
+    keywords: ["azul", "boda", "fiesta", "wedding", "blue"]
   },
 
 ];
