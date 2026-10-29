@@ -22,7 +22,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Butterfly close.webp",
     openImage: "/Blush Butterfly open.webp",
-    keywords: ["mariposa", "blush", "quinceañera", "rosa", "pink", "butterfly"]
+    keywords: ["mariposa", "blush", "quinceañera", "rosa", "pink", "butterfly", "rosado"]
   
   },
   {
@@ -41,7 +41,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Elegance close.webp",
     openImage: "/Green Elegance open.webp",
-    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
+    keywords: ["esmeralda", "quinceañera", "verde", "Green", "mariposa", "butterfly"]
   },
   {
     title: "Golden Dreams",
@@ -68,7 +68,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Serenity close.webp",
     openImage: "/Blue Serenity open.webp",
-    keywords: ["azul", "serenidad", "quinceañera", "blue", "serenity"]
+    keywords: ["azul", "serenidad", "quinceañera", "blue", "serenity", "mariposa", "butterfly"]
   },
   {
     title: "Golden Elegance",
@@ -86,7 +86,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Bloom close.webp",
     openImage: "/Ivory Bloom open.webp",
-    keywords: ["marfil", "flor", "quinceañera", "rosado", "blush", "ivory", "bloom", "butterfly", "mariposa","pink"]
+    keywords: ["flor", "quinceañera", "rosado", "blush", "bloom", "butterfly", "mariposa","pink"]
   },
   {
     title: "Purple Elegance",
@@ -1036,7 +1036,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open foto.webp",
-    keywords: ["oro", "botánica", "matrimonio", "wedding", "golden", "gold", "beige", "beige"]
+    keywords: ["marfil", "oro", "botánica", "matrimonio", "fiesta", "cumpleaños", "wedding", "golden", "gold", "beige", "beige", "ivory"]
   },
   {
     title: "Golden Botanical",
@@ -1045,7 +1045,7 @@ export const colombiaInvitations: Invitation[] = [
     price: "$39",
     closedImage: "/Golden Botanical close.webp",
     openImage: "/Golden Botanical open.webp",
-    keywords: ["oro", "botánica", "matrimonio", "fiesta", "cumpleaños", "wedding", "golden", "gold", "beige", "beige"]
+    keywords: ["marfil", "oro", "botánica", "matrimonio", "fiesta", "cumpleaños", "wedding", "golden", "gold", "beige", "beige", "ivory"]
   },
   {
     title: "Sakura Romance",

@@ -22,7 +22,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blush Butterfly close.webp",
     openImage: "/Blush Butterfly open.webp",
-    keywords: ["mariposa", "blush", "quinceañera", "rosa", "pink", "butterfly"]
+    keywords: ["mariposa", "blush", "quinceañera", "rosa", "pink", "butterfly", "rosado"]
   
   },
   {
@@ -41,7 +41,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Green Elegance close.webp",
     openImage: "/Green Elegance open.webp",
-    keywords: ["esmeralda", "quinceañera", "verde", "Green"]
+    keywords: ["esmeralda", "quinceañera", "verde", "Green", "mariposa", "butterfly"]
   },
   {
     title: "Golden Dreams",
@@ -68,7 +68,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Blue Serenity close.webp",
     openImage: "/Blue Serenity open.webp",
-    keywords: ["azul", "serenidad", "quinceañera"]
+    keywords: ["azul", "serenidad", "quinceañera", "blue", "serenity", "mariposa", "butterfly"]
   },
   {
     title: "Golden Elegance",
@@ -77,7 +77,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Golden Elegance close.webp",
     openImage: "/Golden Elegance open.webp",
-    keywords: ["dorado", "elegancia", "quinceañera"]
+    keywords: ["dorado", "elegancia", "quinceañera", "gold", "elegance", "mariposa", "butterfly", "beige","marfil"]
   },
   {
     title: "Ivory Bloom",
@@ -86,7 +86,7 @@ export const peruInvitations: Invitation[] = [
     price: "$49",
     closedImage: "/Ivory Bloom close.webp",
     openImage: "/Ivory Bloom open.webp",
-    keywords: ["marfil", "flor", "quinceañera"]
+    keywords:  ["flor", "quinceañera", "rosado", "blush", "ivory", "bloom", "butterfly", "mariposa","pink"]
   },
   {
     title: "Purple Elegance",
