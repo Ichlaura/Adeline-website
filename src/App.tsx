@@ -45,6 +45,9 @@ function App() {
       : null;
 
   const routeCountry = countryRoutes[path] || null;
+  if (routeCountry) {
+  localStorage.setItem("adelina-country", routeCountry);
+}
 
   const [country, setCountry] = useState<CountryCode | null>(
     routeCountry ||
