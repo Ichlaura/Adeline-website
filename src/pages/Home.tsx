@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
 import Footer from "../components/Footer";
 import Pricing from "../components/Pricing";
+import { useEffect } from "react";
 import type { CountryCode } from "../data/countries";
 import LiveDemo from "../components/LiveDemo";
 
@@ -21,6 +22,49 @@ function Home({ settings }: HomeProps) {
 
   const currentCountry =
   (localStorage.getItem("adelina-country") as CountryCode) || "co";
+  const seo = {
+  co: {
+    title: "Invitaciones Digitales Colombia | Adelina Invitations",
+    description: "Invitaciones digitales para bodas, quinceañeras, cumpleaños y baby showers en Colombia. Diseños personalizados con confirmación de asistencia.",
+    lang: "es-CO",
+  },
+  pe: {
+    title: "Invitaciones Digitales Perú | Adelina Invitations",
+    description: "Invitaciones digitales para bodas, quinceañeras, cumpleaños y eventos en Perú. Diseños elegantes y personalizados.",
+    lang: "es-PE",
+  },
+  mx: {
+    title: "Invitaciones Digitales México | Adelina Invitations",
+    description: "Invitaciones digitales para bodas, XV años, cumpleaños y baby showers en México. Personaliza y comparte tus invitaciones.",
+    lang: "es-MX",
+  },
+  us: {
+    title: "Digital Invitations USA | Adelina Invitations",
+    description: "Beautiful digital invitations for weddings, birthdays, baby showers and special events. Personalized designs and online RSVP.",
+    lang: "en-US",
+  },
+  jp: {
+    title: "デジタル招待状 日本 | Adelina Invitations",
+    description: "結婚式、誕生日、ベビーシャワーなどのイベントに使える、おしゃれなデジタル招待状。",
+    lang: "ja-JP",
+  },
+};
+
+useEffect(() => {
+  const selected = seo[currentCountry] || seo.co;
+
+  document.title = selected.title;
+  document.documentElement.lang = selected.lang;
+
+  const description = document.querySelector<HTMLMetaElement>(
+    'meta[name="description"]'
+  );
+
+  if (description) {
+    description.content = selected.description;
+  }
+}, [currentCountry]);
+
   return (
     <main className="home">
 <Navbar />      
