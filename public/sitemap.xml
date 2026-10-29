@@ -1,6 +1,22 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://adeline-website-six.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://adeline-website-six.vercel.app/colombia</loc>
+  </url>
+  <url>
+    <loc>https://adeline-website-six.vercel.app/peru</loc>
+  </url>
+  <url>
+    <loc>https://adeline-website-six.vercel.app/mexico</loc>
+  </url>
+  <url>
+    <loc>https://adeline-website-six.vercel.app/usa</loc>
+  </url>
+  <url>
+    <loc>https://adeline-website-six.vercel.app/japon</loc>
   </url>
 </urlset>
